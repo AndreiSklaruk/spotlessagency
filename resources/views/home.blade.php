@@ -2,6 +2,9 @@
 <!-- saved from url=(0031)https://www.spotlessagency.com/ -->
 <html lang="en-US" class=" js_active  vc_desktop  vc_transform  vc_transform ">
 <head>
+
+
+
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <style>.gm-style .gm-style-mtc label, .gm-style .gm-style-mtc div {
             font-weight: 400
@@ -102,8 +105,8 @@
     <link rel="canonical" href="https://www.spotlessagency.com/">
     <script type="text/javascript" async=""
             src="./Virtual Staging _ Sell Properties Faster With Spotless Agency_files/insight.min.js.Без названия"></script>
-{{--    <script type="text/javascript" async=""--}}
-{{--            src="./Virtual Staging _ Sell Properties Faster With Spotless Agency_files/recaptcha__ru.js.Без названия"></script>--}}
+    {{--    <script type="text/javascript" async=""--}}
+    {{--            src="./Virtual Staging _ Sell Properties Faster With Spotless Agency_files/recaptcha__ru.js.Без названия"></script>--}}
     <script type="text/javascript">
         window.ga = window.ga || function () {
             (ga.q = ga.q || []).push(arguments)
@@ -114,9 +117,9 @@
 
         ga('send', 'pageview');
     </script>
-{{--    <script async=""--}}
-{{--            src="./Virtual Staging _ Sell Properties Faster With Spotless Agency_files/analytics.js.Без названия"></script>--}}
-    <!-- /all in one seo pack -->
+    {{--    <script async=""--}}
+    {{--            src="./Virtual Staging _ Sell Properties Faster With Spotless Agency_files/analytics.js.Без названия"></script>--}}
+<!-- /all in one seo pack -->
     <link rel="dns-prefetch" href="https://www.google.com/">
     <link rel="dns-prefetch" href="https://s.w.org/">
     <link rel="alternate" type="application/rss+xml" title="Spotless Agency » Feed"
@@ -1134,12 +1137,12 @@
             a.appendChild(r);
         })(window, document, 'https://static.hotjar.com/c/hotjar-', '.js?sv=');
     </script>
-{{--    <script async=""--}}
-{{--            src="./Virtual Staging _ Sell Properties Faster With Spotless Agency_files/hotjar-909309.js.Без названия"></script>--}}
+    {{--    <script async=""--}}
+    {{--            src="./Virtual Staging _ Sell Properties Faster With Spotless Agency_files/hotjar-909309.js.Без названия"></script>--}}
 
-{{--    <script async=""--}}
-{{--            src="./Virtual Staging _ Sell Properties Faster With Spotless Agency_files/modules.9f37fb83092047dae924.js.Без названия"--}}
-{{--            charset="utf-8"></script>--}}
+    {{--    <script async=""--}}
+    {{--            src="./Virtual Staging _ Sell Properties Faster With Spotless Agency_files/modules.9f37fb83092047dae924.js.Без названия"--}}
+    {{--            charset="utf-8"></script>--}}
     <style type="text/css">iframe#_hjRemoteVarsFrame {
             display: none !important;
             width: 1px !important;
@@ -1147,22 +1150,22 @@
             opacity: 0 !important;
             pointer-events: none !important;
         }</style>
-{{--    <script type="text/javascript" charset="UTF-8"--}}
-{{--            src="./Virtual Staging _ Sell Properties Faster With Spotless Agency_files/common.js"></script>--}}
-{{--    <script type="text/javascript" charset="UTF-8"--}}
-{{--            src="./Virtual Staging _ Sell Properties Faster With Spotless Agency_files/util.js.Без названия"></script>--}}
-{{--    <script type="text/javascript" charset="UTF-8"--}}
-{{--            src="./Virtual Staging _ Sell Properties Faster With Spotless Agency_files/geocoder.js.Без названия"></script>--}}
-{{--    <script type="text/javascript" charset="UTF-8"--}}
-{{--            src="./Virtual Staging _ Sell Properties Faster With Spotless Agency_files/map.js.Без названия"></script>--}}
-{{--    <script type="text/javascript" charset="UTF-8"--}}
-{{--            src="./Virtual Staging _ Sell Properties Faster With Spotless Agency_files/stats.js.Без названия"></script>--}}
-{{--    <script type="text/javascript" charset="UTF-8"--}}
-{{--            src="./Virtual Staging _ Sell Properties Faster With Spotless Agency_files/onion.js.Без названия"></script>--}}
-{{--    <script type="text/javascript" charset="UTF-8"--}}
-{{--            src="./Virtual Staging _ Sell Properties Faster With Spotless Agency_files/marker.js.Без названия"></script>--}}
-{{--    <script type="text/javascript" charset="UTF-8"--}}
-{{--            src="./Virtual Staging _ Sell Properties Faster With Spotless Agency_files/controls.js.Без названия"></script>--}}
+    {{--    <script type="text/javascript" charset="UTF-8"--}}
+    {{--            src="./Virtual Staging _ Sell Properties Faster With Spotless Agency_files/common.js"></script>--}}
+    {{--    <script type="text/javascript" charset="UTF-8"--}}
+    {{--            src="./Virtual Staging _ Sell Properties Faster With Spotless Agency_files/util.js.Без названия"></script>--}}
+    {{--    <script type="text/javascript" charset="UTF-8"--}}
+    {{--            src="./Virtual Staging _ Sell Properties Faster With Spotless Agency_files/geocoder.js.Без названия"></script>--}}
+    {{--    <script type="text/javascript" charset="UTF-8"--}}
+    {{--            src="./Virtual Staging _ Sell Properties Faster With Spotless Agency_files/map.js.Без названия"></script>--}}
+    {{--    <script type="text/javascript" charset="UTF-8"--}}
+    {{--            src="./Virtual Staging _ Sell Properties Faster With Spotless Agency_files/stats.js.Без названия"></script>--}}
+    {{--    <script type="text/javascript" charset="UTF-8"--}}
+    {{--            src="./Virtual Staging _ Sell Properties Faster With Spotless Agency_files/onion.js.Без названия"></script>--}}
+    {{--    <script type="text/javascript" charset="UTF-8"--}}
+    {{--            src="./Virtual Staging _ Sell Properties Faster With Spotless Agency_files/marker.js.Без названия"></script>--}}
+    {{--    <script type="text/javascript" charset="UTF-8"--}}
+    {{--            src="./Virtual Staging _ Sell Properties Faster With Spotless Agency_files/controls.js.Без названия"></script>--}}
 </head>
 
 <body
@@ -1213,7 +1216,7 @@
 
                         <span class="mobile-logo" style="display: none;">
 				<img src="./Virtual Staging _ Sell Properties Faster With Spotless Agency_files/logo_grey.png"
-                     class=" alt=" spotless="" agency"="">
+                     class=" alt=" spotless="" agency="">
 			</span>
 
                         <span class="fixed-mobile-logo">
@@ -3343,7 +3346,7 @@
                                                             <div class="input-group">
                                                                 <label class="col-12&gt; &lt;span class="
                                                                        wpcf7-form-control-wrap=""
-                                                                       your-message"=""><textarea name="your-message"
+                                                                       your-message=""><textarea name="your-message"
                                                                                                   cols="40" rows="10"
                                                                                                   class="wpcf7-form-control wpcf7-textarea"
                                                                                                   aria-invalid="false"
@@ -3351,27 +3354,27 @@
                                                             </div>
                                                             <div class="input-group">
                                                                 <div class="wpcf7-form-control-wrap">
-{{--                                                                    recaptcha --}}
-{{--                                                                    <div--}}
-{{--                                                                        data-sitekey="6LdjjX0UAAAAAMJ2--uvuuocEyZBNKm219XpDn6o"--}}
-{{--                                                                        class="wpcf7-form-control g-recaptcha wpcf7-recaptcha"--}}
-{{--                                                                        id="capcha">--}}
-{{--                                                                        <div style="width: 304px; height: 78px;">--}}
-{{--                                                                            <div>--}}
-{{--                                                                                <iframe--}}
-{{--                                                                                    src="./Virtual Staging _ Sell Properties Faster With Spotless Agency_files/anchor.html"--}}
-{{--                                                                                    width="304" height="78"--}}
-{{--                                                                                    role="presentation"--}}
-{{--                                                                                    name="a-tzfxjqprry6z"--}}
-{{--                                                                                    frameborder="0" scrolling="no"--}}
-{{--                                                                                    sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox"></iframe>--}}
-{{--                                                                            </div>--}}
-{{--                                                                            <textarea id="g-recaptcha-response"--}}
-{{--                                                                                      name="g-recaptcha-response"--}}
-{{--                                                                                      class="g-recaptcha-response"--}}
-{{--                                                                                      style="width: 250px; height: 40px; border: 1px solid rgb(193, 193, 193); margin: 10px 25px; padding: 0px; resize: none; display: none;"></textarea>--}}
-{{--                                                                        </div>--}}
-{{--                                                                    </div>--}}
+                                                                    {{--                                                                    recaptcha --}}
+                                                                    {{--                                                                    <div--}}
+                                                                    {{--                                                                        data-sitekey="6LdjjX0UAAAAAMJ2--uvuuocEyZBNKm219XpDn6o"--}}
+                                                                    {{--                                                                        class="wpcf7-form-control g-recaptcha wpcf7-recaptcha"--}}
+                                                                    {{--                                                                        id="capcha">--}}
+                                                                    {{--                                                                        <div style="width: 304px; height: 78px;">--}}
+                                                                    {{--                                                                            <div>--}}
+                                                                    {{--                                                                                <iframe--}}
+                                                                    {{--                                                                                    src="./Virtual Staging _ Sell Properties Faster With Spotless Agency_files/anchor.html"--}}
+                                                                    {{--                                                                                    width="304" height="78"--}}
+                                                                    {{--                                                                                    role="presentation"--}}
+                                                                    {{--                                                                                    name="a-tzfxjqprry6z"--}}
+                                                                    {{--                                                                                    frameborder="0" scrolling="no"--}}
+                                                                    {{--                                                                                    sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox"></iframe>--}}
+                                                                    {{--                                                                            </div>--}}
+                                                                    {{--                                                                            <textarea id="g-recaptcha-response"--}}
+                                                                    {{--                                                                                      name="g-recaptcha-response"--}}
+                                                                    {{--                                                                                      class="g-recaptcha-response"--}}
+                                                                    {{--                                                                                      style="width: 250px; height: 40px; border: 1px solid rgb(193, 193, 193); margin: 10px 25px; padding: 0px; resize: none; display: none;"></textarea>--}}
+                                                                    {{--                                                                        </div>--}}
+                                                                    {{--                                                                    </div>--}}
                                                                     <noscript>
                                                                         <div style="width: 302px; height: 422px;">
                                                                             <div
@@ -3430,7 +3433,7 @@
                                                             <div class="gm-style"
                                                                  style="position: absolute; z-index: 0; left: 0px; top: 0px; height: 100%; width: 100%; padding: 0px; border-width: 0px; margin: 0px;">
                                                                 <div tabindex="0"
-                                                                     style="position: absolute; z-index: 0; left: 0px; top: 0px; height: 100%; width: 100%; padding: 0px; border-width: 0px; margin: 0px; cursor: url(&quot;https://maps.gstatic.com/mapfiles/openhand_8_8.cur&quot;), default; touch-action: pan-x pan-y;">
+                                                                     style="position: absolute; z-index: 0; left: 0px; top: 0px; height: 100%; width: 100%; padding: 0px; border-width: 0px; margin: 0px; cursor: url(https://maps.gstatic.com/mapfiles/openhand_8_8.cur), default; touch-action: pan-x pan-y;">
                                                                     <div
                                                                         style="z-index: 1; position: absolute; left: 50%; top: 50%; width: 100%; transform: translate(0px, 0px);">
                                                                         <div
@@ -3814,7 +3817,7 @@
                                                                     <div class="gm-svpc" dir="ltr"
                                                                          title="Перетащите человечка на карту, чтобы перейти в режим просмотра улиц"
                                                                          controlwidth="40" controlheight="40"
-                                                                         style="background-color: rgb(255, 255, 255); box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 4px -1px; border-radius: 2px; width: 40px; height: 40px; cursor: url(&quot;https://maps.gstatic.com/mapfiles/openhand_8_8.cur&quot;), default; touch-action: none; position: absolute; left: 0px; top: 0px;">
+                                                                         style="background-color: rgb(255, 255, 255); box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 4px -1px; border-radius: 2px; width: 40px; height: 40px; cursor: url(https://maps.gstatic.com/mapfiles/openhand_8_8.cur), default; touch-action: none; position: absolute; left: 0px; top: 0px;">
                                                                         <div
                                                                             style="position: absolute; left: 50%; top: 50%;"></div>
                                                                         <div
@@ -3958,7 +3961,7 @@
                                 <form id="feedburner_subscribe_5e75fd40259f5"
                                       action="https://feedburner.google.com/fb/a/mailverify" method="post"
                                       target="popupwindow"
-                                      onsubmit="window.open( &#39;https://feedburner.google.com/fb/a/mailverify?uri=&#39;, &#39;popupwindow&#39;, &#39;scrollbars=yes,width=550,height=520&#39; );return true">
+                                      onsubmit="window.open('https://feedburner.google.com/fb/a/mailverify?uri=', 'popupwindow', 'scrollbars=yes,width=550,height=520' );return true">
                                     <div class="subscribe fullwidth text-left">
                                         <input type="text" placeholder="Enter your email" name="email"
                                                id="subsmail_5e75fd4025a97">
@@ -4196,22 +4199,22 @@
                     </div>
                     <div class="input-group">
                         <div class="wpcf7-form-control-wrap">
-{{--                            recaptche --}}
-{{--                            <div data-sitekey="6LdjjX0UAAAAAMJ2--uvuuocEyZBNKm219XpDn6o"--}}
-{{--                                 class="wpcf7-form-control g-recaptcha wpcf7-recaptcha capcha">--}}
-{{--                                <div style="width: 304px; height: 78px;">--}}
-{{--                                    <div>--}}
-{{--                                        <iframe--}}
-{{--                                            src="./Virtual Staging _ Sell Properties Faster With Spotless Agency_files/anchor(1).html"--}}
-{{--                                            width="304" height="78" role="presentation" name="a-9atts4rih1ri"--}}
-{{--                                            frameborder="0" scrolling="no"--}}
-{{--                                            sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox"></iframe>--}}
-{{--                                    </div>--}}
-{{--                                    <textarea id="g-recaptcha-response-1" name="g-recaptcha-response"--}}
-{{--                                              class="g-recaptcha-response"--}}
-{{--                                              style="width: 250px; height: 40px; border: 1px solid rgb(193, 193, 193); margin: 10px 25px; padding: 0px; resize: none; display: none;"></textarea>--}}
-{{--                                </div>--}}
-{{--                            </div>--}}
+                            {{--                            recaptche --}}
+                            {{--                            <div data-sitekey="6LdjjX0UAAAAAMJ2--uvuuocEyZBNKm219XpDn6o"--}}
+                            {{--                                 class="wpcf7-form-control g-recaptcha wpcf7-recaptcha capcha">--}}
+                            {{--                                <div style="width: 304px; height: 78px;">--}}
+                            {{--                                    <div>--}}
+                            {{--                                        <iframe--}}
+                            {{--                                            src="./Virtual Staging _ Sell Properties Faster With Spotless Agency_files/anchor(1).html"--}}
+                            {{--                                            width="304" height="78" role="presentation" name="a-9atts4rih1ri"--}}
+                            {{--                                            frameborder="0" scrolling="no"--}}
+                            {{--                                            sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox"></iframe>--}}
+                            {{--                                    </div>--}}
+                            {{--                                    <textarea id="g-recaptcha-response-1" name="g-recaptcha-response"--}}
+                            {{--                                              class="g-recaptcha-response"--}}
+                            {{--                                              style="width: 250px; height: 40px; border: 1px solid rgb(193, 193, 193); margin: 10px 25px; padding: 0px; resize: none; display: none;"></textarea>--}}
+                            {{--                                </div>--}}
+                            {{--                            </div>--}}
                             <noscript>
                                 <div style="width: 302px; height: 422px;">
                                     <div style="width: 302px; height: 422px; position: relative;">
@@ -4335,19 +4338,19 @@
                         <div class="wpcf7-form-control-wrap">
                             <div data-sitekey="6LdjjX0UAAAAAMJ2--uvuuocEyZBNKm219XpDn6o"
                                  class="wpcf7-form-control g-recaptcha wpcf7-recaptcha capcha">
-{{--                                recaptcha --}}
-{{--                                <div style="width: 304px; height: 78px;">--}}
-{{--                                    <div>--}}
-{{--                                        <iframe--}}
-{{--                                            src="./Virtual Staging _ Sell Properties Faster With Spotless Agency_files/anchor(2).html"--}}
-{{--                                            width="304" height="78" role="presentation" name="a-uyjitk7gdxrl"--}}
-{{--                                            frameborder="0" scrolling="no"--}}
-{{--                                            sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox"></iframe>--}}
-{{--                                    </div>--}}
-{{--                                    <textarea id="g-recaptcha-response-2" name="g-recaptcha-response"--}}
-{{--                                              class="g-recaptcha-response"--}}
-{{--                                              style="width: 250px; height: 40px; border: 1px solid rgb(193, 193, 193); margin: 10px 25px; padding: 0px; resize: none; display: none;"></textarea>--}}
-{{--                                </div>--}}
+                                {{--                                recaptcha --}}
+                                {{--                                <div style="width: 304px; height: 78px;">--}}
+                                {{--                                    <div>--}}
+                                {{--                                        <iframe--}}
+                                {{--                                            src="./Virtual Staging _ Sell Properties Faster With Spotless Agency_files/anchor(2).html"--}}
+                                {{--                                            width="304" height="78" role="presentation" name="a-uyjitk7gdxrl"--}}
+                                {{--                                            frameborder="0" scrolling="no"--}}
+                                {{--                                            sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox"></iframe>--}}
+                                {{--                                    </div>--}}
+                                {{--                                    <textarea id="g-recaptcha-response-2" name="g-recaptcha-response"--}}
+                                {{--                                              class="g-recaptcha-response"--}}
+                                {{--                                              style="width: 250px; height: 40px; border: 1px solid rgb(193, 193, 193); margin: 10px 25px; padding: 0px; resize: none; display: none;"></textarea>--}}
+                                {{--                                </div>--}}
                             </div>
                             <noscript>
                                 <div style="width: 302px; height: 422px;">
@@ -4473,19 +4476,19 @@
                         <div class="wpcf7-form-control-wrap">
                             <div data-sitekey="6LdjjX0UAAAAAMJ2--uvuuocEyZBNKm219XpDn6o"
                                  class="wpcf7-form-control g-recaptcha wpcf7-recaptcha capcha">
-{{--                                recaptcha --}}
-{{--                                <div style="width: 304px; height: 78px;">--}}
-{{--                                    <div>--}}
-{{--                                        <iframe--}}
-{{--                                            src="./Virtual Staging _ Sell Properties Faster With Spotless Agency_files/anchor(3).html"--}}
-{{--                                            width="304" height="78" role="presentation" name="a-eczy2sqy8stp"--}}
-{{--                                            frameborder="0" scrolling="no"--}}
-{{--                                            sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox"></iframe>--}}
-{{--                                    </div>--}}
-{{--                                    <textarea id="g-recaptcha-response-3" name="g-recaptcha-response"--}}
-{{--                                              class="g-recaptcha-response"--}}
-{{--                                              style="width: 250px; height: 40px; border: 1px solid rgb(193, 193, 193); margin: 10px 25px; padding: 0px; resize: none; display: none;"></textarea>--}}
-{{--                                </div>--}}
+                                {{--                                recaptcha --}}
+                                {{--                                <div style="width: 304px; height: 78px;">--}}
+                                {{--                                    <div>--}}
+                                {{--                                        <iframe--}}
+                                {{--                                            src="./Virtual Staging _ Sell Properties Faster With Spotless Agency_files/anchor(3).html"--}}
+                                {{--                                            width="304" height="78" role="presentation" name="a-eczy2sqy8stp"--}}
+                                {{--                                            frameborder="0" scrolling="no"--}}
+                                {{--                                            sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox"></iframe>--}}
+                                {{--                                    </div>--}}
+                                {{--                                    <textarea id="g-recaptcha-response-3" name="g-recaptcha-response"--}}
+                                {{--                                              class="g-recaptcha-response"--}}
+                                {{--                                              style="width: 250px; height: 40px; border: 1px solid rgb(193, 193, 193); margin: 10px 25px; padding: 0px; resize: none; display: none;"></textarea>--}}
+                                {{--                                </div>--}}
                                 <iframe style="display: none;"
                                         src="./Virtual Staging _ Sell Properties Faster With Spotless Agency_files/saved_resource(5).html"></iframe>
                             </div>
@@ -4582,15 +4585,15 @@
 {{--    }, false);--}}
 {{--</script>--}}
 <link rel="stylesheet" id="animate-css-css"
-      href="./Virtual Staging _ Sell Properties Faster With Spotless Agency_files/animate.min.css" type="text/css"
+      href="./external_css/animate.min.css" type="text/css"
       media="all">
-<link rel="stylesheet" id="aos-css" href="./Virtual Staging _ Sell Properties Faster With Spotless Agency_files/aos.css"
+<link rel="stylesheet" id="aos-css" href="./external_css/aos.css"
       type="text/css" media="all">
 <link rel="stylesheet" id="ionicons-css"
-      href="./Virtual Staging _ Sell Properties Faster With Spotless Agency_files/ionicons.min.css" type="text/css"
+      href="./external_css/ionicons.min.css" type="text/css"
       media="all">
 <link rel="stylesheet" id="font-awesome-css"
-      href="./Virtual Staging _ Sell Properties Faster With Spotless Agency_files/font-awesome.min.css" type="text/css"
+      href="./external_css/font-awesome.min.css" type="text/css"
       media="all">
 <style id="shortcodes-settings-inline-css" type="text/css">
     #norebro-custom-5e75fd3f5a2f5 h1 {
@@ -5243,7 +5246,9 @@
         src="./Virtual Staging _ Sell Properties Faster With Spotless Agency_files/owl.carousel.min.js.Без названия"></script>
 <script type="text/javascript"
         src="./Virtual Staging _ Sell Properties Faster With Spotless Agency_files/scroll-smooth.min.js.Без названия"></script>
-<script type="text/javascript" src="./Virtual Staging _ Sell Properties Faster With Spotless Agency_files/js"></script>
+a
+{{-- do we need this --}}
+{{-- <script type="text/javascript" src="./Virtual Staging _ Sell Properties Faster With Spotless Agency_files/js"></script> --}}
 <script type="text/javascript"
         src="./external_js/main.js"></script>
 
