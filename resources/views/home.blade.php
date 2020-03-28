@@ -6,6 +6,7 @@
 
 
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="robots" content="noindex">
     <style>.gm-style .gm-style-mtc label, .gm-style .gm-style-mtc div {
             font-weight: 400
         }
@@ -33,7 +34,7 @@
         }
     </style>
     <link type="text/css" rel="stylesheet"
-          href="./Virtual Staging _ Sell Properties Faster With Spotless Agency_files/css">
+          href="./external_css/css.css">
     <style>.gm-ui-hover-effect {
             opacity: .6
         }
@@ -104,7 +105,7 @@
 
     <link rel="canonical" href="https://www.spotlessagency.com/">
     <script type="text/javascript" async=""
-            src="./Virtual Staging _ Sell Properties Faster With Spotless Agency_files/insight.min.js.Без названия"></script>
+            src="./external_js/insight.min.js"></script>
     {{--    <script type="text/javascript" async=""--}}
     {{--            src="./Virtual Staging _ Sell Properties Faster With Spotless Agency_files/recaptcha__ru.js.Без названия"></script>--}}
     <script type="text/javascript">
@@ -174,7 +175,7 @@
         }(window, document, window._wpemojiSettings);
     </script>
     <script
-        src="./Virtual Staging _ Sell Properties Faster With Spotless Agency_files/wp-emoji-release.min.js.Без названия"
+        src="./external_js/wp-emoji-release.min.js"
         type="text/javascript" defer=""></script>
     <style type="text/css">
         img.wp-smiley,
@@ -191,29 +192,25 @@
         }
     </style>
     <link rel="stylesheet" id="wp-block-library-css"
-          href="./Virtual Staging _ Sell Properties Faster With Spotless Agency_files/style.min.css" type="text/css"
+          href="./external_css/style.min.css" type="text/css"
           media="all">
     <link rel="stylesheet" id="contact-form-7-css"
-          href="./Virtual Staging _ Sell Properties Faster With Spotless Agency_files/styles.css" type="text/css"
+          href="./external_css/styles.css" type="text/css"
           media="all">
     <link rel="stylesheet" id="cf7cf-style-css"
-          href="./Virtual Staging _ Sell Properties Faster With Spotless Agency_files/style.css" type="text/css"
+          href="./external_css/style.css" type="text/css"
           media="all">
     <link rel="stylesheet" id="rs-plugin-settings-css"
-          href="./Virtual Staging _ Sell Properties Faster With Spotless Agency_files/settings.css" type="text/css"
+          href="./external_css/settings.css" type="text/css"
           media="all">
-    <style id="rs-plugin-settings-inline-css" type="text/css">
-        #rs-demo-id {
-        }
-    </style>
     <link rel="stylesheet" id="twentytwenty-style-css"
-          href="./Virtual Staging _ Sell Properties Faster With Spotless Agency_files/twentytwenty.css" type="text/css"
+          href="./external_css/twentytwenty.css" type="text/css"
           media="all">
     <link rel="stylesheet" id="parent-style-css"
-          href="./Virtual Staging _ Sell Properties Faster With Spotless Agency_files/style(1).css" type="text/css"
+          href="./external_css/style(1).css" type="text/css"
           media="all">
     <link rel="stylesheet" id="norebro-style-css"
-          href="./Virtual Staging _ Sell Properties Faster With Spotless Agency_files/style(2).css" type="text/css"
+          href="./external_css/style(2).css" type="text/css"
           media="all">
     <style id="norebro-style-inline-css" type="text/css">
         #masthead.site-header, #mega-menu-wrap ul li, #masthead .menu-other > li > a, #masthead.site-header .header-bottom .copyright {
@@ -480,7 +477,7 @@
         }
     </style>
     <link rel="stylesheet" id="norebro-grid-css"
-          href="./Virtual Staging _ Sell Properties Faster With Spotless Agency_files/grid.min.css" type="text/css"
+          href="./external_css/grid.min.css" type="text/css"
           media="all">
     <link rel="stylesheet" id="js_composer_front-css"
           href="./Virtual Staging _ Sell Properties Faster With Spotless Agency_files/js_composer.min.css"
