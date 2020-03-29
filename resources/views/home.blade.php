@@ -1,17 +1,15 @@
 <!DOCTYPE html>
-<!-- saved from url=(0031)https://www.spotlessagency.com/ -->
 <html lang="en-US" class=" js_active  vc_desktop  vc_transform  vc_transform ">
 <head>
-
-
-
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta name="robots" content="noindex">
-    <style>.gm-style .gm-style-mtc label, .gm-style .gm-style-mtc div {
+    <style>
+        .gm-style .gm-style-mtc label, .gm-style .gm-style-mtc div {
             font-weight: 400
         }
     </style>
-    <style>.gm-control-active > img {
+    <style>
+        .gm-control-active > img {
             box-sizing: content-box;
             display: none;
             left: 50%;
@@ -35,7 +33,8 @@
     </style>
     <link type="text/css" rel="stylesheet"
           href="./external_css/css.css">
-    <style>.gm-ui-hover-effect {
+    <style>
+        .gm-ui-hover-effect {
             opacity: .6
         }
 
@@ -43,12 +42,14 @@
             opacity: 1
         }
     </style>
-    <style>.gm-style .gm-style-cc span, .gm-style .gm-style-cc a, .gm-style .gm-style-mtc div {
+    <style>
+        .gm-style .gm-style-cc span, .gm-style .gm-style-cc a, .gm-style .gm-style-mtc div {
             font-size: 10px;
             box-sizing: border-box
         }
     </style>
-    <style>@media print {
+    <style>
+        @media print {
             .gm-style .gmnoprint, .gmnoprint {
                 display: none
             }
@@ -59,7 +60,8 @@
                 display: none
             }
         }</style>
-    <style>.gm-style-pbc {
+    <style>
+        .gm-style-pbc {
             transition: opacity ease-in-out;
             background-color: rgba(0, 0, 0, 0.45);
             text-align: center
@@ -77,7 +79,8 @@
             transform: translateY(-50%)
         }
     </style>
-    <style>.gm-style img {
+    <style>
+        .gm-style img {
             max-width: none;
         }
 
@@ -807,7 +810,8 @@
           href="https://www.spotlessagency.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.spotlessagency.com%2F">
     <link rel="alternate" type="text/xml+oembed"
           href="https://www.spotlessagency.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.spotlessagency.com%2F&amp;format=xml">
-    <style type="text/css">.recentcomments a {
+    <style type="text/css">
+        .recentcomments a {
             display: inline !important;
             padding: 0 !important;
             margin: 0 !important;
@@ -827,7 +831,8 @@
           href="./favicon/cropped-favicon-180x180.png">
     <meta name="msapplication-TileImage"
           content="./favicon/cropped-favicon-270x270.png">
-    <script type="text/javascript">function setREVStartSize(e) {
+    <script type="text/javascript">
+        function setREVStartSize(e) {
             try {
                 var i = jQuery(window).width(), t = 9999, r = 0, n = 0, l = 0, f = 0, s = 0, h = 0;
                 if (e.responsiveLevels && (jQuery.each(e.responsiveLevels, function (e, f) {
@@ -987,7 +992,8 @@
                 margin-top: 150px !important;
             }
         }        </style>
-    <style type="text/css" data-type="vc_shortcodes-custom-css">.vc_custom_1523352460435 {
+    <style type="text/css" data-type="vc_shortcodes-custom-css">
+        .vc_custom_1523352460435 {
             background-color: #ffffff !important;
         }
 
@@ -1116,37 +1122,36 @@
             padding-right: 10% !important;
         }</style>
     <noscript>
-        <style type="text/css"> .wpb_animate_when_almost_visible {
+        <style type="text/css">
+            .wpb_animate_when_almost_visible {
                 opacity: 1;
-            }</style>
+            }
+        </style>
     </noscript>
-    <!-- Hotjar Tracking Code for http://www.spotlessagency.com/ -->
-    <script>
-        (function (h, o, t, j, a, r) {
-            h.hj = h.hj || function () {
-                (h.hj.q = h.hj.q || []).push(arguments)
-            };
-            h._hjSettings = {hjid: 909309, hjsv: 6};
-            a = o.getElementsByTagName('head')[0];
-            r = o.createElement('script');
-            r.async = 1;
-            r.src = t + h._hjSettings.hjid + j + h._hjSettings.hjsv;
-            a.appendChild(r);
-        })(window, document, 'https://static.hotjar.com/c/hotjar-', '.js?sv=');
-    </script>
-    {{--    <script async=""--}}
-    {{--            src="./Virtual Staging _ Sell Properties Faster With Spotless Agency_files/hotjar-909309.js.Без названия"></script>--}}
-
-    {{--    <script async=""--}}
-    {{--            src="./Virtual Staging _ Sell Properties Faster With Spotless Agency_files/modules.9f37fb83092047dae924.js.Без названия"--}}
-    {{--            charset="utf-8"></script>--}}
-    <style type="text/css">iframe#_hjRemoteVarsFrame {
-            display: none !important;
-            width: 1px !important;
-            height: 1px !important;
-            opacity: 0 !important;
-            pointer-events: none !important;
-        }</style>
+    <!-- Hotjar Tracking Code for http://www.spotlessagency.com/  START -->
+{{--    <script>--}}
+{{--        (function (h, o, t, j, a, r) {--}}
+{{--            h.hj = h.hj || function () {--}}
+{{--                (h.hj.q = h.hj.q || []).push(arguments)--}}
+{{--            };--}}
+{{--            h._hjSettings = {hjid: 909309, hjsv: 6};--}}
+{{--            a = o.getElementsByTagName('head')[0];--}}
+{{--            r = o.createElement('script');--}}
+{{--            r.async = 1;--}}
+{{--            r.src = t + h._hjSettings.hjid + j + h._hjSettings.hjsv;--}}
+{{--            a.appendChild(r);--}}
+{{--        })(window, document, 'https://static.hotjar.com/c/hotjar-', '.js?sv=');--}}
+{{--    </script>--}}
+{{--    <style type="text/css">--}}
+{{--        iframe#_hjRemoteVarsFrame {--}}
+{{--            display: none !important;--}}
+{{--            width: 1px !important;--}}
+{{--            height: 1px !important;--}}
+{{--            opacity: 0 !important;--}}
+{{--            pointer-events: none !important;--}}
+{{--        }--}}
+{{--    </style>--}}
+    <!-- Hotjar Tracking Code END -->
     {{--    <script type="text/javascript" charset="UTF-8"--}}
     {{--            src="./Virtual Staging _ Sell Properties Faster With Spotless Agency_files/common.js"></script>--}}
     {{--    <script type="text/javascript" charset="UTF-8"--}}
@@ -1188,55 +1193,44 @@
 
     <a class="skip-link screen-reader-text" href="https://www.spotlessagency.com/#main">Skip to content</a>
 
-
-    <header id="masthead" class="site-header light-text header-1 no-transition" data-header-fixed="true"
+    <header id="masthead"
+            class="site-header light-text header-1 no-transition"
+            data-header-fixed="true"
             style="transition-duration: 0.2s; width: 1903px;">
         <div class="header-wrap page-container">
-
             <div class="site-branding">
                 <p class="site-title">
                     <a href="https://www.spotlessagency.com/" rel="home">
-
-			<span class="logo with-mobile" style="display: inline;">
-									<img
-                                        src="./images/logo_grey.png"
-                                        srcset="./images/logo_grey.png 2x"
-                                        alt="Spotless Agency">
-							</span>
-
+                        <span class="logo with-mobile" style="display: inline;">
+                            <img src="./images/logo_grey.png"
+                                 srcset="./images/logo_grey.png 2x"
+                                 alt="Spotless Agency">
+                        </span>
                         <span class="fixed-logo">
-									<img
-                                        src="./images/logo_grey.png"
-                                        srcset="./images/logo_grey.png 2x"
-                                        alt="Spotless Agency">
-							</span>
-
+                            <img src="./images/logo_grey.png"
+                                 srcset="./images/logo_grey.png 2x"
+                                 alt="Spotless Agency">
+                        </span>
                         <span class="mobile-logo" style="display: none;">
-				<img src="./images/logo_grey.png"
-                     class=" alt=" spotless="" agency="">
-			</span>
-
+                            <img src="./images/logo_grey.png"
+                                 class=" alt=" spotless="" agency="">
+                        </span>
                         <span class="fixed-mobile-logo">
-				<img src="./images/logo_grey.png" class=""
-                     alt="Spotless Agency">
-			</span>
-
+                            <img src="./images/logo_grey.png" class=""
+                                 alt="Spotless Agency">
+                        </span>
                         <span class="for-onepage">
-				<span class="dark hidden">
-											<img
-                                                src="./images/logo_grey.png"
-                                                srcset="./images/logo_grey.png 2x"
-                                                alt="Spotless Agency">
-									</span>
-				<span class="light hidden">
-											Spotless Agency									</span>
-			</span>
-
+                            <span class="dark hidden">
+                                <img src="./images/logo_grey.png"
+                                     srcset="./images/logo_grey.png 2x"
+                                     alt="Spotless Agency">
+                            </span>
+				            <span class="light hidden">Spotless Agency</span>
+			            </span>
                     </a>
                 </p>
             </div><!-- .site-branding -->
             <div class="right">
-
                 <nav id="site-navigation" class="main-nav">
                     <div class="close">
                         <span class="icon ion-android-close"></span>
@@ -1336,18 +1330,20 @@
                 </nav>
 
                 <ul class="menu-other">
-
-
                     <li class="social">
-                        <a href="https://www.facebook.com/Spotless-Virtual-Staging-Agency-1587129731551478/?ref=settings"
-                           class="facebook"><span class="icon fa fa-facebook"></span></a> <a
-                            href="http://instagram.com/spotlessagency" class="instagram"><span
-                                class="icon fa fa-instagram"></span></a> <a href="https://twitter.com/Spotless_agency"
-                                                                            class="twitter"><span
-                                class="icon fa fa-twitter"></span></a> <a
-                            href="https://www.linkedin.com/company/spotlessagency/" class="linkedin"><span
-                                class="icon fa fa-linkedin"></span></a></li>
-
+                        <a href="https://www.facebook.com/Spotless-Virtual-Staging-Agency-1587129731551478/?ref=settings" class="facebook">
+                            <span class="icon fa fa-facebook"></span>
+                        </a>
+                        <a href="http://instagram.com/spotlessagency" class="instagram">
+                            <span class="icon fa fa-instagram"></span>
+                        </a>
+                        <a href="https://twitter.com/Spotless_agency" class="twitter">
+                            <span class="icon fa fa-twitter"></span>
+                        </a>
+                        <a href="https://www.linkedin.com/company/spotlessagency/" class="linkedin">
+                            <span class="icon fa fa-linkedin"></span>
+                        </a>
+                    </li>
                 </ul>
 
 
@@ -2782,67 +2778,67 @@
                                                             </div>
                                                         </div>
                                                         <div class="owl-item" style="width: 1151px;">
-                                                                    <div class="slider-wrap">
+                                                            <div class="slider-wrap">
 
-                                                                        <div
-                                                                            class="norebro-testimonial-sc testimonials  top-avatar"
-                                                                            id="norebro-custom-5e75fd400d4fc">
+                                                                <div
+                                                                    class="norebro-testimonial-sc testimonials  top-avatar"
+                                                                    id="norebro-custom-5e75fd400d4fc">
 
-                                                                            <div class="avatar">
-                                                                                <img
-                                                                                    src="./images/sandra.jpg"
-                                                                                    alt="Sandra Mimran Smith">
-                                                                            </div>
+                                                                    <div class="avatar">
+                                                                        <img
+                                                                            src="./images/sandra.jpg"
+                                                                            alt="Sandra Mimran Smith">
+                                                                    </div>
 
-                                                                            <blockquote>
-                                                                                Spotless Agency is really the premiere
-                                                                                service for virtual staging! They're the
-                                                                                only company I trust with my listings,
-                                                                                where they pay attention to every
-                                                                                detail, right down to the photography
-                                                                                books on the coffee table and the throws
-                                                                                on the bed. They have a wonderful
-                                                                                selection of different styles and
-                                                                                tirelessly work to edit the images and
-                                                                                get the finished product that you're
-                                                                                looking for. I've used them both for my
-                                                                                sale and rental listings and haven't had
-                                                                                to rent furniture, which is a huge
-                                                                                savings for my clients. They're always
-                                                                                responsive and a great team to work
-                                                                                with!
-                                                                            </blockquote>
+                                                                    <blockquote>
+                                                                        Spotless Agency is really the premiere
+                                                                        service for virtual staging! They're the
+                                                                        only company I trust with my listings,
+                                                                        where they pay attention to every
+                                                                        detail, right down to the photography
+                                                                        books on the coffee table and the throws
+                                                                        on the bed. They have a wonderful
+                                                                        selection of different styles and
+                                                                        tirelessly work to edit the images and
+                                                                        get the finished product that you're
+                                                                        looking for. I've used them both for my
+                                                                        sale and rental listings and haven't had
+                                                                        to rent furniture, which is a huge
+                                                                        savings for my clients. They're always
+                                                                        responsive and a great team to work
+                                                                        with!
+                                                                    </blockquote>
 
 
-                                                                            <h4 class="title">— Sandra Mimran Smith</h4>
-                                                                            <p class="subtitle small">
-                                                                                Boostwr </p>
+                                                                    <h4 class="title">— Sandra Mimran Smith</h4>
+                                                                    <p class="subtitle small">
+                                                                        Boostwr </p>
 
-                                                                        </div>
-                                                                        <div class="vc_empty_space  norebro-phone-space"
-                                                                             style="height: 20px"><span
-                                                                                class="vc_empty_space_inner"></span>
-                                                                        </div>
-                                                                        <div
-                                                                            class="norebro-button-sc btn-wrap text-center"
-                                                                            id="norebro-custom-5e75fd400dc12">
+                                                                </div>
+                                                                <div class="vc_empty_space  norebro-phone-space"
+                                                                     style="height: 20px"><span
+                                                                        class="vc_empty_space_inner"></span>
+                                                                </div>
+                                                                <div
+                                                                    class="norebro-button-sc btn-wrap text-center"
+                                                                    id="norebro-custom-5e75fd400dc12">
 
-                                                                            <a href="https://www.facebook.com/spotlessagency/reviews/"
-                                                                               target="_blank"
-                                                                               class="btn  btn-squared btn-outline">
+                                                                    <a href="https://www.facebook.com/spotlessagency/reviews/"
+                                                                       target="_blank"
+                                                                       class="btn  btn-squared btn-outline">
 
 
 		<span class="text">
 			All reviews		</span>
 
-                                                                                <span
-                                                                                    class="icon ion-android-arrow-forward"></span>
+                                                                        <span
+                                                                            class="icon ion-android-arrow-forward"></span>
 
-                                                                            </a>
+                                                                    </a>
 
-                                                                        </div>
-                                                                    </div>
                                                                 </div>
+                                                            </div>
+                                                        </div>
                                                     </div>
                                                 </div>
                                                 <div class="vc_empty_space  norebro-phone-space" style="height: 90px">
@@ -2981,10 +2977,11 @@
                                                                 <label class="col-12&gt; &lt;span class="
                                                                        wpcf7-form-control-wrap=""
                                                                        your-message=""><textarea name="your-message"
-                                                                                                  cols="40" rows="10"
-                                                                                                  class="wpcf7-form-control wpcf7-textarea"
-                                                                                                  aria-invalid="false"
-                                                                                                  placeholder="Message"></textarea> </label>
+                                                                                                 cols="40" rows="10"
+                                                                                                 class="wpcf7-form-control wpcf7-textarea"
+                                                                                                 aria-invalid="false"
+                                                                                                 placeholder="Message"></textarea>
+                                                                </label>
                                                             </div>
                                                             <div class="input-group">
                                                                 <div class="wpcf7-form-control-wrap">
@@ -3307,9 +3304,9 @@
                                                                         </div>
                                                                     </div>
                                                                 </div>
-{{--                                                                <iframe aria-hidden="true" frameborder="0" tabindex="-1"--}}
-{{--                                                                        style="z-index: -1; position: absolute; width: 100%; height: 100%; top: 0px; left: 0px; border: none;"--}}
-{{--                                                                        src="./Virtual Staging _ Sell Properties Faster With Spotless Agency_files/saved_resource(4).html"></iframe>--}}
+                                                                {{--                                                                <iframe aria-hidden="true" frameborder="0" tabindex="-1"--}}
+                                                                {{--                                                                        style="z-index: -1; position: absolute; width: 100%; height: 100%; top: 0px; left: 0px; border: none;"--}}
+                                                                {{--                                                                        src="./Virtual Staging _ Sell Properties Faster With Spotless Agency_files/saved_resource(4).html"></iframe>--}}
                                                                 <div
                                                                     style="margin-left: 5px; margin-right: 5px; z-index: 1000000; position: absolute; left: 0px; bottom: 0px;">
                                                                     <a target="_blank" rel="noopener"
@@ -4123,8 +4120,8 @@
                                 {{--                                              class="g-recaptcha-response"--}}
                                 {{--                                              style="width: 250px; height: 40px; border: 1px solid rgb(193, 193, 193); margin: 10px 25px; padding: 0px; resize: none; display: none;"></textarea>--}}
                                 {{--                                </div>--}}
-{{--                                <iframe style="display: none;"--}}
-{{--                                        src="./Virtual Staging _ Sell Properties Faster With Spotless Agency_files/saved_resource(5).html"></iframe>--}}
+                                {{--                                <iframe style="display: none;"--}}
+                                {{--                                        src="./Virtual Staging _ Sell Properties Faster With Spotless Agency_files/saved_resource(5).html"></iframe>--}}
                             </div>
                             <noscript>
                                 <div style="width: 302px; height: 422px;">
