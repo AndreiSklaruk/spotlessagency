@@ -1170,7 +1170,7 @@
     data-aos-easing="ease" data-aos-duration="400" data-aos-delay="0">
 
 
-<div class="page-preloader closed" id="page-preloader">
+<div class="page-preloader" id="page-preloader">
     <div class="loader">
         <span class="line1"></span>
         <span class="line2"></span>
@@ -1250,11 +1250,11 @@
                             <li id="nav-menu-item-13269-5e75fd3eb3be9"
                                 class="mega-menu-item nav-item menu-item-depth-0 has-submenu"><a
                                     href="https://www.spotlessagency.com/#"
-                                    class="menu-link main-menu-link item-title open"
+                                    class="menu-link main-menu-link item-title"
                                     id="accessible-megamenu-1584787256652-2" aria-haspopup="true"
                                     aria-owns="accessible-megamenu-1584787256652-3"
                                     aria-controls="accessible-megamenu-1584787256652-3" aria-expanded="true"><span>What do we do</span></a>
-                                <div class="sub-nav open" id="accessible-megamenu-1584787256652-3" role="group"
+                                <div class="sub-nav" id="accessible-megamenu-1584787256652-3" role="group"
                                      aria-expanded="true" aria-hidden="false"
                                      aria-labelledby="accessible-megamenu-1584787256652-2" style="max-width: 1903px;">
                                     <ul class="menu-depth-1 sub-menu sub-nav-group" style="left: 0px;">
@@ -2552,660 +2552,297 @@
                                                         id="norebro-custom-5e75fd4005d48"
                                                         data-norebro-slider="{&quot;loop&quot;:true,&quot;dots&quot;:true,&quot;nav&quot;:true,&quot;autoplay&quot;:true,&quot;autoplayHoverPause&quot;:true,&quot;navContainerClass&quot;:&quot;slider-nav&quot;,&quot;itemsDesktop&quot;:&quot;1&quot;,&quot;itemsTablet&quot;:&quot;1&quot;,&quot;itemsMobile&quot;:&quot;1&quot;,&quot;slideBy&quot;:&quot;1&quot;,&quot;autoplayTimeout&quot;:&quot;5&quot;}">
 
+                                                        <div class="owl-item" style="width: 1151px;">
+                                                            <div class="slider-wrap">
 
-                                                        <div class="owl-stage-outer owl-height" style="height: 378px;">
-                                                            <div class="owl-stage"
-                                                                 style="transform: translate3d(-4604px, 0px, 0px); transition: all 0.5s ease 0s; width: 12661px;">
-                                                                <div class="owl-item cloned" style="width: 1151px;">
-                                                                    <div class="slider-wrap">
+                                                                <div
+                                                                    class="norebro-testimonial-sc testimonials  top-avatar"
+                                                                    id="norebro-custom-5e75fd4007b9a">
 
-                                                                        <div
-                                                                            class="norebro-testimonial-sc testimonials  top-avatar"
-                                                                            id="norebro-custom-5e75fd400aee0">
-
-                                                                            <div class="avatar">
-                                                                                <img
-                                                                                    src="./images/11078178_10106028790662033_2651560216761289083_n.jpg"
-                                                                                    alt="Jay Baker">
-                                                                            </div>
-
-                                                                            <blockquote>
-                                                                                Had an incredible experience with
-                                                                                Spotless, they are industry leading with
-                                                                                regards to the realistic quality of the
-                                                                                photos and the customer service was
-                                                                                exemplary as well. I was more than happy
-                                                                                with the results they took my creative
-                                                                                direction and exceeded expectations!
-                                                                            </blockquote>
-
-
-                                                                            <h4 class="title">— Jay Baker</h4>
-                                                                            <p class="subtitle small">
-                                                                                Compass </p>
-
-                                                                        </div>
-                                                                        <div class="vc_empty_space  norebro-phone-space"
-                                                                             style="height: 20px"><span
-                                                                                class="vc_empty_space_inner"></span>
-                                                                        </div>
-                                                                        <div
-                                                                            class="norebro-button-sc btn-wrap text-center"
-                                                                            id="norebro-custom-5e75fd400b588">
-
-                                                                            <a href="https://www.facebook.com/spotlessagency/reviews/"
-                                                                               target="_blank"
-                                                                               class="btn  btn-squared btn-outline">
-
-
-		<span class="text">
-			All reviews		</span>
-
-                                                                                <span
-                                                                                    class="icon ion-android-arrow-forward"></span>
-
-                                                                            </a>
-
-                                                                        </div>
+                                                                    <div class="avatar">
+                                                                        <img
+                                                                            src="./images/anton.jpg"
+                                                                            alt="Anthony Barillo">
                                                                     </div>
+
+                                                                    <blockquote>
+                                                                        Spotless Agency is 100% the best virtual
+                                                                        stager in the business. Their attention
+                                                                        to detail is unparalleled and their
+                                                                        images look so realistic. I have used
+                                                                        many other virtual staging companies in
+                                                                        the past and absolutely no one compares
+                                                                        to spotless. I will be using them on all
+                                                                        of my future listings.
+                                                                    </blockquote>
+
+
+                                                                    <h4 class="title">— Anthony Barillo</h4>
+                                                                    <p class="subtitle small">
+                                                                        Douglas Elliman </p>
+
                                                                 </div>
-                                                                <div class="owl-item cloned" style="width: 1151px;">
-                                                                    <div class="slider-wrap">
-
-                                                                        <div
-                                                                            class="norebro-testimonial-sc testimonials  top-avatar"
-                                                                            id="norebro-custom-5e75fd400bfec">
-
-                                                                            <div class="avatar">
-                                                                                <img
-                                                                                    src="./images/Romy.jpg"
-                                                                                    alt="Romy Rodiek">
-                                                                            </div>
-
-                                                                            <blockquote>
-                                                                                Spotless does amazing work! It took me
-                                                                                about 2 years to find a company that has
-                                                                                their continuous quality and skills.
-                                                                                Their customer service is excellent and
-                                                                                their response rate really fast. Plus,
-                                                                                you have the feeling you're actually
-                                                                                being heard with your requests. Too
-                                                                                often have I experienced a very
-                                                                                automated service approach, where you
-                                                                                never actually feel you're talking to
-                                                                                someone. Not with Spotless, they are
-                                                                                very 'tangible' in this digital age.<br>
-                                                                                Everyone I show their images to, has a
-                                                                                hard time telling they are virtually
-                                                                                staged. I don't know how they do it, but
-                                                                                they DO it!! I can highly recommend
-                                                                                them.
-                                                                            </blockquote>
-
-
-                                                                            <h4 class="title">— Romy Rodiek</h4>
-                                                                            <p class="subtitle small">
-                                                                                Photographer </p>
-
-                                                                        </div>
-                                                                        <div class="vc_empty_space  norebro-phone-space"
-                                                                             style="height: 20px"><span
-                                                                                class="vc_empty_space_inner"></span>
-                                                                        </div>
-                                                                        <div
-                                                                            class="norebro-button-sc btn-wrap text-center"
-                                                                            id="norebro-custom-5e75fd400c6f6">
-
-                                                                            <a href="https://www.facebook.com/spotlessagency/reviews/"
-                                                                               target="_blank"
-                                                                               class="btn  btn-squared btn-outline">
-
-
-		<span class="text">
-			All reviews		</span>
-
-                                                                                <span
-                                                                                    class="icon ion-android-arrow-forward"></span>
-
-                                                                            </a>
-
-                                                                        </div>
-                                                                    </div>
+                                                                <div class="vc_empty_space  norebro-phone-space"
+                                                                     style="height: 20px"><span
+                                                                        class="vc_empty_space_inner"></span>
                                                                 </div>
-                                                                <div class="owl-item cloned" style="width: 1151px;">
-                                                                    <div class="slider-wrap">
+                                                                <div
+                                                                    class="norebro-button-sc btn-wrap text-center"
+                                                                    id="norebro-custom-5e75fd4008bcb">
 
-                                                                        <div
-                                                                            class="norebro-testimonial-sc testimonials  top-avatar"
-                                                                            id="norebro-custom-5e75fd400d4fc">
+                                                                    <a href="https://www.facebook.com/spotlessagency/reviews/"
+                                                                       target="_blank"
+                                                                       class="btn  btn-squared btn-outline">
 
-                                                                            <div class="avatar">
-                                                                                <img
-                                                                                    src="./images/sandra.jpg"
-                                                                                    alt="Sandra Mimran Smith">
-                                                                            </div>
 
-                                                                            <blockquote>
-                                                                                Spotless Agency is really the premiere
-                                                                                service for virtual staging! They're the
-                                                                                only company I trust with my listings,
-                                                                                where they pay attention to every
-                                                                                detail, right down to the photography
-                                                                                books on the coffee table and the throws
-                                                                                on the bed. They have a wonderful
-                                                                                selection of different styles and
-                                                                                tirelessly work to edit the images and
-                                                                                get the finished product that you're
-                                                                                looking for. I've used them both for my
-                                                                                sale and rental listings and haven't had
-                                                                                to rent furniture, which is a huge
-                                                                                savings for my clients. They're always
-                                                                                responsive and a great team to work
-                                                                                with!
-                                                                            </blockquote>
+<span class="text">
+    All reviews		</span>
 
+                                                                        <span
+                                                                            class="icon ion-android-arrow-forward"></span>
 
-                                                                            <h4 class="title">— Sandra Mimran Smith</h4>
-                                                                            <p class="subtitle small">
-                                                                                Boostwr </p>
+                                                                    </a>
 
-                                                                        </div>
-                                                                        <div class="vc_empty_space  norebro-phone-space"
-                                                                             style="height: 20px"><span
-                                                                                class="vc_empty_space_inner"></span>
-                                                                        </div>
-                                                                        <div
-                                                                            class="norebro-button-sc btn-wrap text-center"
-                                                                            id="norebro-custom-5e75fd400dc12">
-
-                                                                            <a href="https://www.facebook.com/spotlessagency/reviews/"
-                                                                               target="_blank"
-                                                                               class="btn  btn-squared btn-outline">
-
-
-		<span class="text">
-			All reviews		</span>
-
-                                                                                <span
-                                                                                    class="icon ion-android-arrow-forward"></span>
-
-                                                                            </a>
-
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                                <div class="owl-item" style="width: 1151px;">
-                                                                    <div class="slider-wrap">
-
-                                                                        <div
-                                                                            class="norebro-testimonial-sc testimonials  top-avatar"
-                                                                            id="norebro-custom-5e75fd4007b9a">
-
-                                                                            <div class="avatar">
-                                                                                <img
-                                                                                    src="./images/anton.jpg"
-                                                                                    alt="Anthony Barillo">
-                                                                            </div>
-
-                                                                            <blockquote>
-                                                                                Spotless Agency is 100% the best virtual
-                                                                                stager in the business. Their attention
-                                                                                to detail is unparalleled and their
-                                                                                images look so realistic. I have used
-                                                                                many other virtual staging companies in
-                                                                                the past and absolutely no one compares
-                                                                                to spotless. I will be using them on all
-                                                                                of my future listings.
-                                                                            </blockquote>
-
-
-                                                                            <h4 class="title">— Anthony Barillo</h4>
-                                                                            <p class="subtitle small">
-                                                                                Douglas Elliman </p>
-
-                                                                        </div>
-                                                                        <div class="vc_empty_space  norebro-phone-space"
-                                                                             style="height: 20px"><span
-                                                                                class="vc_empty_space_inner"></span>
-                                                                        </div>
-                                                                        <div
-                                                                            class="norebro-button-sc btn-wrap text-center"
-                                                                            id="norebro-custom-5e75fd4008bcb">
-
-                                                                            <a href="https://www.facebook.com/spotlessagency/reviews/"
-                                                                               target="_blank"
-                                                                               class="btn  btn-squared btn-outline">
-
-
-		<span class="text">
-			All reviews		</span>
-
-                                                                                <span
-                                                                                    class="icon ion-android-arrow-forward"></span>
-
-                                                                            </a>
-
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                                <div class="owl-item active" style="width: 1151px;">
-                                                                    <div class="slider-wrap">
-
-                                                                        <div
-                                                                            class="norebro-testimonial-sc testimonials  top-avatar"
-                                                                            id="norebro-custom-5e75fd40099f7">
-
-                                                                            <div class="avatar">
-                                                                                <img
-                                                                                    src="./images/chilivetis.jpg"
-                                                                                    alt="Heather Chilivetis">
-                                                                            </div>
-
-                                                                            <blockquote>
-                                                                                Wow! I’m a broker In Houston who just
-                                                                                used this agency for the first time. I
-                                                                                will now use them for every vacant
-                                                                                listing. They blew me away with their
-                                                                                talent, and I am certain they will help
-                                                                                sell my listing. I sent them a photo of
-                                                                                an empty room that is a combined dining
-                                                                                and living area and it had carpet. I
-                                                                                needed it virtually staged with hardwood
-                                                                                floors and new furniture. Within 24
-                                                                                hours, they sent me the most spectacular
-                                                                                magazine like image. I couldn’t be
-                                                                                happier.
-                                                                            </blockquote>
-
-
-                                                                            <h4 class="title">— Heather Chilivetis</h4>
-                                                                            <p class="subtitle small">
-                                                                                Chilivetis Fine Homes LLC </p>
-
-                                                                        </div>
-                                                                        <div class="vc_empty_space  norebro-phone-space"
-                                                                             style="height: 20px"><span
-                                                                                class="vc_empty_space_inner"></span>
-                                                                        </div>
-                                                                        <div
-                                                                            class="norebro-button-sc btn-wrap text-center"
-                                                                            id="norebro-custom-5e75fd400a130">
-
-                                                                            <a href="https://www.facebook.com/spotlessagency/reviews/"
-                                                                               target="_blank"
-                                                                               class="btn  btn-squared btn-outline">
-
-
-		<span class="text">
-			All reviews		</span>
-
-                                                                                <span
-                                                                                    class="icon ion-android-arrow-forward"></span>
-
-                                                                            </a>
-
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                                <div class="owl-item" style="width: 1151px;">
-                                                                    <div class="slider-wrap">
-
-                                                                        <div
-                                                                            class="norebro-testimonial-sc testimonials  top-avatar"
-                                                                            id="norebro-custom-5e75fd400aee0">
-
-                                                                            <div class="avatar">
-                                                                                <img
-                                                                                    src="./images/11078178_10106028790662033_2651560216761289083_n.jpg"
-                                                                                    alt="Jay Baker">
-                                                                            </div>
-
-                                                                            <blockquote>
-                                                                                Had an incredible experience with
-                                                                                Spotless, they are industry leading with
-                                                                                regards to the realistic quality of the
-                                                                                photos and the customer service was
-                                                                                exemplary as well. I was more than happy
-                                                                                with the results they took my creative
-                                                                                direction and exceeded expectations!
-                                                                            </blockquote>
-
-
-                                                                            <h4 class="title">— Jay Baker</h4>
-                                                                            <p class="subtitle small">
-                                                                                Compass </p>
-
-                                                                        </div>
-                                                                        <div class="vc_empty_space  norebro-phone-space"
-                                                                             style="height: 20px"><span
-                                                                                class="vc_empty_space_inner"></span>
-                                                                        </div>
-                                                                        <div
-                                                                            class="norebro-button-sc btn-wrap text-center"
-                                                                            id="norebro-custom-5e75fd400b588">
-
-                                                                            <a href="https://www.facebook.com/spotlessagency/reviews/"
-                                                                               target="_blank"
-                                                                               class="btn  btn-squared btn-outline">
-
-
-		<span class="text">
-			All reviews		</span>
-
-                                                                                <span
-                                                                                    class="icon ion-android-arrow-forward"></span>
-
-                                                                            </a>
-
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                                <div class="owl-item" style="width: 1151px;">
-                                                                    <div class="slider-wrap">
-
-                                                                        <div
-                                                                            class="norebro-testimonial-sc testimonials  top-avatar"
-                                                                            id="norebro-custom-5e75fd400bfec">
-
-                                                                            <div class="avatar">
-                                                                                <img
-                                                                                    src="./images/Romy.jpg"
-                                                                                    alt="Romy Rodiek">
-                                                                            </div>
-
-                                                                            <blockquote>
-                                                                                Spotless does amazing work! It took me
-                                                                                about 2 years to find a company that has
-                                                                                their continuous quality and skills.
-                                                                                Their customer service is excellent and
-                                                                                their response rate really fast. Plus,
-                                                                                you have the feeling you're actually
-                                                                                being heard with your requests. Too
-                                                                                often have I experienced a very
-                                                                                automated service approach, where you
-                                                                                never actually feel you're talking to
-                                                                                someone. Not with Spotless, they are
-                                                                                very 'tangible' in this digital age.<br>
-                                                                                Everyone I show their images to, has a
-                                                                                hard time telling they are virtually
-                                                                                staged. I don't know how they do it, but
-                                                                                they DO it!! I can highly recommend
-                                                                                them.
-                                                                            </blockquote>
-
-
-                                                                            <h4 class="title">— Romy Rodiek</h4>
-                                                                            <p class="subtitle small">
-                                                                                Photographer </p>
-
-                                                                        </div>
-                                                                        <div class="vc_empty_space  norebro-phone-space"
-                                                                             style="height: 20px"><span
-                                                                                class="vc_empty_space_inner"></span>
-                                                                        </div>
-                                                                        <div
-                                                                            class="norebro-button-sc btn-wrap text-center"
-                                                                            id="norebro-custom-5e75fd400c6f6">
-
-                                                                            <a href="https://www.facebook.com/spotlessagency/reviews/"
-                                                                               target="_blank"
-                                                                               class="btn  btn-squared btn-outline">
-
-
-		<span class="text">
-			All reviews		</span>
-
-                                                                                <span
-                                                                                    class="icon ion-android-arrow-forward"></span>
-
-                                                                            </a>
-
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                                <div class="owl-item" style="width: 1151px;">
-                                                                    <div class="slider-wrap">
-
-                                                                        <div
-                                                                            class="norebro-testimonial-sc testimonials  top-avatar"
-                                                                            id="norebro-custom-5e75fd400d4fc">
-
-                                                                            <div class="avatar">
-                                                                                <img
-                                                                                    src="./images/sandra.jpg"
-                                                                                    alt="Sandra Mimran Smith">
-                                                                            </div>
-
-                                                                            <blockquote>
-                                                                                Spotless Agency is really the premiere
-                                                                                service for virtual staging! They're the
-                                                                                only company I trust with my listings,
-                                                                                where they pay attention to every
-                                                                                detail, right down to the photography
-                                                                                books on the coffee table and the throws
-                                                                                on the bed. They have a wonderful
-                                                                                selection of different styles and
-                                                                                tirelessly work to edit the images and
-                                                                                get the finished product that you're
-                                                                                looking for. I've used them both for my
-                                                                                sale and rental listings and haven't had
-                                                                                to rent furniture, which is a huge
-                                                                                savings for my clients. They're always
-                                                                                responsive and a great team to work
-                                                                                with!
-                                                                            </blockquote>
-
-
-                                                                            <h4 class="title">— Sandra Mimran Smith</h4>
-                                                                            <p class="subtitle small">
-                                                                                Boostwr </p>
-
-                                                                        </div>
-                                                                        <div class="vc_empty_space  norebro-phone-space"
-                                                                             style="height: 20px"><span
-                                                                                class="vc_empty_space_inner"></span>
-                                                                        </div>
-                                                                        <div
-                                                                            class="norebro-button-sc btn-wrap text-center"
-                                                                            id="norebro-custom-5e75fd400dc12">
-
-                                                                            <a href="https://www.facebook.com/spotlessagency/reviews/"
-                                                                               target="_blank"
-                                                                               class="btn  btn-squared btn-outline">
-
-
-		<span class="text">
-			All reviews		</span>
-
-                                                                                <span
-                                                                                    class="icon ion-android-arrow-forward"></span>
-
-                                                                            </a>
-
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                                <div class="owl-item cloned" style="width: 1151px;">
-                                                                    <div class="slider-wrap">
-
-                                                                        <div
-                                                                            class="norebro-testimonial-sc testimonials  top-avatar"
-                                                                            id="norebro-custom-5e75fd4007b9a">
-
-                                                                            <div class="avatar">
-                                                                                <img
-                                                                                    src="./images/anton.jpg"
-                                                                                    alt="Anthony Barillo">
-                                                                            </div>
-
-                                                                            <blockquote>
-                                                                                Spotless Agency is 100% the best virtual
-                                                                                stager in the business. Their attention
-                                                                                to detail is unparalleled and their
-                                                                                images look so realistic. I have used
-                                                                                many other virtual staging companies in
-                                                                                the past and absolutely no one compares
-                                                                                to spotless. I will be using them on all
-                                                                                of my future listings.
-                                                                            </blockquote>
-
-
-                                                                            <h4 class="title">— Anthony Barillo</h4>
-                                                                            <p class="subtitle small">
-                                                                                Douglas Elliman </p>
-
-                                                                        </div>
-                                                                        <div class="vc_empty_space  norebro-phone-space"
-                                                                             style="height: 20px"><span
-                                                                                class="vc_empty_space_inner"></span>
-                                                                        </div>
-                                                                        <div
-                                                                            class="norebro-button-sc btn-wrap text-center"
-                                                                            id="norebro-custom-5e75fd4008bcb">
-
-                                                                            <a href="https://www.facebook.com/spotlessagency/reviews/"
-                                                                               target="_blank"
-                                                                               class="btn  btn-squared btn-outline">
-
-
-		<span class="text">
-			All reviews		</span>
-
-                                                                                <span
-                                                                                    class="icon ion-android-arrow-forward"></span>
-
-                                                                            </a>
-
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                                <div class="owl-item cloned" style="width: 1151px;">
-                                                                    <div class="slider-wrap">
-
-                                                                        <div
-                                                                            class="norebro-testimonial-sc testimonials  top-avatar"
-                                                                            id="norebro-custom-5e75fd40099f7">
-
-                                                                            <div class="avatar">
-                                                                                <img
-                                                                                    src="./images/chilivetis.jpg"
-                                                                                    alt="Heather Chilivetis">
-                                                                            </div>
-
-                                                                            <blockquote>
-                                                                                Wow! I’m a broker In Houston who just
-                                                                                used this agency for the first time. I
-                                                                                will now use them for every vacant
-                                                                                listing. They blew me away with their
-                                                                                talent, and I am certain they will help
-                                                                                sell my listing. I sent them a photo of
-                                                                                an empty room that is a combined dining
-                                                                                and living area and it had carpet. I
-                                                                                needed it virtually staged with hardwood
-                                                                                floors and new furniture. Within 24
-                                                                                hours, they sent me the most spectacular
-                                                                                magazine like image. I couldn’t be
-                                                                                happier.
-                                                                            </blockquote>
-
-
-                                                                            <h4 class="title">— Heather Chilivetis</h4>
-                                                                            <p class="subtitle small">
-                                                                                Chilivetis Fine Homes LLC </p>
-
-                                                                        </div>
-                                                                        <div class="vc_empty_space  norebro-phone-space"
-                                                                             style="height: 20px"><span
-                                                                                class="vc_empty_space_inner"></span>
-                                                                        </div>
-                                                                        <div
-                                                                            class="norebro-button-sc btn-wrap text-center"
-                                                                            id="norebro-custom-5e75fd400a130">
-
-                                                                            <a href="https://www.facebook.com/spotlessagency/reviews/"
-                                                                               target="_blank"
-                                                                               class="btn  btn-squared btn-outline">
-
-
-		<span class="text">
-			All reviews		</span>
-
-                                                                                <span
-                                                                                    class="icon ion-android-arrow-forward"></span>
-
-                                                                            </a>
-
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                                <div class="owl-item cloned" style="width: 1151px;">
-                                                                    <div class="slider-wrap">
-
-                                                                        <div
-                                                                            class="norebro-testimonial-sc testimonials  top-avatar"
-                                                                            id="norebro-custom-5e75fd400aee0">
-
-                                                                            <div class="avatar">
-                                                                                <img
-                                                                                    src="./images/11078178_10106028790662033_2651560216761289083_n.jpg"
-                                                                                    alt="Jay Baker">
-                                                                            </div>
-
-                                                                            <blockquote>
-                                                                                Had an incredible experience with
-                                                                                Spotless, they are industry leading with
-                                                                                regards to the realistic quality of the
-                                                                                photos and the customer service was
-                                                                                exemplary as well. I was more than happy
-                                                                                with the results they took my creative
-                                                                                direction and exceeded expectations!
-                                                                            </blockquote>
-
-
-                                                                            <h4 class="title">— Jay Baker</h4>
-                                                                            <p class="subtitle small">
-                                                                                Compass </p>
-
-                                                                        </div>
-                                                                        <div class="vc_empty_space  norebro-phone-space"
-                                                                             style="height: 20px"><span
-                                                                                class="vc_empty_space_inner"></span>
-                                                                        </div>
-                                                                        <div
-                                                                            class="norebro-button-sc btn-wrap text-center"
-                                                                            id="norebro-custom-5e75fd400b588">
-
-                                                                            <a href="https://www.facebook.com/spotlessagency/reviews/"
-                                                                               target="_blank"
-                                                                               class="btn  btn-squared btn-outline">
-
-
-		<span class="text">
-			All reviews		</span>
-
-                                                                                <span
-                                                                                    class="icon ion-android-arrow-forward"></span>
-
-                                                                            </a>
-
-                                                                        </div>
-                                                                    </div>
                                                                 </div>
                                                             </div>
                                                         </div>
-                                                        <div class="owl-nav slider-nav">
-                                                            <div class="owl-prev"><span
-                                                                    class="ion-ios-arrow-thin-left"></span></div>
-                                                            <div class="owl-next"><span
-                                                                    class="ion-ios-arrow-thin-right"></span></div>
+                                                        <div class="owl-item" style="width: 1151px;">
+                                                            <div class="slider-wrap">
+
+                                                                <div
+                                                                    class="norebro-testimonial-sc testimonials  top-avatar"
+                                                                    id="norebro-custom-5e75fd40099f7">
+
+                                                                    <div class="avatar">
+                                                                        <img
+                                                                            src="./images/chilivetis.jpg"
+                                                                            alt="Heather Chilivetis">
+                                                                    </div>
+
+                                                                    <blockquote>
+                                                                        Wow! I’m a broker In Houston who just
+                                                                        used this agency for the first time. I
+                                                                        will now use them for every vacant
+                                                                        listing. They blew me away with their
+                                                                        talent, and I am certain they will help
+                                                                        sell my listing. I sent them a photo of
+                                                                        an empty room that is a combined dining
+                                                                        and living area and it had carpet. I
+                                                                        needed it virtually staged with hardwood
+                                                                        floors and new furniture. Within 24
+                                                                        hours, they sent me the most spectacular
+                                                                        magazine like image. I couldn’t be
+                                                                        happier.
+                                                                    </blockquote>
+
+
+                                                                    <h4 class="title">— Heather Chilivetis</h4>
+                                                                    <p class="subtitle small">
+                                                                        Chilivetis Fine Homes LLC </p>
+
+                                                                </div>
+                                                                <div class="vc_empty_space  norebro-phone-space"
+                                                                     style="height: 20px"><span
+                                                                        class="vc_empty_space_inner"></span>
+                                                                </div>
+                                                                <div
+                                                                    class="norebro-button-sc btn-wrap text-center"
+                                                                    id="norebro-custom-5e75fd400a130">
+
+                                                                    <a href="https://www.facebook.com/spotlessagency/reviews/"
+                                                                       target="_blank"
+                                                                       class="btn  btn-squared btn-outline">
+
+
+<span class="text">
+    All reviews		</span>
+
+                                                                        <span
+                                                                            class="icon ion-android-arrow-forward"></span>
+
+                                                                    </a>
+
+                                                                </div>
+                                                            </div>
                                                         </div>
-                                                        <div class="owl-dots">
-                                                            <div class="owl-dot"><span></span></div>
-                                                            <div class="owl-dot active"><span></span></div>
-                                                            <div class="owl-dot"><span></span></div>
-                                                            <div class="owl-dot"><span></span></div>
-                                                            <div class="owl-dot"><span></span></div>
+                                                        <div class="owl-item" style="width: 1151px;">
+                                                            <div class="slider-wrap">
+
+                                                                <div
+                                                                    class="norebro-testimonial-sc testimonials  top-avatar"
+                                                                    id="norebro-custom-5e75fd400aee0">
+
+                                                                    <div class="avatar">
+                                                                        <img
+                                                                            src="./images/11078178_10106028790662033_2651560216761289083_n.jpg"
+                                                                            alt="Jay Baker">
+                                                                    </div>
+
+                                                                    <blockquote>
+                                                                        Had an incredible experience with
+                                                                        Spotless, they are industry leading with
+                                                                        regards to the realistic quality of the
+                                                                        photos and the customer service was
+                                                                        exemplary as well. I was more than happy
+                                                                        with the results they took my creative
+                                                                        direction and exceeded expectations!
+                                                                    </blockquote>
+
+
+                                                                    <h4 class="title">— Jay Baker</h4>
+                                                                    <p class="subtitle small">
+                                                                        Compass </p>
+
+                                                                </div>
+                                                                <div class="vc_empty_space  norebro-phone-space"
+                                                                     style="height: 20px"><span
+                                                                        class="vc_empty_space_inner"></span>
+                                                                </div>
+                                                                <div
+                                                                    class="norebro-button-sc btn-wrap text-center"
+                                                                    id="norebro-custom-5e75fd400b588">
+
+                                                                    <a href="https://www.facebook.com/spotlessagency/reviews/"
+                                                                       target="_blank"
+                                                                       class="btn  btn-squared btn-outline">
+
+
+<span class="text">
+    All reviews		</span>
+
+                                                                        <span
+                                                                            class="icon ion-android-arrow-forward"></span>
+
+                                                                    </a>
+
+                                                                </div>
+                                                            </div>
                                                         </div>
+                                                        <div class="owl-item" style="width: 1151px;">
+                                                            <div class="slider-wrap">
+
+                                                                <div
+                                                                    class="norebro-testimonial-sc testimonials  top-avatar"
+                                                                    id="norebro-custom-5e75fd400bfec">
+
+                                                                    <div class="avatar">
+                                                                        <img
+                                                                            src="./images/Romy.jpg"
+                                                                            alt="Romy Rodiek">
+                                                                    </div>
+
+                                                                    <blockquote>
+                                                                        Spotless does amazing work! It took me
+                                                                        about 2 years to find a company that has
+                                                                        their continuous quality and skills.
+                                                                        Their customer service is excellent and
+                                                                        their response rate really fast. Plus,
+                                                                        you have the feeling you're actually
+                                                                        being heard with your requests. Too
+                                                                        often have I experienced a very
+                                                                        automated service approach, where you
+                                                                        never actually feel you're talking to
+                                                                        someone. Not with Spotless, they are
+                                                                        very 'tangible' in this digital age.<br>
+                                                                        Everyone I show their images to, has a
+                                                                        hard time telling they are virtually
+                                                                        staged. I don't know how they do it, but
+                                                                        they DO it!! I can highly recommend
+                                                                        them.
+                                                                    </blockquote>
+
+
+                                                                    <h4 class="title">— Romy Rodiek</h4>
+                                                                    <p class="subtitle small">
+                                                                        Photographer </p>
+
+                                                                </div>
+                                                                <div class="vc_empty_space  norebro-phone-space"
+                                                                     style="height: 20px"><span
+                                                                        class="vc_empty_space_inner"></span>
+                                                                </div>
+                                                                <div
+                                                                    class="norebro-button-sc btn-wrap text-center"
+                                                                    id="norebro-custom-5e75fd400c6f6">
+
+                                                                    <a href="https://www.facebook.com/spotlessagency/reviews/"
+                                                                       target="_blank"
+                                                                       class="btn  btn-squared btn-outline">
+
+
+<span class="text">
+    All reviews		</span>
+
+                                                                        <span
+                                                                            class="icon ion-android-arrow-forward"></span>
+
+                                                                    </a>
+
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="owl-item" style="width: 1151px;">
+                                                                    <div class="slider-wrap">
+
+                                                                        <div
+                                                                            class="norebro-testimonial-sc testimonials  top-avatar"
+                                                                            id="norebro-custom-5e75fd400d4fc">
+
+                                                                            <div class="avatar">
+                                                                                <img
+                                                                                    src="./images/sandra.jpg"
+                                                                                    alt="Sandra Mimran Smith">
+                                                                            </div>
+
+                                                                            <blockquote>
+                                                                                Spotless Agency is really the premiere
+                                                                                service for virtual staging! They're the
+                                                                                only company I trust with my listings,
+                                                                                where they pay attention to every
+                                                                                detail, right down to the photography
+                                                                                books on the coffee table and the throws
+                                                                                on the bed. They have a wonderful
+                                                                                selection of different styles and
+                                                                                tirelessly work to edit the images and
+                                                                                get the finished product that you're
+                                                                                looking for. I've used them both for my
+                                                                                sale and rental listings and haven't had
+                                                                                to rent furniture, which is a huge
+                                                                                savings for my clients. They're always
+                                                                                responsive and a great team to work
+                                                                                with!
+                                                                            </blockquote>
+
+
+                                                                            <h4 class="title">— Sandra Mimran Smith</h4>
+                                                                            <p class="subtitle small">
+                                                                                Boostwr </p>
+
+                                                                        </div>
+                                                                        <div class="vc_empty_space  norebro-phone-space"
+                                                                             style="height: 20px"><span
+                                                                                class="vc_empty_space_inner"></span>
+                                                                        </div>
+                                                                        <div
+                                                                            class="norebro-button-sc btn-wrap text-center"
+                                                                            id="norebro-custom-5e75fd400dc12">
+
+                                                                            <a href="https://www.facebook.com/spotlessagency/reviews/"
+                                                                               target="_blank"
+                                                                               class="btn  btn-squared btn-outline">
+
+
+		<span class="text">
+			All reviews		</span>
+
+                                                                                <span
+                                                                                    class="icon ion-android-arrow-forward"></span>
+
+                                                                            </a>
+
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
                                                     </div>
                                                 </div>
                                                 <div class="vc_empty_space  norebro-phone-space" style="height: 90px">
