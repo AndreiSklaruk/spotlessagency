@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="54ba0353-0998-4884-8d13-f3d731823813" name="spotless" url="http://spotlessagency.loc">
+        <fileTransfer port="0" mountedRoot="E:\OpenServer_5.9\OSPanel\domains\spotlessagency\public" accessType="MOUNT" />
+      </webServer>
+    </option>
+  </component>
+</project>
