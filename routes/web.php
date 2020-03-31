@@ -16,6 +16,14 @@ Route::get('/welcome', function () {
 });
 
 Route::get('/', function () {
-    return view('home');
+    return view('/home/home');
+});
+
+Route::get('/main', function () {
+    return view('app');
+});
+
+Route::get('/floor-plan', function () {
+    return view('/floor-plan/floor-plan');
 });
 

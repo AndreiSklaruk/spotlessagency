@@ -22,22 +22,21 @@
           content="Have a walk around your future property at the stage of design to implement all you desires on time with floor visualization from Spotless Agency.">
 
     <link rel="canonical" href="https://www.spotlessagency.com/flor-plan-visualization/">
-    <script type="text/javascript" async=""
-            src="./Spotless Agency introduces Floor Plan Visualization_files/insight.min.js.Без названия"></script>
-    <script type="text/javascript" async=""
-            src="./Spotless Agency introduces Floor Plan Visualization_files/recaptcha__ru.js.Без названия"></script>
-    <script type="text/javascript">
-        window.ga = window.ga || function () {
-            (ga.q = ga.q || []).push(arguments)
-        };
-        ga.l = +new Date;
-        ga('create', 'UA-120720634-1', 'auto');
-        // Plugins
+{{--    <script type="text/javascript" async="" src="./external_js/insight.min.js"></script>--}}
+{{--    <script type="text/javascript" async=""--}}
+{{--            src="./Spotless Agency introduces Floor Plan Visualization_files/recaptcha__ru.js.Без названия"></script>--}}
+{{--    <script type="text/javascript">--}}
+{{--        window.ga = window.ga || function () {--}}
+{{--            (ga.q = ga.q || []).push(arguments)--}}
+{{--        };--}}
+{{--        ga.l = +new Date;--}}
+{{--        ga('create', 'UA-120720634-1', 'auto');--}}
+{{--        // Plugins--}}
 
-        ga('send', 'pageview');
-    </script>
-    <script async=""
-            src="./Spotless Agency introduces Floor Plan Visualization_files/analytics.js.Без названия"></script>
+{{--        ga('send', 'pageview');--}}
+{{--    </script>--}}
+{{--    <script async=""--}}
+{{--            src="./Spotless Agency introduces Floor Plan Visualization_files/analytics.js.Без названия"></script>--}}
     <!-- /all in one seo pack -->
     <link rel="dns-prefetch" href="https://www.google.com/">
     <link rel="dns-prefetch" href="https://s.w.org/">
@@ -92,7 +91,7 @@
             })), (r = t.source || {}).concatemoji ? d(r.concatemoji) : r.wpemoji && r.twemoji && (d(r.twemoji), d(r.wpemoji)))
         }(window, document, window._wpemojiSettings);
     </script>
-    <script src="./Spotless Agency introduces Floor Plan Visualization_files/wp-emoji-release.min.js.Без названия"
+    <script src="./external_js/wp-emoji-release.min.js"
             type="text/javascript" defer=""></script>
     <style type="text/css">
         img.wp-smiley,
@@ -109,24 +108,26 @@
         }
     </style>
     <link rel="stylesheet" id="wp-block-library-css"
-          href="./Spotless Agency introduces Floor Plan Visualization_files/style.min.css" type="text/css" media="all">
+          href="./external_css/style.min.css" type="text/css"
+          media="all">
     <link rel="stylesheet" id="contact-form-7-css"
-          href="./Spotless Agency introduces Floor Plan Visualization_files/styles.css" type="text/css" media="all">
+          href="./external_css/styles.css" type="text/css"
+          media="all">
     <link rel="stylesheet" id="cf7cf-style-css"
-          href="./Spotless Agency introduces Floor Plan Visualization_files/style.css" type="text/css" media="all">
+          href="./external_css/style.css" type="text/css"
+          media="all">
     <link rel="stylesheet" id="rs-plugin-settings-css"
-          href="./Spotless Agency introduces Floor Plan Visualization_files/settings.css" type="text/css" media="all">
-    <style id="rs-plugin-settings-inline-css" type="text/css">
-        #rs-demo-id {
-        }
-    </style>
+          href="./external_css/settings.css" type="text/css"
+          media="all">
     <link rel="stylesheet" id="twentytwenty-style-css"
-          href="./Spotless Agency introduces Floor Plan Visualization_files/twentytwenty.css" type="text/css"
+          href="./external_css/twentytwenty.css" type="text/css"
           media="all">
     <link rel="stylesheet" id="parent-style-css"
-          href="./Spotless Agency introduces Floor Plan Visualization_files/style(1).css" type="text/css" media="all">
+          href="./external_css/style(1).css" type="text/css"
+          media="all">
     <link rel="stylesheet" id="norebro-style-css"
-          href="./Spotless Agency introduces Floor Plan Visualization_files/style(2).css" type="text/css" media="all">
+          href="./external_css/style(2).css" type="text/css"
+          media="all">
     <style id="norebro-style-inline-css" type="text/css">
         #masthead.site-header, #mega-menu-wrap ul li, #masthead .menu-other > li > a, #masthead.site-header .header-bottom .copyright {
             font-size: 14px;
@@ -142,7 +143,7 @@
 
         .header-title .bg-image {
             background-color: #f5fafd;
-            background-image: url('https://www.spotlessagency.com/wp-content/uploads/2018/06/Michele_Living_Dining_staged_corrected.jpg');
+            background-image: url('./images/Michele_Living_Dining_staged_corrected.jpg');
             background-size: cover;
         }
 
@@ -316,12 +317,14 @@
         }
     </style>
     <link rel="stylesheet" id="norebro-grid-css"
-          href="./Spotless Agency introduces Floor Plan Visualization_files/grid.min.css" type="text/css" media="all">
-    <link rel="stylesheet" id="js_composer_front-css"
-          href="./Spotless Agency introduces Floor Plan Visualization_files/js_composer.min.css" type="text/css"
+          href="./external_css/grid.min.css" type="text/css"
           media="all">
+    <link rel="stylesheet" id="js_composer_front-css"
+          href="./external_css/js_composer.min.css"
+          type="text/css" media="all">
     <link rel="stylesheet" id="popup-maker-site-css"
-          href="./Spotless Agency introduces Floor Plan Visualization_files/site.min.css" type="text/css" media="all">
+          href="./external_css/site.min.css" type="text/css"
+          media="all">
     <style id="popup-maker-site-inline-css" type="text/css">
         /* Popup Google Fonts */
         @import url('//fonts.googleapis.com/css?family=Acme|Montserrat');
@@ -621,19 +624,19 @@
 
     </style>
     <script type="text/javascript"
-            src="./Spotless Agency introduces Floor Plan Visualization_files/jquery.js.Без названия"></script>
+            src="./external_js/jquery/jquery.js"></script>
     <script type="text/javascript"
-            src="./Spotless Agency introduces Floor Plan Visualization_files/jquery-migrate.min.js.Без названия"></script>
+            src="./external_js/jquery/jquery-migrate.min.js"></script>
     <script type="text/javascript"
-            src="./Spotless Agency introduces Floor Plan Visualization_files/jquery.themepunch.tools.min.js.Без названия"></script>
+            src="./external_js/revslider/jquery.themepunch.tools.min.js"></script>
     <script type="text/javascript"
-            src="./Spotless Agency introduces Floor Plan Visualization_files/jquery.themepunch.revolution.min.js.Без названия"></script>
+            src="./external_js/revslider/jquery.themepunch.revolution.min.js"></script>
     <script type="text/javascript"
-            src="./Spotless Agency introduces Floor Plan Visualization_files/jquery.event.move.js.Без названия"></script>
+            src="./external_js/norebro/twentytwenty/jquery.event.move.js"></script>
     <script type="text/javascript"
-            src="./Spotless Agency introduces Floor Plan Visualization_files/jquery.twentytwenty.js.Без названия"></script>
+            src="./external_js/norebro/twentytwenty/jquery.twentytwenty.js"></script>
     <script type="text/javascript"
-            src="./Spotless Agency introduces Floor Plan Visualization_files/customjs.js.Без названия"></script>
+            src="./external_js/norebro/customjs.js"></script>
     <link rel="https://api.w.org/" href="https://www.spotlessagency.com/wp-json/">
     <link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://www.spotlessagency.com/xmlrpc.php?rsd">
     <link rel="wlwmanifest" type="application/wlwmanifest+xml"
@@ -664,7 +667,8 @@
           href="https://www.spotlessagency.com/wp-content/uploads/2018/06/cropped-favicon-180x180.png">
     <meta name="msapplication-TileImage"
           content="https://www.spotlessagency.com/wp-content/uploads/2018/06/cropped-favicon-270x270.png">
-    <script type="text/javascript">function setREVStartSize(e) {
+    <script type="text/javascript">
+        function setREVStartSize(e) {
             try {
                 var i = jQuery(window).width(), t = 9999, r = 0, n = 0, l = 0, f = 0, s = 0, h = 0;
                 if (e.responsiveLevels && (jQuery.each(e.responsiveLevels, function (e, f) {
@@ -863,8 +867,7 @@
     class="page-template-default page page-id-13278 norebro-theme-1-0-0 wpb-js-composer js-comp-ver-5.4.7 vc_responsive"
     data-aos-easing="ease" data-aos-duration="400" data-aos-delay="0">
 
-
-<div class="page-preloader closed" id="page-preloader">
+<div class="page-preloader" id="page-preloader">
     <div class="loader">
         <span class="line1"></span>
         <span class="line2"></span>
@@ -872,22 +875,18 @@
     </div>
 </div>
 
-
 <a class="scroll-top" id="page-scroll-top" style="display: inline;">
     <img src="./Spotless Agency introduces Floor Plan Visualization_files/scroll-top.svg" alt="Scroll to top">
 </a>
 
-
 <div id="page" class="site">
+    <a class="skip-link screen-reader-text" href="https://www.spotlessagency.com/flor-plan-visualization/#main">Skip to content</a>
 
-    <a class="skip-link screen-reader-text" href="https://www.spotlessagency.com/flor-plan-visualization/#main">Skip to
-        content</a>
-
-
-    <header id="masthead" class="site-header dark-text header-2 header-fixed showed" data-header-fixed="true"
+    <header id="masthead"
+            class="site-header dark-text header-2 header-fixed showed"
+            data-header-fixed="true"
             style="transition-duration: 0.2s; margin-top: 0px; width: 1903px;">
         <div class="header-wrap page-container">
-
             <div class="site-branding">
                 <p class="site-title">
                     <a href="https://www.spotlessagency.com/" rel="home">
@@ -906,7 +905,7 @@
 
                         <span class="mobile-logo" style="display: none;">
 				<img src="./Spotless Agency introduces Floor Plan Visualization_files/logo_grey.png" class=" alt="
-                     spotless="" agency"="">
+                     spotless="" agency="">
 			</span>
 
                         <span class="fixed-mobile-logo">
@@ -1054,7 +1053,6 @@
         </div><!-- .header-wrap -->
     </header><!-- #masthead -->
 
-
     <div class="fullscreen-navigation" id="fullscreen-mega-menu">
         <div class="site-branding">
             <p class="site-title">
@@ -1157,9 +1155,7 @@
         </div>
     </div>
 
-
     <div id="content" class="site-content" style="margin-bottom: 477px; position: relative; z-index: 3;">
-
 
         <div class="header-title without-cap text-center show">
             <div class="bg-image"></div>
@@ -1177,10 +1173,8 @@
             </div>
         </div> <!-- .header-title -->
 
-
         <div class="page-container without-breadcrumbs bottom-offset">
             <div id="primary" class="content-area">
-
 
                 <div class="page-content ">
                     <main id="main" class="site-main">
@@ -1578,7 +1572,7 @@
                                                             <div class="input-group">
                                                                 <label class="col-12&gt; &lt;span class="
                                                                        wpcf7-form-control-wrap=""
-                                                                       your-message"=""><textarea name="your-message"
+                                                                       your-message=""><textarea name="your-message"
                                                                                                   cols="40" rows="10"
                                                                                                   class="wpcf7-form-control wpcf7-textarea"
                                                                                                   aria-invalid="false"
@@ -1678,7 +1672,7 @@
                                 <form id="feedburner_subscribe_5e838c5f56d22"
                                       action="https://feedburner.google.com/fb/a/mailverify" method="post"
                                       target="popupwindow"
-                                      onsubmit="window.open( &#39;https://feedburner.google.com/fb/a/mailverify?uri=&#39;, &#39;popupwindow&#39;, &#39;scrollbars=yes,width=550,height=520&#39; );return true">
+                                      onsubmit="window.open('https://feedburner.google.com/fb/a/mailverify?uri=', 'popupwindow', 'scrollbars=yes,width=550,height=520' );return true">
                                     <div class="subscribe fullwidth text-left">
                                         <input type="text" placeholder="Enter your email" name="email"
                                                id="subsmail_5e838c5f56db1">
@@ -2385,7 +2379,7 @@
     }
 </style>
 <link rel="stylesheet" id="norebro-global-fonts-css"
-      href="./Spotless Agency introduces Floor Plan Visualization_files/css" type="text/css" media="all">
+      href="//fonts.googleapis.com/css?family=Poppins%3A300%2C400%2C500%2C600%2C700&ver=1.0.0" type="text/css" media="all">
 <link rel="stylesheet" id="icon-pack-linea-basic-css"
       href="./Spotless Agency introduces Floor Plan Visualization_files/style(3).css" type="text/css" media="all">
 <script type="text/javascript">

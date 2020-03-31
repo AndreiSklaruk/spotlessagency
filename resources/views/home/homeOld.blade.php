@@ -107,22 +107,21 @@
           content="Attract attention, make your listing outstanding and demonstrate the full potential of your property, by using virtual staging services we offer in Spotless Agency.">
 
     <link rel="canonical" href="https://www.spotlessagency.com/">
-    <script type="text/javascript" async=""
-            src="./external_js/insight.min.js"></script>
-    {{--    <script type="text/javascript" async=""--}}
-    {{--            src="./Virtual Staging _ Sell Properties Faster With Spotless Agency_files/recaptcha__ru.js.Без названия"></script>--}}
-    <script type="text/javascript">
-        window.ga = window.ga || function () {
-            (ga.q = ga.q || []).push(arguments)
-        };
-        ga.l = +new Date;
-        ga('create', 'UA-120720634-1', 'auto');
-        // Plugins
+{{--    <script type="text/javascript" async="" src="./external_js/insight.min.js"></script>--}}
+{{--        <script type="text/javascript" async=""--}}
+{{--                src="./Virtual Staging _ Sell Properties Faster With Spotless Agency_files/recaptcha__ru.js.Без названия"></script>--}}
+{{--    <script type="text/javascript">--}}
+{{--        window.ga = window.ga || function () {--}}
+{{--            (ga.q = ga.q || []).push(arguments)--}}
+{{--        };--}}
+{{--        ga.l = +new Date;--}}
+{{--        ga('create', 'UA-120720634-1', 'auto');--}}
+{{--        // Plugins--}}
 
-        ga('send', 'pageview');
-    </script>
-    {{--    <script async=""--}}
-    {{--            src="./Virtual Staging _ Sell Properties Faster With Spotless Agency_files/analytics.js.Без названия"></script>--}}
+{{--        ga('send', 'pageview');--}}
+{{--    </script>--}}
+{{--        <script async=""--}}
+{{--                src="./Virtual Staging _ Sell Properties Faster With Spotless Agency_files/analytics.js.Без названия"></script>--}}
 <!-- /all in one seo pack -->
     <link rel="dns-prefetch" href="https://www.google.com/">
     <link rel="dns-prefetch" href="https://s.w.org/">
