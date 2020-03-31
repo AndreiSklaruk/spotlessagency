@@ -1541,11 +1541,11 @@
                                                             <div class="twentytwenty-container twentytwenty-custom"
                                                                  style="height: 591px;">
                                                                 <img
-                                                                    src="./images/studio_before.png"
+                                                                    src="./images/studio-before.jpg"
                                                                     class="twentytwenty-before"
                                                                     style="clip: rect(0px, 212.5px, 591px, 0px);">
                                                                 <img
-                                                                    src="./images/studio_after.png"
+                                                                    src="./images/stugdio-after.jpg"
                                                                     class="twentytwenty-after"
                                                                     style="clip: rect(0px, 887px, 591px, 212.5px);">
                                                                 <div class="twentytwenty-overlay">
