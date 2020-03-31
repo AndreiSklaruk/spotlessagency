@@ -1545,7 +1545,7 @@
                                                                     class="twentytwenty-before"
                                                                     style="clip: rect(0px, 212.5px, 591px, 0px);">
                                                                 <img
-                                                                    src="./images/stugdio-after.jpg"
+                                                                    src="./images/studio-after.jpg"
                                                                     class="twentytwenty-after"
                                                                     style="clip: rect(0px, 887px, 591px, 212.5px);">
                                                                 <div class="twentytwenty-overlay">
