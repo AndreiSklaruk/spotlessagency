@@ -79,7 +79,7 @@
                                 data-gallery-item="0" data-lazy-item="true">
                                 <div class="wrap">
                                     <img class="gimg"
-                                         src="././images/3d-renderings/006_s.png"
+                                         src="/images/3d-renderings/006_s.png"
                                          alt="">
                                     <div class="overlay">
                                         <div class="content-center text-center">
@@ -149,7 +149,7 @@
                                 data-gallery-item="0" data-lazy-item="true">
                                 <div class="wrap">
                                     <img class="gimg"
-                                         src="././images/3d-renderings/001.png"
+                                         src="/images/3d-renderings/001.png"
                                          alt="">
                                     <div class="overlay">
                                         <div class="content-center text-center">
@@ -172,7 +172,7 @@
                                 data-gallery-item="1" data-lazy-item="true">
                                 <div class="wrap">
                                     <img class="gimg"
-                                         src="././images/3d-renderings/002.png"
+                                         src="/images/3d-renderings/002.png"
                                          alt="">
                                     <div class="overlay">
                                         <div class="content-center text-center">
@@ -195,7 +195,7 @@
                                 data-gallery-item="2" data-lazy-item="true">
                                 <div class="wrap">
                                     <img class="gimg"
-                                         src="././images/3d-renderings/003.png"
+                                         src="/images/3d-renderings/003.png"
                                          alt="">
                                     <div class="overlay">
                                         <div class="content-center text-center">
@@ -265,7 +265,7 @@
                                target="_blank">
                                 <div class="section-link-wrap section-link-wrap-left">
                                     <img class="gimg"
-                                         src="././images/3d-renderings/99_Queen_St_exterior.jpg">
+                                         src="/images/3d-renderings/99_Queen_St_exterior.jpg">
                                     <div class="overlay">
                                         <div class="content-center text-center">
                                             <div class="wrap">
@@ -303,7 +303,7 @@
                                target="_blank">
                                 <div class="section-link-wrap section-link-wrap-right">
                                     <img class="gimg"
-                                         src="././images/3d-renderings/Catalog_renderings_6.jpg">
+                                         src="/images/3d-renderings/Catalog_renderings_6.jpg">
                                     <div class="overlay">
                                         <div class="content-center text-center">
                                             <div class="wrap">
