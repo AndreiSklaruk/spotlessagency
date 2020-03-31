@@ -1120,7 +1120,8 @@
 
         .vc_custom_1508401560329 {
             padding-right: 10% !important;
-        }</style>
+        }
+    </style>
     <noscript>
         <style type="text/css">
             .wpb_animate_when_almost_visible {
