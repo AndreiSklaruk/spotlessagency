@@ -1171,7 +1171,7 @@
     {{--    <script type="text/javascript" charset="UTF-8"--}}
     {{--            src="./Virtual Staging _ Sell Properties Faster With Spotless Agency_files/controls.js.Без названия"></script>--}}
 </head>
-
+page-template-default page  norebro-theme-1-0-0 wpb-js-composer js-comp-ver-5.4.7 vc_responsive
 <body
     class="page-template-default page norebro-theme-1-0-0 wpb-js-composer js-comp-ver-5.4.7 vc_responsive @yield('bodyClasses')"
     data-aos-easing="ease" data-aos-duration="400" data-aos-delay="0">
@@ -1255,7 +1255,7 @@
                                         </li>
                                         <li id="nav-menu-item-14393-5e75fd3eb4052"
                                             class="mega-menu-item sub-nav-item menu-item-depth-1 has-submenu "><a
-                                                href="https://www.spotlessagency.com/3d-renderings/"
+                                                href="/3d-renderings/"
                                                 class="menu-link sub-menu-link"><span>3D Renderings</span></a>
                                             <div class="sub-sub-nav">
                                                 <ul class="menu-depth-2 sub-sub-menu">
@@ -1384,7 +1384,7 @@
                                         class="menu-link sub-menu-link"><span>Floor Plan Visualization</span></a></li>
                                 <li id="nav-menu-item-14393-5e75fd3ec5858"
                                     class="mega-menu-item sub-nav-item menu-item-depth-1 has-submenu "><a
-                                        href="https://www.spotlessagency.com/3d-renderings/"
+                                        href="/3d-renderings/"
                                         class="menu-link sub-menu-link"><span>3D Renderings</span></a>
                                     <div class="sub-sub-nav">
                                         <ul class="menu-depth-2 sub-sub-menu">

@@ -27,3 +27,7 @@ Route::get('/flor-plan-visualization', function () {
     return view('/floor-plan/floor-plan');
 });
 
+Route::get('/3d-renderings', function () {
+    return view('/3d-rendering/3d-rendering');
+});
+
