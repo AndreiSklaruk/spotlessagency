@@ -23,7 +23,7 @@ Route::get('/main', function () {
     return view('app');
 });
 
-Route::get('/floor-plan', function () {
+Route::get('/flor-plan-visualization', function () {
     return view('/floor-plan/floor-plan');
 });
 

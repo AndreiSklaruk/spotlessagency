@@ -1250,7 +1250,7 @@
                                     <ul class="menu-depth-1 sub-menu sub-nav-group" style="left: 0px;">
                                         <li id="nav-menu-item-14394-5e75fd3eb3e59"
                                             class="mega-menu-item sub-nav-item menu-item-depth-1 "><a
-                                                href="https://www.spotlessagency.com/flor-plan-visualization/"
+                                                href="/flor-plan-visualization/"
                                                 class="menu-link sub-menu-link"><span>Floor Plan Visualization</span></a>
                                         </li>
                                         <li id="nav-menu-item-14393-5e75fd3eb4052"
@@ -1380,7 +1380,7 @@
                             <ul class="menu-depth-1 sub-menu sub-nav-group">
                                 <li id="nav-menu-item-14394-5e75fd3ec5239"
                                     class="mega-menu-item sub-nav-item menu-item-depth-1 "><a
-                                        href="https://www.spotlessagency.com/flor-plan-visualization/"
+                                        href="/flor-plan-visualization/"
                                         class="menu-link sub-menu-link"><span>Floor Plan Visualization</span></a></li>
                                 <li id="nav-menu-item-14393-5e75fd3ec5858"
                                     class="mega-menu-item sub-nav-item menu-item-depth-1 has-submenu "><a
