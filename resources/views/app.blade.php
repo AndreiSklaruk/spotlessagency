@@ -33,7 +33,7 @@
         }
     </style>
     <link type="text/css" rel="stylesheet"
-          href="./external_css/css.css">
+          href="/external_css/css.css">
     <style>
         .gm-ui-hover-effect {
             opacity: .6
@@ -179,7 +179,7 @@
         }(window, document, window._wpemojiSettings);
     </script>
     <script
-        src="./external_js/wp-emoji-release.min.js"
+        src="/external_js/wp-emoji-release.min.js"
         type="text/javascript" defer=""></script>
     <style type="text/css">
         img.wp-smiley,
@@ -196,25 +196,25 @@
         }
     </style>
     <link rel="stylesheet" id="wp-block-library-css"
-          href="./external_css/style.min.css" type="text/css"
+          href="/external_css/style.min.css" type="text/css"
           media="all">
     <link rel="stylesheet" id="contact-form-7-css"
-          href="./external_css/styles.css" type="text/css"
+          href="/external_css/styles.css" type="text/css"
           media="all">
     <link rel="stylesheet" id="cf7cf-style-css"
-          href="./external_css/style.css" type="text/css"
+          href="/external_css/style.css" type="text/css"
           media="all">
     <link rel="stylesheet" id="rs-plugin-settings-css"
-          href="./external_css/settings.css" type="text/css"
+          href="/external_css/settings.css" type="text/css"
           media="all">
     <link rel="stylesheet" id="twentytwenty-style-css"
-          href="./external_css/twentytwenty.css" type="text/css"
+          href="/external_css/twentytwenty.css" type="text/css"
           media="all">
     <link rel="stylesheet" id="parent-style-css"
-          href="./external_css/style(1).css" type="text/css"
+          href="/external_css/style(1).css" type="text/css"
           media="all">
     <link rel="stylesheet" id="norebro-style-css"
-          href="./external_css/style(2).css" type="text/css"
+          href="/external_css/style(2).css" type="text/css"
           media="all">
     <style id="norebro-style-inline-css" type="text/css">
         #masthead.site-header, #mega-menu-wrap ul li, #masthead .menu-other > li > a, #masthead.site-header .header-bottom .copyright {
@@ -231,7 +231,7 @@
 
         .header-title .bg-image {
             background-color: #f5fafd;
-            background-image: url('./images/Michele_Living_Dining_staged_corrected.jpg');
+            background-image: url('/images/Michele_Living_Dining_staged_corrected.jpg');
             background-size: cover;
         }
 
@@ -481,13 +481,13 @@
         }
     </style>
     <link rel="stylesheet" id="norebro-grid-css"
-          href="./external_css/grid.min.css" type="text/css"
+          href="/external_css/grid.min.css" type="text/css"
           media="all">
     <link rel="stylesheet" id="js_composer_front-css"
-          href="./external_css/js_composer.min.css"
+          href="/external_css/js_composer.min.css"
           type="text/css" media="all">
     <link rel="stylesheet" id="popup-maker-site-css"
-          href="./external_css/site.min.css" type="text/css"
+          href="/external_css/site.min.css" type="text/css"
           media="all">
     <style id="popup-maker-site-inline-css" type="text/css">
         /* Popup Google Fonts */
@@ -788,19 +788,19 @@
 
     </style>
     <script type="text/javascript"
-            src="./external_js/jquery/jquery.js"></script>
+            src="/external_js/jquery/jquery.js"></script>
     <script type="text/javascript"
-            src="./external_js/jquery/jquery-migrate.min.js"></script>
+            src="/external_js/jquery/jquery-migrate.min.js"></script>
     <script type="text/javascript"
-            src="./external_js/revslider/jquery.themepunch.tools.min.js"></script>
+            src="/external_js/revslider/jquery.themepunch.tools.min.js"></script>
     <script type="text/javascript"
-            src="./external_js/revslider/jquery.themepunch.revolution.min.js"></script>
+            src="/external_js/revslider/jquery.themepunch.revolution.min.js"></script>
     <script type="text/javascript"
-            src="./external_js/norebro/twentytwenty/jquery.event.move.js"></script>
+            src="/external_js/norebro/twentytwenty/jquery.event.move.js"></script>
     <script type="text/javascript"
-            src="./external_js/norebro/twentytwenty/jquery.twentytwenty.js"></script>
+            src="/external_js/norebro/twentytwenty/jquery.twentytwenty.js"></script>
     <script type="text/javascript"
-            src="./external_js/norebro/customjs.js"></script>
+            src="/external_js/norebro/customjs.js"></script>
     <link rel="https://api.w.org/" href="https://www.spotlessagency.com/wp-json/">
     <link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://www.spotlessagency.com/xmlrpc.php?rsd">
     <link rel="wlwmanifest" type="application/wlwmanifest+xml"
@@ -820,18 +820,18 @@
     <meta name="generator" content="Powered by WPBakery Page Builder - drag and drop page builder for WordPress.">
     <!--[if lte IE 9]>
     <link rel="stylesheet" type="text/css"
-          href="./external_css/js_composer/vc_lte_ie9.min.css"
+          href="/external_css/js_composer/vc_lte_ie9.min.css"
           media="screen"><![endif]-->
     <meta name="generator"
           content="Powered by Slider Revolution 5.4.6.3.1 - responsive, Mobile-Friendly Slider Plugin for WordPress with comfortable drag and drop interface.">
-    <link rel="icon" href="./favicon/cropped-favicon-32x32.png"
+    <link rel="icon" href="/favicon/cropped-favicon-32x32.png"
           sizes="32x32">
-    <link rel="icon" href="./favicon/cropped-favicon-192x192.png"
+    <link rel="icon" href="/favicon/cropped-favicon-192x192.png"
           sizes="192x192">
     <link rel="apple-touch-icon-precomposed"
-          href="./favicon/cropped-favicon-180x180.png">
+          href="/favicon/cropped-favicon-180x180.png">
     <meta name="msapplication-TileImage"
-          content="./favicon/cropped-favicon-270x270.png">
+          content="/favicon/cropped-favicon-270x270.png">
     <script type="text/javascript">
         function setREVStartSize(e) {
             try {
@@ -1171,7 +1171,6 @@
     {{--    <script type="text/javascript" charset="UTF-8"--}}
     {{--            src="./Virtual Staging _ Sell Properties Faster With Spotless Agency_files/controls.js.Без названия"></script>--}}
 </head>
-page-template-default page  norebro-theme-1-0-0 wpb-js-composer js-comp-ver-5.4.7 vc_responsive
 <body
     class="page-template-default page norebro-theme-1-0-0 wpb-js-composer js-comp-ver-5.4.7 vc_responsive @yield('bodyClasses')"
     data-aos-easing="ease" data-aos-duration="400" data-aos-delay="0">
@@ -1185,7 +1184,7 @@ page-template-default page  norebro-theme-1-0-0 wpb-js-composer js-comp-ver-5.4.
 </div>
 
 <a class="scroll-top" id="page-scroll-top">
-    <img src="./images/svg/scroll-top.svg" alt="Scroll to top">
+    <img src="/images/svg/scroll-top.svg" alt="Scroll to top">
 </a>
 
 <div id="page" class="site">
@@ -1195,30 +1194,30 @@ page-template-default page  norebro-theme-1-0-0 wpb-js-composer js-comp-ver-5.4.
         <div class="header-wrap page-container">
             <div class="site-branding">
                 <p class="site-title">
-                    <a href="https://www.spotlessagency.com/" rel="home">
+                    <a href="{{url('/')}}" rel="home">
                         <!-- diff in display none-->
                         <span class="logo with-mobile" style="display: inline;">
-                            <img src="./images/logo_grey.png"
-                                 srcset="./images/logo_grey.png 2x"
+                            <img src="/images/logo_grey.png"
+                                 srcset="/images/logo_grey.png 2x"
                                  alt="Spotless Agency">
                         </span>
                         <span class="fixed-logo">
-                            <img src="./images/logo_grey.png"
-                                 srcset="./images/logo_grey.png 2x"
+                            <img src="/images/logo_grey.png"
+                                 srcset="/images/logo_grey.png 2x"
                                  alt="Spotless Agency">
                         </span>
                         <span class="mobile-logo" style="display: none;">
-                            <img src="./images/logo_grey.png"
+                            <img src="/images/logo_grey.png"
                                  class=" alt=" spotless="" agency="">
                         </span>
                         <span class="fixed-mobile-logo">
-                            <img src="./images/logo_grey.png" class=""
+                            <img src="/images/logo_grey.png" class=""
                                  alt="Spotless Agency">
                         </span>
                         <span class="for-onepage">
                             <span class="dark hidden">
-                                <img src="./images/logo_grey.png"
-                                     srcset="./images/logo_grey.png 2x"
+                                <img src="/images/logo_grey.png"
+                                     srcset="/images/logo_grey.png 2x"
                                      alt="Spotless Agency">
                             </span>
 				            <span class="light hidden">Spotless Agency</span>
@@ -1235,7 +1234,7 @@ page-template-default page  norebro-theme-1-0-0 wpb-js-composer js-comp-ver-5.4.
                         <ul id="primary-menu" class="menu">
                             <li id="nav-menu-item-13198-5e75fd3eb39f0"
                                 class="mega-menu-item nav-item menu-item-depth-0 current-menu-item"><a
-                                    href="https://www.spotlessagency.com/" class="menu-link main-menu-link item-title"
+                                    href="{{url('/')}}" class="menu-link main-menu-link item-title"
                                     id="accessible-megamenu-1584787256649-1"><span>Home</span></a></li>
                             <li id="nav-menu-item-13269-5e75fd3eb3be9"
                                 class="mega-menu-item nav-item menu-item-depth-0 has-submenu"><a
@@ -1261,7 +1260,7 @@ page-template-default page  norebro-theme-1-0-0 wpb-js-composer js-comp-ver-5.4.
                                                 <ul class="menu-depth-2 sub-sub-menu">
                                                     <li id="nav-menu-item-14395-5e75fd3eb433e"
                                                         class="mega-menu-item sub-nav-item menu-item-depth-2 "><a
-                                                            href="https://www.spotlessagency.com/3d-renderings/architectural-visualization/"
+                                                            href="/3d-renderings/architectural-visualization/"
                                                             class="menu-link sub-menu-link"><span>Architectural Visualization</span></a>
                                                     </li>
                                                     <li id="nav-menu-item-13272-5e75fd3eb4609"
@@ -1355,10 +1354,10 @@ page-template-default page  norebro-theme-1-0-0 wpb-js-composer js-comp-ver-5.4.
     <div class="fullscreen-navigation" id="fullscreen-mega-menu">
         <div class="site-branding">
             <p class="site-title">
-                <a href="https://www.spotlessagency.com/" rel="home">
+                <a href="{{url('/')}}" rel="home">
 												<span class="first-logo">
-						<img src="./images/logo_grey.png"
-                             srcset="./images/logo_grey.png 2x"
+						<img src="/images/logo_grey.png"
+                             srcset="/images/logo_grey.png 2x"
                              alt="Spotless Agency">
 					</span>
                 </a>
@@ -1369,7 +1368,7 @@ page-template-default page  norebro-theme-1-0-0 wpb-js-composer js-comp-ver-5.4.
                 <ul id="secondary-menu" class="menu">
                     <li id="nav-menu-item-13198-5e75fd3ec451f"
                         class="mega-menu-item nav-item menu-item-depth-0 current-menu-item"><a
-                            href="https://www.spotlessagency.com/" class="menu-link main-menu-link item-title sub-nav"
+                            href="{{url('/')}}" class="menu-link main-menu-link item-title sub-nav"
                             id="accessible-megamenu-1584787256659-10" role="group" aria-expanded="false"
                             aria-hidden="true"><span>Home</span></a></li>
                     <li id="nav-menu-item-13269-5e75fd3ec4bf3"
@@ -1390,7 +1389,7 @@ page-template-default page  norebro-theme-1-0-0 wpb-js-composer js-comp-ver-5.4.
                                         <ul class="menu-depth-2 sub-sub-menu">
                                             <li id="nav-menu-item-14395-5e75fd3ec5e88"
                                                 class="mega-menu-item sub-nav-item menu-item-depth-2 "><a
-                                                    href="https://www.spotlessagency.com/3d-renderings/architectural-visualization/"
+                                                    href="/3d-renderings/architectural-visualization/"
                                                     class="menu-link sub-menu-link"><span>Architectural Visualization</span></a>
                                             </li>
                                             <li id="nav-menu-item-13272-5e75fd3ec648b"
@@ -1458,7 +1457,7 @@ page-template-default page  norebro-theme-1-0-0 wpb-js-composer js-comp-ver-5.4.
 
         @yield('contentTitle')
 
-        <div class="page-container">
+        <div class="page-container @yield('page-containerClasses')">
             <div id="primary" class="content-area">
 
                 <div class="page-content ">
@@ -1571,9 +1570,9 @@ page-template-default page  norebro-theme-1-0-0 wpb-js-composer js-comp-ver-5.4.
                                     <a href="https://www.spotlessagency.com/blog/top-12-secrets-of-the-real-estate-industry/"
                                        class="more">
                                         <img width="150" height="150"
-                                             src="./images/Untitled-new-1-150x150.jpg"
+                                             src="/images/Untitled-new-1-150x150.jpg"
                                              class="attachment-thumbnail size-thumbnail wp-post-image" alt=""
-                                             srcset="./images/Untitled-new-1-150x150.jpg 150w, ./images/Untitled-new-1-200x200.jpg 200w"
+                                             srcset="/images/Untitled-new-1-150x150.jpg 150w, /images/Untitled-new-1-200x200.jpg 200w"
                                              sizes="(max-width: 150px) 100vw, 150px"> </a>
 
 
@@ -1600,9 +1599,9 @@ page-template-default page  norebro-theme-1-0-0 wpb-js-composer js-comp-ver-5.4.
                                     <a href="https://www.spotlessagency.com/blog/can-modern-technology-substitute-real-estate-agents/"
                                        class="more">
                                         <img width="150" height="150"
-                                             src="./images/Andre_S-150x150.jpg"
+                                             src="/images/Andre_S-150x150.jpg"
                                              class="attachment-thumbnail size-thumbnail wp-post-image" alt=""
-                                             srcset="./images/Andre_S-150x150.jpg 150w, ./images/Andre_S-200x200.jpg 200w"
+                                             srcset="/images/Andre_S-150x150.jpg 150w, /images/Andre_S-200x200.jpg 200w"
                                              sizes="(max-width: 150px) 100vw, 150px"> </a>
 
 
@@ -2118,433 +2117,16 @@ page-template-default page  norebro-theme-1-0-0 wpb-js-composer js-comp-ver-5.4.
 {{--    }, false);--}}
 {{--</script>--}}
 <link rel="stylesheet" id="animate-css-css"
-      href="./external_css/animate.min.css" type="text/css"
+      href="{{asset('external_css/animate.min.css')}}" type="text/css"
       media="all">
-<link rel="stylesheet" id="aos-css" href="./external_css/aos.css"
+<link rel="stylesheet" id="aos-css" href="/external_css/aos.css"
       type="text/css" media="all">
 <link rel="stylesheet" id="ionicons-css"
-      href="./external_css/ionicons.min.css" type="text/css"
+      href="/external_css/ionicons.min.css" type="text/css"
       media="all">
 <link rel="stylesheet" id="font-awesome-css"
-      href="./external_css/font-awesome.min.css" type="text/css"
+      href="/external_css/font-awesome.min.css" type="text/css"
       media="all">
-<style id="shortcodes-settings-inline-css" type="text/css">
-    #norebro-custom-5e75fd3f5a2f5 h1 {
-        color: #404044;
-        font-size: 62px;
-        line-height: 82px;
-        font-weight: 600;
-    }
-
-    #norebro-custom-5e75fd3f5a2f5 p.subtitle {
-        color: #373c40;
-        font-size: 18px;
-        font-weight: 100;
-    }
-
-    #norebro-custom-5e75fd3f5ad72 .btn {
-        border-color: #f3b435;
-        color: #f3b435;
-        color: #f3b435;
-        font-weight: 500;
-        text-transform: uppercase;
-    }
-
-    #norebro-custom-5e75fd3f5ad72 .btn:hover {
-        color: #fff;
-        background-color: #f3b435;
-        border-color: #f3b435;
-        color: #ffffff;
-    }
-
-    #norebro-custom-5e75fd3f5d82e {
-        color: #ebeff4;
-        font-size: 80px;
-        letter-spacing: -1px;
-        font-weight: 600;
-    }
-
-    #norebro-custom-5e75fd3f6036a h2 {
-        font-size: 38px;
-        font-weight: 600;
-    }
-
-    #norebro-custom-5e75fd3f6036a p.subtitle {
-        color: #373c40;
-        font-size: 18px;
-    }
-
-    #norebro-custom-5e75fd3f61b27 p.subtitle {
-        color: #5e646a;
-        font-size: 16px;
-    }
-
-    #norebro-custom-5e75fd3f6258f p.subtitle {
-        color: #5e646a;
-        font-size: 16px;
-    }
-
-    #norebro-custom-5e75fd3f63b2b h2 {
-        color: #404044;
-        font-size: 38px;
-        font-weight: 600;
-    }
-
-    #norebro-custom-5e75fd3f68c0b .number {
-        color: rgba(0, 0, 0, 0.04);
-        font-size: 102px;
-    }
-
-    #norebro-custom-5e75fd3f68c0b h3 {
-        color: #404044;
-        font-size: 32px;
-    }
-
-    #norebro-custom-5e75fd3f68c0b .description {
-        font-size: 16px;
-    }
-
-    #norebro-custom-5e75fd3f69c14, #norebro-custom-5e75fd3f69c14 > * {
-        font-size: 16px;
-        line-height: 28px;
-    }
-
-    #norebro-custom-5e75fd3f6c095 .number {
-        color: rgba(0, 0, 0, 0.04);
-        font-size: 102px;
-    }
-
-    #norebro-custom-5e75fd3f6c095 h3 {
-        color: #404044;
-        font-size: 32px;
-    }
-
-    #norebro-custom-5e75fd3f6c095 .description {
-        font-size: 16px;
-    }
-
-    #norebro-custom-5e75fd3f6c64e, #norebro-custom-5e75fd3f6c64e > * {
-        font-size: 16px;
-        line-height: 28px;
-    }
-
-    #norebro-custom-5e75fd3f74e3f .number {
-        color: rgba(0, 0, 0, 0.04);
-        font-size: 102px;
-    }
-
-    #norebro-custom-5e75fd3f74e3f h3 {
-        color: #404044;
-        font-size: 32px;
-    }
-
-    #norebro-custom-5e75fd3f74e3f .description {
-        font-size: 16px;
-    }
-
-    #norebro-custom-5e75fd3f753b7, #norebro-custom-5e75fd3f753b7 > * {
-        font-size: 16px;
-        line-height: 28px;
-    }
-
-    #norebro-custom-5e75fd3f77b3a .number {
-        color: rgba(0, 0, 0, 0.04);
-        font-size: 102px;
-    }
-
-    #norebro-custom-5e75fd3f77b3a h3 {
-        color: #404044;
-        font-size: 32px;
-    }
-
-    #norebro-custom-5e75fd3f77b3a .description {
-        font-size: 16px;
-    }
-
-    #norebro-custom-5e75fd3f780e6, #norebro-custom-5e75fd3f780e6 > * {
-        font-size: 16px;
-        line-height: 28px;
-    }
-
-    #norebro-custom-5e75fd3f7feca {
-        color: #ebeff4;
-        font-size: 80px;
-        letter-spacing: -1px;
-        font-weight: 600;
-    }
-
-    #norebro-custom-5e75fd3f81a29 h3 {
-        color: #404044;
-        font-size: 36px;
-        line-height: 58px;
-        font-weight: 600;
-    }
-
-    #norebro-custom-5e75fd3f8d562 div.portfolio-item-wrap {
-        padding: 15px;
-    }
-
-    #norebro-custom-5e75fd3f8d562 div.vc_row {
-        margin: -15px;
-    }
-
-    #norebro-custom-5e75fd3f8d562 .portfolio-item .category {
-        color: #ffffff;
-    }
-
-    #norebro-custom-5e75fd3f8d562 .portfolio-item h4, #norebro-custom-5e75fd3f8d562 .portfolio-item h4 a {
-        color: #555555;
-    }
-
-    #norebro-custom-5e75fd3fe3785 .btn {
-        border-color: #f3b435;
-        color: #f3b435;
-        color: #f3b435;
-        font-weight: 500;
-        text-transform: uppercase;
-    }
-
-    #norebro-custom-5e75fd3fe3785 .btn:hover {
-        color: #fff;
-        background-color: #f3b435;
-        border-color: #f3b435;
-        color: #ffffff;
-    }
-
-    #norebro-custom-5e75fd3fe455f {
-        color: #f1f4f8;
-        font-size: 80px;
-        letter-spacing: -1px;
-        font-weight: 600;
-    }
-
-    #norebro-custom-5e75fd3fedad4 h3 {
-        font-size: 36px;
-        font-weight: 600;
-    }
-
-    #norebro-custom-5e75fd4005911 h3 {
-        color: #404044;
-        font-size: 32px;
-        line-height: 50px;
-        font-weight: 600;
-        margin-top: 0px;
-        margin-bottom: 0px;
-    }
-
-    #norebro-custom-5e75fd4005911 p.subtitle {
-        color: #718091;
-        margin-top: 0px;
-        margin-bottom: 0px;
-    }
-
-    #norebro-custom-5e75fd4005d48 {
-        margin: 0 -7.5px;
-    }
-
-    #norebro-custom-5e75fd4005d48 > .owl-stage-outer > .owl-stage > .owl-item {
-        padding-left: 15px;
-        padding-right: 15px;
-    }
-
-    #norebro-custom-5e75fd4005d48 > .owl-dots > .owl-dot.active, #norebro-custom-5e75fd4005d48 > .owl-dots > .owl-dot:hover {
-        border-color: #373c40;
-    }
-
-    #norebro-custom-5e75fd4005d48 .owl-dot:after {
-        background-color: #373c40;
-    }
-
-    #norebro-custom-5e75fd4007b9a blockquote {
-        color: #5e646a;
-        font-size: 12px;
-        line-height: 18px;
-    }
-
-    #norebro-custom-5e75fd4007b9a h4.title {
-        color: #5e646a;
-    }
-
-    #norebro-custom-5e75fd4008bcb .btn {
-        border-color: #f3b435;
-        color: #f3b435;
-        color: #f3b435;
-        font-weight: 500;
-    }
-
-    #norebro-custom-5e75fd4008bcb .btn:hover {
-        color: #fff;
-        background-color: #f3b435;
-        border-color: #f3b435;
-        color: #ffffff;
-    }
-
-    #norebro-custom-5e75fd40099f7 blockquote {
-        color: #5e646a;
-        font-size: 12px;
-        line-height: 20px;
-    }
-
-    #norebro-custom-5e75fd40099f7 h4.title {
-        color: #5e646a;
-    }
-
-    #norebro-custom-5e75fd400a130 .btn {
-        border-color: #f3b435;
-        color: #f3b435;
-        color: #f3b435;
-        font-weight: 500;
-    }
-
-    #norebro-custom-5e75fd400a130 .btn:hover {
-        color: #fff;
-        background-color: #f3b435;
-        border-color: #f3b435;
-        color: #ffffff;
-    }
-
-    #norebro-custom-5e75fd400aee0 blockquote {
-        color: #5e646a;
-        font-size: 12px;
-        line-height: 20px;
-    }
-
-    #norebro-custom-5e75fd400aee0 h4.title {
-        color: #5e646a;
-    }
-
-    #norebro-custom-5e75fd400b588 .btn {
-        border-color: #f3b435;
-        color: #f3b435;
-        color: #f3b435;
-        font-weight: 500;
-    }
-
-    #norebro-custom-5e75fd400b588 .btn:hover {
-        color: #fff;
-        background-color: #f3b435;
-        border-color: #f3b435;
-        color: #ffffff;
-    }
-
-    #norebro-custom-5e75fd400bfec blockquote {
-        color: #5e646a;
-        font-size: 12px;
-        line-height: 20px;
-    }
-
-    #norebro-custom-5e75fd400bfec h4.title {
-        color: #5e646a;
-    }
-
-    #norebro-custom-5e75fd400c6f6 .btn {
-        border-color: #f3b435;
-        color: #f3b435;
-        color: #f3b435;
-        font-weight: 500;
-    }
-
-    #norebro-custom-5e75fd400c6f6 .btn:hover {
-        color: #fff;
-        background-color: #f3b435;
-        border-color: #f3b435;
-        color: #ffffff;
-    }
-
-    #norebro-custom-5e75fd400d4fc blockquote {
-        color: #5e646a;
-        font-size: 12px;
-        line-height: 20px;
-    }
-
-    #norebro-custom-5e75fd400d4fc h4.title {
-        color: #5e646a;
-    }
-
-    #norebro-custom-5e75fd400dc12 .btn {
-        border-color: #f3b435;
-        color: #f3b435;
-        color: #f3b435;
-        font-weight: 500;
-    }
-
-    #norebro-custom-5e75fd400dc12 .btn:hover {
-        color: #fff;
-        background-color: #f3b435;
-        border-color: #f3b435;
-        color: #ffffff;
-    }
-
-    #norebro-custom-5e75fd400f998 {
-        color: #ebeff4;
-        font-size: 80px;
-        letter-spacing: -1px;
-        font-weight: 600;
-    }
-
-    #norebro-custom-5e75fd40106a6 h3 {
-        color: #404044;
-        font-size: 32px;
-        line-height: 58px;
-        font-weight: 600;
-        margin-top: 0px;
-        margin-bottom: 0px;
-    }
-
-    #norebro-custom-5e75fd40106a6 p.subtitle {
-        color: #718091;
-        margin-top: 0px;
-        margin-bottom: 0px;
-    }
-
-    #norebro-custom-5e75fd4010b00 input:not([type='submit']), #norebro-custom-5e75fd4010b00 textarea, #norebro-custom-5e75fd4010b00 select {
-        color: #5e646a;
-    }
-
-    #norebro-custom-5e75fd4010b00 input::-webkit-input-placeholder, #norebro-custom-5e75fd4010b00 textarea::-webkit-input-placeholder {
-        color: #5e646a;
-    }
-
-    #norebro-custom-5e75fd4010b00 input::-moz-input-placeholder, #norebro-custom-5e75fd4010b00 textarea::-moz-input-placeholder {
-        color: #5e646a;
-    }
-
-    #norebro-custom-5e75fd4010b00 input::-ms-input-placeholder, #norebro-custom-5e75fd4010b00 textarea::-ms-input-placeholder {
-        color: #5e646a;
-    }
-
-    #norebro-custom-5e75fd4010b00 input::-moz-placeholder, #norebro-custom-5e75fd4010b00 textarea::-moz-placeholder {
-        color: #5e646a;
-    }
-
-    #norebro-custom-5e75fd4010b00 input:focus, #norebro-custom-5e75fd4010b00 .focus.active, #norebro-custom-5e75fd4010b00 textarea:focus {
-        border-color: #5e646a;
-    }
-
-    #norebro-custom-5e75fd4010b00 button.btn {
-        border-color: #f3b435;
-        color: #f3b435;
-        color: #f3b435;
-    }
-
-    #norebro-custom-5e75fd4010b00 button.btn:hover {
-        background: #f3b435;
-        background: #f3b435;
-        border-color: #f3b435;
-        color: #fff;
-        color: #ffffff !important;
-    }
-
-    #norebro-custom-5e75fd4010b00 label {
-        padding-top: 20px;
-        padding-right: 20px;
-    }
-
-    #norebro-custom-5e75fd4016d9a {
-        height: 100%;
-        position: relative;
-    }
-</style>
 <link rel="stylesheet" id="norebro-global-fonts-css"
       href="//fonts.googleapis.com/css?family=Poppins%3A300%2C400%2C500%2C600%2C700&ver=1.0.0" type="text/css" media="all">
 @yield('cssBottom')
@@ -2577,17 +2159,17 @@ page-template-default page  norebro-theme-1-0-0 wpb-js-composer js-comp-ver-5.4.
     /* ]]> */
 </script>
 <script type="text/javascript"
-        src="./external_js/scripts.js"></script>
+        src="/external_js/scripts.js"></script>
 <script type="text/javascript"
-        src="./external_js/scripts_1.js"></script>
+        src="/external_js/scripts_1.js"></script>
 <script type="text/javascript"
-        src="./external_js/api.js"></script>
+        src="/external_js/api.js"></script>
 <script type="text/javascript"
-        src="./external_js/woocommerce-hack.js"></script>
+        src="/external_js/woocommerce-hack.js"></script>
 <script type="text/javascript"
-        src="./external_js/core.min.js"></script>
+        src="/external_js/core.min.js"></script>
 <script type="text/javascript"
-        src="./external_js/position.min.js"></script>
+        src="/external_js/position.min.js"></script>
 <script type="text/javascript">
     /* <![CDATA[ */
     var pum_vars = {
@@ -2751,39 +2333,39 @@ page-template-default page  norebro-theme-1-0-0 wpb-js-composer js-comp-ver-5.4.
     /* ]]> */
 </script>
 <script type="text/javascript"
-        src="./external_js/site.min.js"></script>
+        src="/external_js/site.min.js"></script>
 <script type="text/javascript"
-        src="./external_js/wp-embed.min.js"></script>
+        src="/external_js/wp-embed.min.js"></script>
 <script type="text/javascript"
-        src="./external_js/js_composer_front.min.js"></script>
+        src="/external_js/js_composer_front.min.js"></script>
 <script type="text/javascript"
-        src="./external_js/waypoints.min.js"></script>
+        src="/external_js/waypoints.min.js"></script>
 <script type="text/javascript"
-        src="./external_js/imagesloaded.min.js"></script>
+        src="/external_js/imagesloaded.min.js"></script>
 <script type="text/javascript"
-        src="./external_js/masonry.min.js"></script>
+        src="/external_js/masonry.min.js"></script>
 <script type="text/javascript"
-        src="./external_js/jquery.masonry.min.js"></script>
+        src="/external_js/jquery.masonry.min.js"></script>
 <script type="text/javascript"
-        src="./external_js/underscore.min.js"></script>
+        src="/external_js/underscore.min.js"></script>
 <script type="text/javascript"
-        src="./external_js/aos.js"></script>
+        src="/external_js/aos.js"></script>
 <script type="text/javascript"
-        src="./external_js/isotope.pkgd.min.js"></script>
+        src="/external_js/isotope.pkgd.min.js"></script>
 <script type="text/javascript"
-        src="./external_js/jquery.mega-menu.min.js"></script>
+        src="/external_js/jquery.mega-menu.min.js"></script>
 <script type="text/javascript"
-        src="./external_js/navigation.js"></script>
+        src="/external_js/navigation.js"></script>
 <script type="text/javascript"
-        src="./external_js/skip-link-focus-fix.js"></script>
+        src="/external_js/skip-link-focus-fix.js"></script>
 <script type="text/javascript"
-        src="./external_js/owl.carousel.min.js"></script>
+        src="/external_js/owl.carousel.min.js"></script>
 <script type="text/javascript"
-        src="./external_js/scroll-smooth.min.js"></script>
+        src="/external_js/scroll-smooth.min.js"></script>
 {{-- do we need this --}}
 {{-- <script type="text/javascript" src="./Virtual Staging _ Sell Properties Faster With Spotless Agency_files/js"></script> --}}
 <script type="text/javascript"
-        src="./external_js/main.js"></script>
+        src="/external_js/main.js"></script>
 
 <script type="text/javascript">
     _linkedin_partner_id = "474818";

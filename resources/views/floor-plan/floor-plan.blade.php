@@ -22,6 +22,8 @@
     </div> <!-- .header-title -->
 @endsection
 
+@section('page-containerClasses', 'without-breadcrumbs bottom-offset')
+
 @section('content')
     <div class="vc_row wpb_row vc_row-fluid">
         <div class="wpb_column vc_column_container vc_col-sm-3 vc_col-lg-3 vc_col-md-3">
@@ -491,6 +493,82 @@
 @section('cssBottom')
     <link rel="stylesheet" id="icon-pack-linea-basic-css"
           href="./external_css/norebro/fonts/style.css" type="text/css" media="all">
+    <style id="shortcodes-settings-inline-css" type="text/css">
+        #norebro-custom-5e838c5f2b012 h3 {
+            color: #404044;
+            font-size: 34px;
+        }
+
+        #norebro-custom-5e838c5f2bc51, #norebro-custom-5e838c5f2bc51 > * {
+            font-size: 16px;
+        }
+
+        #norebro-custom-5e838c5f2f9fc .gallery-image {
+            padding: 15px;
+        }
+
+        #norebro-custom-5e838c5f32c0c, #norebro-custom-5e838c5f32c0c > * {
+            font-size: 16px;
+        }
+
+        #norebro-custom-5e838c5f3db43 .gallery-image {
+            padding: 15px;
+        }
+
+        #norebro-custom-5e838c5f3f4dc h3 {
+            color: #404044;
+            font-size: 28px;
+            font-weight: 500;
+        }
+
+        #norebro-custom-5e838c5f3fb37 li h4 {
+            line-height: 20px;
+        }
+
+        #norebro-custom-5e838c5f3fb37 li .icon {
+            color: #f3b435;
+        }
+
+        #norebro-custom-5e838c5f4112a h3 {
+            color: #404044;
+            font-size: 28px;
+            font-weight: 500;
+        }
+
+        #norebro-custom-5e838c5f41602 input:not([type='submit']), #norebro-custom-5e838c5f41602 textarea, #norebro-custom-5e838c5f41602 select {
+            border-color: #dee2e7;
+            color: #5e646a;
+        }
+
+        #norebro-custom-5e838c5f41602 input::-webkit-input-placeholder, #norebro-custom-5e838c5f41602 textarea::-webkit-input-placeholder {
+            color: #5e646a;
+        }
+
+        #norebro-custom-5e838c5f41602 input::-moz-input-placeholder, #norebro-custom-5e838c5f41602 textarea::-moz-input-placeholder {
+            color: #5e646a;
+        }
+
+        #norebro-custom-5e838c5f41602 input::-ms-input-placeholder, #norebro-custom-5e838c5f41602 textarea::-ms-input-placeholder {
+            color: #5e646a;
+        }
+
+        #norebro-custom-5e838c5f41602 input::-moz-placeholder, #norebro-custom-5e838c5f41602 textarea::-moz-placeholder {
+            color: #5e646a;
+        }
+
+        #norebro-custom-5e838c5f41602 input:focus, #norebro-custom-5e838c5f41602 .focus.active, #norebro-custom-5e838c5f41602 textarea:focus {
+            border-color: #5e646a;
+        }
+
+        #norebro-custom-5e838c5f41602 button.btn:hover {
+            color: #ffffff !important;
+        }
+
+        #norebro-custom-5e838c5f41602 label {
+            padding-top: 10px;
+            padding-right: 10px;
+        }
+    </style>
 @endsection
 
 @section('bodyBottom')

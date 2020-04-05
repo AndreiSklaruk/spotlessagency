@@ -24,6 +24,8 @@
     </div> <!-- .header-title -->
 @endsection
 
+@section('page-containerClasses', 'without-breadcrumbs bottom-offset')
+
 @section('content')
     <div class="vc_row wpb_row vc_row-fluid">
         <div class="wpb_column vc_column_container vc_col-sm-3">
@@ -77,7 +79,7 @@
                                 data-gallery-item="0" data-lazy-item="true">
                                 <div class="wrap">
                                     <img class="gimg"
-                                         src="./Premium 3D rendering services provided by Spotless Agency_files/006_s.png"
+                                         src="././images/3d-renderings/006_s.png"
                                          alt="">
                                     <div class="overlay">
                                         <div class="content-center text-center">
@@ -147,7 +149,7 @@
                                 data-gallery-item="0" data-lazy-item="true">
                                 <div class="wrap">
                                     <img class="gimg"
-                                         src="./Premium 3D rendering services provided by Spotless Agency_files/001.png"
+                                         src="././images/3d-renderings/001.png"
                                          alt="">
                                     <div class="overlay">
                                         <div class="content-center text-center">
@@ -170,7 +172,7 @@
                                 data-gallery-item="1" data-lazy-item="true">
                                 <div class="wrap">
                                     <img class="gimg"
-                                         src="./Premium 3D rendering services provided by Spotless Agency_files/002.png"
+                                         src="././images/3d-renderings/002.png"
                                          alt="">
                                     <div class="overlay">
                                         <div class="content-center text-center">
@@ -193,7 +195,7 @@
                                 data-gallery-item="2" data-lazy-item="true">
                                 <div class="wrap">
                                     <img class="gimg"
-                                         src="./Premium 3D rendering services provided by Spotless Agency_files/003.png"
+                                         src="././images/3d-renderings/003.png"
                                          alt="">
                                     <div class="overlay">
                                         <div class="content-center text-center">
@@ -263,7 +265,7 @@
                                target="_blank">
                                 <div class="section-link-wrap section-link-wrap-left">
                                     <img class="gimg"
-                                         src="./Premium 3D rendering services provided by Spotless Agency_files/99_Queen_St_exterior.jpg">
+                                         src="././images/3d-renderings/99_Queen_St_exterior.jpg">
                                     <div class="overlay">
                                         <div class="content-center text-center">
                                             <div class="wrap">
@@ -301,7 +303,7 @@
                                target="_blank">
                                 <div class="section-link-wrap section-link-wrap-right">
                                     <img class="gimg"
-                                         src="./Premium 3D rendering services provided by Spotless Agency_files/Catalog_renderings_6.jpg">
+                                         src="././images/3d-renderings/Catalog_renderings_6.jpg">
                                     <div class="overlay">
                                         <div class="content-center text-center">
                                             <div class="wrap">
@@ -320,7 +322,59 @@
     </div>
 @endsection
 
+@section('cssBottom')
+    <style id="shortcodes-settings-inline-css" type="text/css">
+        #norebro-custom-5e890b3d27a74 h3 {
+            color: #404044;
+            font-size: 34px;
+        }
+
+        #norebro-custom-5e890b3d29119, #norebro-custom-5e890b3d29119 > * {
+            font-size: 16px;
+        }
+
+        #norebro-custom-5e890b3d2d3db .gallery-image {
+            padding: 15px;
+        }
+
+        #norebro-custom-5e890b3d2f346, #norebro-custom-5e890b3d2f346 > * {
+            font-size: 16px;
+        }
+
+        #norebro-custom-5e890b3d2f8f6, #norebro-custom-5e890b3d2f8f6 > * {
+            font-size: 16px;
+        }
+
+        #norebro-custom-5e890b3d34e8f .gallery-image {
+            padding: 15px;
+        }
+
+        #norebro-custom-5e890b3d35e0c, #norebro-custom-5e890b3d35e0c > * {
+            font-size: 16px;
+        }
+
+        #norebro-custom-5e890b3d36a9e h3 {
+            color: #404044;
+        }
+
+        #norebro-custom-5e890b3d3789a h3 {
+            color: #404044;
+        }
+    </style>
+@endsection
+
 @section('bodyBottom')
+    <div class="norebro-gallery-opened-sc gallery" id="norebro-custom-5e890b3d2d39b"
+         data-options="{&quot;navClass&quot;:&quot;&quot;}">
+
+        <div class="expand">
+            <span class="ion-android-expand"></span>
+        </div>
+        <div class="close">
+            <span class="ion-ios-close-empty"></span>
+        </div>
+
+    </div>
     <div class="norebro-gallery-opened-sc gallery" id="norebro-custom-5e890b3d34e4f"
          data-options="{&quot;navClass&quot;:&quot;&quot;}">
 
