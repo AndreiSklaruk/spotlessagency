@@ -1,4 +1,4 @@
-@extends('app')
+@extends('appWithFooter')
 
 @section('title', 'Premium 3D rendering services provided by Spotless Agency')
 

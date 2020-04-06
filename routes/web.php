@@ -31,7 +31,23 @@ Route::get('/3d-renderings', function () {
     return view('/3d-rendering/3d-rendering');
 });
 
+Route::get('/pricing', function () {
+    return view('/pricing/pricing');
+});
+
+Route::get('/about', function () {
+    return view('/about/about');
+});
+
+Route::get('/contact', function () {
+    return view('/contact/contact');
+});
+
 Route::get('/3d-renderings/architectural-visualization', function () {
     return view('/3d-rendering/architectural-visualization');
+});
+
+Route::get('/3d-renderings/furniture-renderings', function () {
+    return view('/3d-rendering/furniture-rendering');
 });
 
