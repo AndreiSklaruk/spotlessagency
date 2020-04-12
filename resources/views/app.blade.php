@@ -1,6 +1,6 @@
 @extends('index')
 
-@section('main-content')
+@section('base-content')
 
     @yield('contentTitle')
 

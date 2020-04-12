@@ -16,7 +16,7 @@ Route::get('/welcome', function () {
 });
 
 Route::get('/', function () {
-    return view('/home/home');
+    return view('home.home');
 });
 
 Route::get('/flor-plan-visualization', function () {
