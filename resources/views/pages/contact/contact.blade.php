@@ -618,7 +618,7 @@
                     <div class="vc_empty_space" style="height: 25px">
                         <span class="vc_empty_space_inner"></span>
                     </div>
-                    @include('contact.partial.contactForm')
+                    @include('pages.contact.partial.contactForm')
                 </div>
             </div>
         </div>
