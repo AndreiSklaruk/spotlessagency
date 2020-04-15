@@ -47,7 +47,7 @@
 
         <div class="content">
             <h3>
-                <a href="https://www.spotlessagency.com/blog/top-12-secrets-of-the-real-estate-industry/">{{ $entry->getTitle() }}</a>
+                <a href="{{ $blog->urlToEntry($entry) }}">{{ $entry->getTitle() }}</a>
             </h3>
             <p>{{ $entry->getSummary() }}</p>
         </div>

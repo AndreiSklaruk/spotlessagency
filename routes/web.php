@@ -11,6 +11,8 @@
 |
 */
 
+use Illuminate\Support\Facades\View;
+
 Route::get('/welcome', function () {
     return view('welcome');
 });
@@ -18,6 +20,13 @@ Route::get('/welcome', function () {
 Route::get('/', function () {
     return view('home.home');
 });
+
+Route::get('/blog', 'Blog\CustomBlogHomePage@show')
+    ->name(implode('.', [
+        config('blog.route_name_prefix', 'blog'),
+        array_keys(config('blog.blogs', ['main'=>'']))[0],
+        'index'
+    ]));
 
 Route::get('/flor-plan-visualization', function () {
     return view('pages/floor-plan/floor-plan');
