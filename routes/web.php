@@ -11,8 +11,6 @@
 |
 */
 
-use Illuminate\Support\Facades\View;
-
 Route::get('/welcome', function () {
     return view('welcome');
 });
