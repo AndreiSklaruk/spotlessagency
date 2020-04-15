@@ -16,38 +16,41 @@ Route::get('/welcome', function () {
 });
 
 Route::get('/', function () {
-    return view('/home/home');
+    return view('home.home');
 });
 
-Route::get('/main', function () {
-    return view('app');
-});
+Route::get('/blog', 'Blog\CustomBlogHomePage@show')
+    ->name(implode('.', [
+        config('blog.route_name_prefix', 'blog'),
+        array_keys(config('blog.blogs', ['main'=>'']))[0],
+        'index'
+    ]));
 
 Route::get('/flor-plan-visualization', function () {
-    return view('/floor-plan/floor-plan');
+    return view('pages/floor-plan/floor-plan');
 });
 
 Route::get('/3d-renderings', function () {
-    return view('/3d-rendering/3d-rendering');
+    return view('pages/3d-rendering/3d-rendering');
 });
 
 Route::get('/pricing', function () {
-    return view('/pricing/pricing');
+    return view('pages/pricing/pricing');
 });
 
 Route::get('/about', function () {
-    return view('/about/about');
+    return view('pages/about/about');
 });
 
 Route::get('/contact', function () {
-    return view('/contact/contact');
+    return view('pages/contact/contact');
 });
 
 Route::get('/3d-renderings/architectural-visualization', function () {
-    return view('/3d-rendering/architectural-visualization');
+    return view('pages/3d-rendering/architectural-visualization');
 });
 
 Route::get('/3d-renderings/furniture-renderings', function () {
-    return view('/3d-rendering/furniture-rendering');
+    return view('pages/3d-rendering/furniture-rendering');
 });
 
