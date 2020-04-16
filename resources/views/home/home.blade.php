@@ -2,7 +2,7 @@
 
 @section('title', 'Virtual Staging | Sell Properties Faster With Spotless Agency')
 
-@section('bodyClasses', 'home page-id-13189')
+@push('bodyClasses', 'home page-id-13189')
 
 @section('mastheadClasses', 'light-text header-1 no-transition')
 

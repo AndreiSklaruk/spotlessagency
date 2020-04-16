@@ -2,7 +2,7 @@
 
 @section('title', 'Best Virtual Home Staging Company In NYC')
 
-@section('bodyClasses', 'page-id-13148')
+@push('bodyClasses', 'page-id-13148')
 
 @section('mastheadClasses', 'dark-text header-2 no-transition')
 

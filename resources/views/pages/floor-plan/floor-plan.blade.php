@@ -2,7 +2,7 @@
 
 @section('title', 'Spotless Agency introduces Floor Plan Visualization')
 
-@section('bodyClasses', 'page-id-13278')
+@push('bodyClasses', 'page-id-13278')
 
 @section('mastheadClasses', 'dark-text header-2 header-fixed showed')
 

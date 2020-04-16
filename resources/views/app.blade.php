@@ -1,5 +1,7 @@
 @extends('index')
 
+@prepend('bodyClasses', 'page-template-default page ')
+
 @section('base-content')
 
     @yield('contentTitle')

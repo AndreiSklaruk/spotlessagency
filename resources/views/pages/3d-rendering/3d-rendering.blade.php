@@ -2,7 +2,7 @@
 
 @section('title', 'Premium 3D rendering services provided by Spotless Agency')
 
-@section('bodyClasses', 'page-id-14300 page-parent')
+@push('bodyClasses', 'page-id-14300 page-parent')
 
 @section('mastheadClasses', 'dark-text header-2 no-transition')
 

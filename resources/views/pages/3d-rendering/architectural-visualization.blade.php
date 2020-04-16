@@ -2,7 +2,7 @@
 
 @section('title', 'Best architectural visualization solutions from Spotless Agency')
 
-@section('bodyClasses', 'page-id-13276 page-child parent-pageid-14300')
+@push('bodyClasses', 'page-id-13276 page-child parent-pageid-14300')
 
 @section('mastheadClasses', 'dark-text header-2 header-fixed showed')
 

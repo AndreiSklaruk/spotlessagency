@@ -7,6 +7,8 @@
 
 @includeFirst($blog->bladeViews('custom.all-pages'))
 
+@section('meta', Bjuppa\MetaTagBag\MetaTagBag::make(config('blog.default_meta_tags'))->merge($metaTags ?? [])->merge(['charset' => 'utf-8']))
+
 @section('mastheadClasses', 'dark-text header-2 no-transition')
 
 @section('content')

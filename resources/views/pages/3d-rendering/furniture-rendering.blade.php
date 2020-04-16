@@ -2,7 +2,7 @@
 
 @section('title', 'Spotless Agency offers realistic furniture rendering')
 
-@section('bodyClasses', 'page-id-13270 page-child parent-pageid-14300')
+@push('bodyClasses', 'page-id-13270 page-child parent-pageid-14300')
 
 @section('mastheadClasses', 'dark-text header-2 no-transition')
 
