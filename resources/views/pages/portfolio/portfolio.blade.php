@@ -175,7 +175,7 @@
                                 data-lazy-item="true" style="position: absolute; left: 884px; top: 236px;">
                                 <div data-aos-once="true" data-aos="fade-up" data-aos-delay="0" class="aos-init">
                                     <div class="portfolio-item grid-1">
-                                        <a href="https://www.spotlessagency.com/blog/project/exterior-building/">
+                                        <a href="/blog/project/exterior-building/">
                                             <div class="image-wrap">
                                                 <img
                                                     src="/images/portfolio/Exterior-shot-614x1024-1-614x1024.jpg"
