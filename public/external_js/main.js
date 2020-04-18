@@ -1090,14 +1090,16 @@ jQuery(function($) {
 			var geocoder = new google.maps.Geocoder();
 
 			var googleMapCreateMarker = function( map, addr, icon ) {
-				geocoder.geocode( { 'address': addr }, function(result, status) {
-					map.setCenter(result[0].geometry.location );
-					var marker = new google.maps.Marker({
-						map: map,
-						icon: icon,
-						position: result[0].geometry.location
-					});
-				});
+                setTimeout(function () {
+                    geocoder.geocode( { 'address': addr }, function(result, status) {
+                        map.setCenter(result[0].geometry.location );
+                        var marker = new google.maps.Marker({
+                            map: map,
+                            icon: icon,
+                            position: result[0].geometry.location
+                        });
+                    });
+                }, 0);
 			};
 
 			$('[data-google-map]').each( function(){

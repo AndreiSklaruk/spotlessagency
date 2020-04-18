@@ -1,0 +1,270 @@
+/*!
+Theme Name: Norebro Child
+Theme URI: http://norebro.colabr.io/
+Author: Colabrio Team
+Author URI: http://colabr.io/
+Description: Norebro is flexible and high performance multipurpose WordPress Theme for personal and corporate use. It comes with the most popular WordPress page builder Visual Composer. Create gorgeous pages and layouts fast and easy without coding.
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Template: norebro
+Text Domain: norebro-child
+Tags: one-column, two-columns, left-sidebar, right-sidebar, custom-colors, custom-header, custom-menu, featured-images, full-width-template, post-formats, theme-options, translation-ready
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+
+Normalizing styles have been helped along thanks to the fine work of
+Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
+*/
+
+.header-title h1.page-title {
+    font-size: 62px;
+}
+
+.header-title .tags .tag {
+    color: #718091;
+    border-color: #718091;
+}
+
+.vc_row.blog-posts-masonry.norebro-masonry {
+    margin-top: 40px;
+}
+
+.post-carusel .wpb_wrapper{
+    padding: 0 15px;
+}
+
+.call-to-action-btn {
+    position: relative;
+    font-size: 15px;
+    letter-spacing: .03em;
+}
+
+/* Social icons on header */
+#masthead .menu-other > li > a {
+    color: #f3b435!important;
+}
+
+.texture-bg-right {
+    background: url(https://www.spotlessagency.com/wp-content/uploads/2018/06/PatternGrey-.png) -50% 0 repeat-y;
+}
+
+.texture-bg-left {
+    background: url(https://www.spotlessagency.com/wp-content/uploads/2018/06/PatternGrey-.png) 150% 0 repeat-y;
+}
+
+.btn.btn-outline > .text {
+    font-weight: 500;
+}
+
+.contact-form button.btn {
+    padding: 15px 40px 14px;
+}
+
+/* Design style for lists */
+.page-content ul.ul-brand {
+    list-style-type: none;
+}
+
+.page-content ul.ul-brand li {
+    position: relative;
+    padding-left: 15px;
+}
+
+.page-content ul.ul-brand li:before {
+    position: absolute;
+    content: '';
+    top: 10px;
+    left: 0;
+    width: 8px;
+    height: 3px;
+    background: #f3b435;
+    transform: rotate(45deg);
+}
+
+.page-content ol.ol-brand{
+    list-style-type: none;
+    counter-reset: item;
+    margin-left: 0;
+    padding-left: 0;
+}
+.page-content ol.ol-brand li:before {
+    display: inline-block;
+    content: counter(item) ".";
+    counter-increment: item;
+    color: #f3b435;
+    margin-right:7px;
+    font-weight: 500;
+}
+
+/* Image with link in 3D Renderings page */
+.section-link-wrap {
+    position: relative;
+    overflow: hidden;
+}
+
+.section-link-wrap-right,
+.section-link-wrap-left {
+    width: 100%;
+    max-height: 316px;
+    height: 100%;
+}
+
+.section-link-wrap .gimg {
+    width: 100%;
+    cursor: pointer;
+    display: block;
+    -webkit-transition: -webkit-transform .3s ease-in-out;
+    transition: -webkit-transform .3s ease-in-out;
+    transition: transform .3s ease-in-out;
+    transition: transform .3s ease-in-out, -webkit-transform .3s ease-in-out;
+}
+
+.section-link-wrap:hover .gimg {
+    -webkit-transform: scale(1.05) rotate(0.03deg);
+    -ms-transform: scale(1.05) rotate(0.03deg);
+    transform: scale(1.05) rotate(0.03deg);
+}
+
+.section-link-wrap .overlay {
+    background: rgba(64, 64, 68, 0.7);
+    width: -webkit-calc(100% - 50px);
+    width: calc(100% - 50px);
+    height: -webkit-calc(100% - 50px);
+    height: calc(100% - 50px);
+    top: 25px;
+    left: 25px;
+    opacity: 0;
+    cursor: pointer;
+    -webkit-transform: scale(0.95);
+    -ms-transform: scale(0.95);
+    transform: scale(0.95);
+    -webkit-transition: .2s ease-in-out;
+    transition: .2s ease-in-out;
+    -webkit-transition-property: opacity, -webkit-transform;
+    transition-property: opacity, -webkit-transform;
+    transition-property: opacity, transform;
+    transition-property: opacity, transform, -webkit-transform;
+}
+
+.section-link-wrap:hover .overlay {
+    opacity: 1;
+    transform: none;
+}
+
+.section-link-wrap .overlay h4{
+    color: #fff;
+    margin: 0;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.section-link-wrap .overlay .icon {
+    font-size: 36px;
+    vertical-align: -9px;
+    margin-left: 15px;
+    color: #fff;
+    font-weight: 700;
+}
+
+.header-title .tags .tag {
+    color: #f3b435;
+    border-color: #f3b435;
+}
+
+/*@media screen and (min-width: 768px) {*/
+    /*.nor-slider-wrap {*/
+        /*margin-top: 220px!important;*/
+    /*}*/
+
+    /*.nor-slider-wrap .twenty20 {*/
+        /*position: relative;*/
+    /*}*/
+
+    /*.nor-slider-wrap .twenty20:before {*/
+        /*content: '';*/
+        /*background: rgba(0,0,0,.04);*/
+        /*width: 500px;*/
+        /*height: 100%;*/
+        /*position: absolute;*/
+        /*top: 15px;*/
+        /*left: -15px;*/
+    /*}*/
+/*}*/
+
+@media screen and (min-width: 768px) {
+    .nor-slider-wrap {
+        margin-top: 220px!important;
+    }
+
+    .nor-slider-wrap div.wpb_content_element {
+        position: relative;
+    }
+
+    .nor-slider-wrap div.wpb_content_element:before {
+        content: '';
+        background: rgba(0,0,0,.04);
+        width: 500px;
+        height: 100%;
+        position: absolute;
+        top: 15px;
+        left: -15px;
+    }
+}
+
+@media screen and (min-width: 960px) {
+    .nor-slider-wrap {
+        margin-top: 150px!important;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    div.vc_row.vc_row-flex.how-it-work-row {
+        display: flex!important;
+        flex-direction: column-reverse!important;
+    }
+}
+
+body.post-template-default.single.single-post h1 {
+    color: #404044;
+}
+
+body.post-template-default.single.single-post .header-title .tags .tag {
+    color: #404044;
+    border-color: #404044;
+}
+
+.best-seller {
+    position: relative;
+}
+
+.best-seller::before {
+    position: absolute;
+    content: 'Best Seller';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: -50px;
+    right: 0;
+    width: 100px;
+    height: 100px;
+    color: #ffffff;
+    border-radius: 50%;
+    background: #f3b435;
+    z-index: 100;
+}
+
+.site-footer .widget_norebro_widget_subscribe button.btn {
+    -webkit-border-radius: 0px!important;
+    border-radius: 0px!important;
+}
+
+#masthead .site-title img, #masthead .site-title a img {
+    max-height: 50px;
+}
+
+.portfolio-page.header-full h1, .portfolio-page.portfolio-header-title h1 {
+    font-weight: 600;
+}
+

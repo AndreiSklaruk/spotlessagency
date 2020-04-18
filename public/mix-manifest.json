@@ -1,5 +1,7 @@
 {
     "/js/app.js": "/js/app.js",
     "/css/app.css": "/css/app.css",
+    "/css/libs/popup-maker.css": "/css/libs/popup-maker.css",
+    "/css/pages/home.css": "/css/pages/home.css",
     "/css/blog.css": "/css/blog.css"
 }
