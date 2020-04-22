@@ -1,4 +1,7 @@
 // window._ = require('lodash');
+import 'lazysizes';
+// import a plugin
+import 'lazysizes/plugins/parent-fit/ls.parent-fit';
 
 /**
  * We'll load the axios HTTP library which allows us to easily issue requests

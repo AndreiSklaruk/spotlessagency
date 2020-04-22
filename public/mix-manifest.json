@@ -3,5 +3,7 @@
     "/css/app.css": "/css/app.css",
     "/css/libs/popup-maker.css": "/css/libs/popup-maker.css",
     "/css/pages/home.css": "/css/pages/home.css",
-    "/css/blog.css": "/css/blog.css"
+    "/css/blog.css": "/css/blog.css",
+    "/js/main.js": "/js/main.js",
+    "/js/vendors.js": "/js/vendors.js"
 }
