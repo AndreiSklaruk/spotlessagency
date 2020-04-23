@@ -26,7 +26,7 @@
             </li>
             <li>
                 <p class="uppercase">
-                    <span class="title">Skills:</span>Architectural Visualization
+                    <span class="title">Skills:</span> Architectural Visualization
                 </p>
             </li>
         </ul>
