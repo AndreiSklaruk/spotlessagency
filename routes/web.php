@@ -117,7 +117,7 @@ Route::prefix('blog')->group(function () {
                 ->with('backgroundImageUrl', asset('images/portfolio/Living_room_staged-412.jpg'))
                 ->with('fullImageUrl', asset('images/portfolio/new-living-room/Living_room_staged-2.jpg'));
         });
-//`1
+
         Route::get('/office/', function () {
             return view('pages.portfolio.office.office')
                 ->with('backgroundImageUrl', asset('images/portfolio/001_v2-1024x807-1.jpg'))
