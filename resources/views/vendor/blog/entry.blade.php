@@ -18,7 +18,8 @@
   @includeFirst($blog->bladeViews('feed.metaLink'))
 @endpush
 
-@section('bodyClasses', 'post-template-default single single-post postid-15564 single-format-standard')
+@push('bodyClasses', 'post-template-default single single-post postid-15564 single-format-standard')
+
 @section('blog')
   @includeFirst($blog->bladeViews('entry.full', $entry))
 @endsection

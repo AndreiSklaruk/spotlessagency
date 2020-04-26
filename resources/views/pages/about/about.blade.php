@@ -2,7 +2,7 @@
 
 @section('title', 'Contact Spotless Agency')
 
-@section('bodyClasses', 'page-id-13169')
+@push('bodyClasses', 'page-id-13169')
 
 @section('mastheadClasses', 'dark-text header-2 no-transition')
 
