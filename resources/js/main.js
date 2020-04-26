@@ -1087,18 +1087,23 @@ jQuery(function($) {
 				flat_pale: [{"featureType":"administrative","elementType":"labels.text.fill","stylers":[{"color":"#6195a0"}]},{"featureType":"administrative.province","elementType":"geometry.stroke","stylers":[{"visibility":"off"}]},{"featureType":"landscape","elementType":"geometry","stylers":[{"lightness":"0"},{"saturation":"0"},{"color":"#f5f5f2"},{"gamma":"1"}]},{"featureType":"landscape.man_made","elementType":"all","stylers":[{"lightness":"-3"},{"gamma":"1.00"}]},{"featureType":"landscape.natural.terrain","elementType":"all","stylers":[{"visibility":"off"}]},{"featureType":"poi","elementType":"all","stylers":[{"visibility":"off"}]},{"featureType":"poi.park","elementType":"geometry.fill","stylers":[{"color":"#bae5ce"},{"visibility":"on"}]},{"featureType":"road","elementType":"all","stylers":[{"saturation":-100},{"lightness":45},{"visibility":"simplified"}]},{"featureType":"road.highway","elementType":"all","stylers":[{"visibility":"simplified"}]},{"featureType":"road.highway","elementType":"geometry.fill","stylers":[{"color":"#fac9a9"},{"visibility":"simplified"}]},{"featureType":"road.highway","elementType":"labels.text","stylers":[{"color":"#4e4e4e"}]},{"featureType":"road.arterial","elementType":"labels.text.fill","stylers":[{"color":"#787878"}]},{"featureType":"road.arterial","elementType":"labels.icon","stylers":[{"visibility":"off"}]},{"featureType":"transit","elementType":"all","stylers":[{"visibility":"simplified"}]},{"featureType":"transit.station.airport","elementType":"labels.icon","stylers":[{"hue":"#0a00ff"},{"saturation":"-77"},{"gamma":"0.57"},{"lightness":"0"}]},{"featureType":"transit.station.rail","elementType":"labels.text.fill","stylers":[{"color":"#43321e"}]},{"featureType":"transit.station.rail","elementType":"labels.icon","stylers":[{"hue":"#ff6c00"},{"lightness":"4"},{"gamma":"0.75"},{"saturation":"-68"}]},{"featureType":"water","elementType":"all","stylers":[{"color":"#eaf6f8"},{"visibility":"on"}]},{"featureType":"water","elementType":"geometry.fill","stylers":[{"color":"#c7eced"}]},{"featureType":"water","elementType":"labels.text.fill","stylers":[{"lightness":"-49"},{"saturation":"-53"},{"gamma":"0.79"}]}],
 				flat_design: [{"featureType":"all","elementType":"labels","stylers":[{"visibility":"off"}]},{"featureType":"administrative","elementType":"all","stylers":[{"visibility":"simplified"},{"color":"#5b6571"},{"lightness":"35"}]},{"featureType":"administrative.neighborhood","elementType":"all","stylers":[{"visibility":"off"}]},{"featureType":"landscape","elementType":"all","stylers":[{"visibility":"on"},{"color":"#f3f4f4"}]},{"featureType":"landscape.man_made","elementType":"geometry","stylers":[{"weight":0.9},{"visibility":"off"}]},{"featureType":"poi.park","elementType":"geometry.fill","stylers":[{"visibility":"on"},{"color":"#83cead"}]},{"featureType":"road","elementType":"all","stylers":[{"visibility":"on"},{"color":"#ffffff"}]},{"featureType":"road","elementType":"labels","stylers":[{"visibility":"off"}]},{"featureType":"road.highway","elementType":"all","stylers":[{"visibility":"on"},{"color":"#fee379"}]},{"featureType":"road.highway","elementType":"geometry","stylers":[{"visibility":"on"}]},{"featureType":"road.highway","elementType":"labels","stylers":[{"visibility":"off"}]},{"featureType":"road.highway","elementType":"labels.icon","stylers":[{"visibility":"off"}]},{"featureType":"road.highway.controlled_access","elementType":"labels.icon","stylers":[{"visibility":"off"}]},{"featureType":"road.arterial","elementType":"all","stylers":[{"visibility":"simplified"},{"color":"#ffffff"}]},{"featureType":"road.arterial","elementType":"labels","stylers":[{"visibility":"off"}]},{"featureType":"road.arterial","elementType":"labels.icon","stylers":[{"visibility":"off"}]},{"featureType":"water","elementType":"all","stylers":[{"visibility":"on"},{"color":"#7fc8ed"}]}]
 			};
-			var geocoder = new google.maps.Geocoder();
+			// var geocoder = new google.maps.Geocoder();
 
-			var googleMapCreateMarker = function( map, addr, icon ) {
-				geocoder.geocode( { 'address': addr }, function(result, status) {
-					map.setCenter(result[0].geometry.location );
-					var marker = new google.maps.Marker({
-						map: map,
-						icon: icon,
-						position: result[0].geometry.location
-					});
-				});
-			};
+			// var googleMapCreateMarker = function( map, addr, icon ) {
+            //     geocoder.geocode( { 'address': addr }, function(result, status) {
+            //         map.setCenter(result[0].geometry.location );
+            //         console.log(addr, result);
+            //         var marker = new google.maps.Marker({
+            //             map: map,
+            //             icon: icon,
+            //             position: result[0].geometry.location
+            //         });
+            //     });
+			// };
+
+			var googleMapCreateMarkerByPoint = function(map, position) {
+                var marker = new google.maps.Marker({position: position, map: map});
+            };
 
 			$('[data-google-map]').each( function(){
 
@@ -1114,7 +1119,7 @@ jQuery(function($) {
 					map_style = googleMapStyles[ $(this).attr( 'data-google-map-style' ) ];
 				}
 
-				var map = new google.maps.Map( $(this).find('.google-maps-wrap')[0], {
+				var map = new google.maps.Map( document.getElementById('map'), {
 					scrollwheel: false,
 					zoom: parseInt( $(this).attr( 'data-google-map-zoom' ) ),
 					zoomControl: zoomEnable,
@@ -1124,10 +1129,22 @@ jQuery(function($) {
 				if ( markerLocations == '' || markerLocations == 'true' ) {
 					markerLocations = ['New York'];
 				}
+                // function initMap() {
+                //     // The location of Uluru
+                //     var uluru = {lat: 39.755018, lng: -75.626847};
+                //     // The map, centered at Uluru
+                //     // var map = new google.maps.Map(
+                //     //     document.getElementById('map'), {zoom: 4, center: uluru});
+                //     // The marker, positioned at Uluru
+                //     var marker = new google.maps.Marker({position: uluru, map: map});
+                // }
+				var position = {lat: 39.755018, lng: -75.626847};
 
-				for(var i = 0; i < markerLocations.length; i++) {
-					googleMapCreateMarker( map, markerLocations[i], $(this).attr( 'data-google-map-marker' ) );
-				}
+				googleMapCreateMarkerByPoint(map, position);
+
+				// for(var i = 0; i < markerLocations.length; i++) {
+				// 	googleMapCreateMarker( map, markerLocations[i], $(this).attr( 'data-google-map-marker' ) );
+				// }
 			});
 		}
 	}
@@ -2749,7 +2766,7 @@ jQuery(function($) {
 		handleCoverBox();
 		handleCoverBoxSize();
 		handleGallery();
-		handleGoogleMaps();
+		// handleGoogleMaps();
 		handleSocialBar();
 		handleSplitboxParallax();
 		handleProgressBar();
