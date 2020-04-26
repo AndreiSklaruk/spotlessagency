@@ -70,6 +70,11 @@ Route::prefix('blog')->group(function () {
                 ->with('backgroundImageUrl', asset('images/portfolio/Exterior-CGI-Australia-2-1024x559-1.jpg'))
                 ->with('fullImageUrl', asset('images/portfolio/modern-house/Exterior-CGI-Australia-2.jpg'));
         });
+        Route::get('/exterior-building/', function () {
+            return view('pages.portfolio.exterior-building.exterior-building')
+                ->with('backgroundImageUrl', asset('images/portfolio/Exterior-shot-614x1024-1-614x1024.jpg'))
+                ->with('fullImageUrl', asset('images/portfolio/exterior-building/Exterior-shot.jpg'));
+        });
 
         Route::get('/bedroom/', function () {
             return view('pages.portfolio.bedroom.bedroom')
