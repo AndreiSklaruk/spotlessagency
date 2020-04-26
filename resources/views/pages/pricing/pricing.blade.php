@@ -2,7 +2,7 @@
 
 @section('title', 'Choose the most suitable pricing for you.')
 
-@section('bodyClasses', 'page-id-13260')
+@push('bodyClasses', 'page-id-13260')
 
 @section('mastheadClasses', 'dark-text header-2 no-transition')
 
