@@ -1,21 +1,21 @@
 @extends('pages.portfolio.layouts.entry')
 
-@section('title', 'Architectural Visualization Building')
+@section('title', 'Virtual staging Dining Room')
 
 @section('meta')
-    <meta property="og:title" content="Building">
+    <meta property="og:title" content="Dining Room">
     <meta property="og:description" content="">
-    <meta property="og:url" content="{{url('/blog/project/building/')}}">
+    <meta property="og:url" content="{{url('/blog/project/dining-room/')}}">
     <meta name="twitter:card" content="summary">
-    <meta property="twitter:title" content="Building">
+    <meta property="twitter:title" content="Dining Room">
     <meta property="twitter:description" content="">
     <meta name="author" content="Andrey Zlobin">
-    <meta name="description" content="Detailed view of the image Building by Spotless Agency">
-    <link rel="canonical" href="{{url('/blog/project/building/')}}">
+    <meta name="description" content="Detailed view of the image Dining Room">
+    <link rel="canonical" href="{{url('/blog/project/dining-room/')}}">
 @endsection
 
 @section('portfolio-content')
-    <span class="tag">Architectural Visualization</span>
+    <span class="tag">"Dining Room</span>
     <h1 class="title">Building</h1>
     <div class="info">
         <ul class="info-list">
@@ -26,7 +26,7 @@
             </li>
             <li>
                 <p class="uppercase">
-                    <span class="title">Skills:</span> Architectural Visualization
+                    <span class="title">Skills:</span> Virtual staging
                 </p>
             </li>
         </ul>
