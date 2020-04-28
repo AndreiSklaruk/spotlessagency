@@ -2,10 +2,12 @@
 /**
  * @var $blog \Bjuppa\LaravelBlog\Contracts\Blog
  * @var $entry \Bjuppa\LaravelBlog\Contracts\BlogEntry
+ * @var $limit integer
  */
+use App\Term;
 ?>
 <ul class="recent-posts-list">
-    @foreach($blog->latestEntries() as $entry)
+    @foreach($blog->latestEntries($limit ?? 3) as $entry)
         <li class="post-item clearfix ">
             <a href="{{ $blog->urlToEntry($entry) }}" class="more">
                 <img width="150" height="150"
@@ -19,8 +21,8 @@
                 <h4 class="text-left font-main">
                     <a href="{{ $blog->urlToEntry($entry) }}">{{ $entry->getTitle() }} </a>
                 </h4>
-                <span class="date">25.03.2020</span>
-                <span class="categories">Tips For Realtors</span>
+                <span class="date">{{ $entry->getPublished()->format('d.m.Y') }}</span>
+                <span class="categories">{{ Term::getBlogEntryCategories($entry->getId())->first()->name }}</span>
                 <br>
                 <div class="subtitle">
                     <span class="comments">
@@ -31,11 +33,3 @@
         </li>
     @endforeach
 </ul>
-{{--<ol class="blog-latest-entries-links" aria-label="{{ __($blog->transKey('titles.latest_entries')) }}">--}}
-{{--    @foreach($blog->latestEntries() as $entry)--}}
-{{--        <li>--}}
-{{--            <a href="{{ $blog->urlToEntry($entry) }}"--}}
-{{--               class="blog-entry-link blog-entry-title">{{ $entry->getTitle() }}</a>--}}
-{{--        </li>--}}
-{{--    @endforeach--}}
-{{--</ol>--}}

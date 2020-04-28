@@ -2,6 +2,7 @@
 /**
  * @var $entry \Bjuppa\LaravelBlog\Contracts\BlogEntry
  */
+    use App\Term;
 ?>
 
 <div class="header-title without-cap text-center show">
@@ -11,8 +12,9 @@
             <div class="page-container">
                 <div class="wrap-container">
                     <div class="tags no-transition">
-                        <a class="tag" href="https://www.spotlessagency.com/blog/category/real-estate-tools/"
-                           rel="category tag"> Real Estate Tools</a>
+                        @foreach(Term::getBlogEntryCategories($entry->id) as $term)
+                            <a class="tag" href="{{ url('/blog/category/' . $term->slug) }}" rel="category tag">{{ $term->name }}</a>
+                        @endforeach
                     </div>
                     <h1 class="page-title no-transition">{{ $entry->getTitle() }}</h1>
                 </div>
@@ -76,35 +78,7 @@
                 </div>
             </section>
             <section id="categories-5" class="widget widget_categories"><h3 class="title widget-title">Categories</h3>
-                <ul>
-                    <li class="cat-item cat-item-20"><a
-                            href="https://www.spotlessagency.com/blog/category/3d-rendering/">3d rendering</a> (11)
-                    </li>
-                    <li class="cat-item cat-item-29"><a
-                            href="https://www.spotlessagency.com/blog/category/real-estate-tools/">Real Estate Tools</a>
-                        (10)
-                    </li>
-                    <li class="cat-item cat-item-17"><a
-                            href="https://www.spotlessagency.com/blog/category/spotless-agency/">Spotless Agency</a>
-                        (17)
-                    </li>
-                    <li class="cat-item cat-item-26"><a
-                            href="https://www.spotlessagency.com/blog/category/tips-for-realtors/">Tips For Realtors</a>
-                        (17)
-                    </li>
-                    <li class="cat-item cat-item-18"><a
-                            href="https://www.spotlessagency.com/blog/category/virtual-staging-statistic/">Virtual
-                            Staging Statistic</a> (4)
-                    </li>
-                    <li class="cat-item cat-item-25"><a
-                            href="https://www.spotlessagency.com/blog/category/virtual-staging-tips/">Virtual Staging
-                            Tips</a> (19)
-                    </li>
-                    <li class="cat-item cat-item-1"><a
-                            href="https://www.spotlessagency.com/blog/category/%d0%b1%d0%b5%d0%b7-%d1%80%d1%83%d0%b1%d1%80%d0%b8%d0%ba%d0%b8/">Без
-                            рубрики</a> (26)
-                    </li>
-                </ul>
+                @includeFirst($blog->bladeViews('blog.categoryList'))
             </section>
             <section id="norebro_widget_socialbar_subscribe-3" class="widget widget_norebro_widget_socialbar_subscribe">
                 <h3 class="title widget-title">Follow Us</h3>

@@ -1,3 +1,10 @@
+<?php
+/**
+ * @var $entry \Bjuppa\LaravelBlog\Contracts\BlogEntry
+ * @var $entryHelper App\Term
+ */
+?>
+
 <div class="page-container">
     <div class="widgets">
         <div class="vc_col-md-4 widgets-column">
@@ -74,67 +81,36 @@
         </div>
         <div class="vc_col-md-4 widgets-column">
             <ul>
-                <li id="norebro_widget_recent_posts-2" class="widget widget_norebro_widget_recent_posts"><h3
-                        class="title widget-title">Recent Posts</h3>
+                <li id="norebro_widget_recent_posts-2" class="widget widget_norebro_widget_recent_posts">
+                    <h3 class="title widget-title">Recent Posts</h3>
                     <ul class="recent-posts-list">
-                        <li class="post-item clearfix active ">
+                        @foreach($blogHelper->latestEntries(2) as $entry)
+                            <li class="post-item clearfix active ">
+                                <a href="{{ $blogHelper->urlToEntry($entry) }}"
+                                   class="more">
+                                    <img width="150" height="150"
+                                         src="{{ $entry->getImageUrl() }}"
+                                         class="attachment-thumbnail size-thumbnail wp-post-image" alt=""
+                                         srcset="{{ $entry->getImageUrl() }} 150w,
+                                                {{ $entry->getImageUrl() }} 200w"
+                                         sizes="(max-width: 150px) 100vw, 150px">
+                                </a>
+                                <div class="content-wrap">
+                                    <h4 class="text-left font-main">
+                                        <a href="{{ $blogHelper->urlToEntry($entry) }}">{{ $entry->getTitle() }}</a>
+                                    </h4>
+                                    <span class="date">{{ $entry->getPublished()->format('d.m.Y') }}</span>
 
+                                    <br>
 
-                            <a href="https://www.spotlessagency.com/blog/top-12-secrets-of-the-real-estate-industry/"
-                               class="more">
-                                <img width="150" height="150"
-                                     src="/images/Untitled-new-1-150x150.jpg"
-                                     class="attachment-thumbnail size-thumbnail wp-post-image" alt=""
-                                     srcset="/images/Untitled-new-1-150x150.jpg 150w, /images/Untitled-new-1-200x200.jpg 200w"
-                                     sizes="(max-width: 150px) 100vw, 150px"> </a>
-
-
-                            <div class="content-wrap">
-                                <h4 class="text-left font-main">
-                                    <a href="https://www.spotlessagency.com/blog/top-12-secrets-of-the-real-estate-industry/">
-                                        Top 12 secrets of the real estate industry </a>
-                                </h4>
-                                <span class="date">18.03.2020</span>
-
-                                <br>
-
-                                <div class="subtitle">
-								<span class="comments">
-									<a href="https://www.spotlessagency.com/blog/top-12-secrets-of-the-real-estate-industry/">
-										No comments									</a>
-								</span>
+                                    <div class="subtitle">
+                                    <span class="comments">
+                                        <a href="{{ $blogHelper->urlToEntry($entry) }}">No comments</a>
+                                    </span>
+                                    </div>
                                 </div>
-                            </div>
-                        </li>
-                        <li class="post-item clearfix ">
-
-
-                            <a href="https://www.spotlessagency.com/blog/can-modern-technology-substitute-real-estate-agents/"
-                               class="more">
-                                <img width="150" height="150"
-                                     src="/images/Andre_S-150x150.jpg"
-                                     class="attachment-thumbnail size-thumbnail wp-post-image" alt=""
-                                     srcset="/images/Andre_S-150x150.jpg 150w, /images/Andre_S-200x200.jpg 200w"
-                                     sizes="(max-width: 150px) 100vw, 150px"> </a>
-
-
-                            <div class="content-wrap">
-                                <h4 class="text-left font-main">
-                                    <a href="https://www.spotlessagency.com/blog/can-modern-technology-substitute-real-estate-agents/">
-                                        Role of a real estate agent in the technology era </a>
-                                </h4>
-                                <span class="date">12.03.2020</span>
-
-                                <br>
-
-                                <div class="subtitle">
-								<span class="comments">
-									<a href="https://www.spotlessagency.com/blog/can-modern-technology-substitute-real-estate-agents/">
-										No comments									</a>
-								</span>
-                                </div>
-                            </div>
-                        </li>
+                            </li>
+                        @endforeach
                     </ul>
                 </li>
             </ul>
