@@ -53,7 +53,7 @@
         </div>
 
         <footer>
-            <span class="author">{{ $entry->getAuthors()->join('')}}</span>
+            <span class="author">{{ $entry->getAuthors()->first()->getName() }}</span>
             <strong>—</strong>
             <span class="data">{{ $blog->convertToBlogTimezone($entry->getPublished())->format('d.m.Y') }}</span>
         </footer>
