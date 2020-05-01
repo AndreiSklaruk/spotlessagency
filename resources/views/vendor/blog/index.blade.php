@@ -21,10 +21,7 @@
 @section('blog')
   @includeFirst($blog->bladeViews('blog.intro'))
   @if($entries->count())
-    <div class="vc_row blog-posts-masonry norebro-masonry"
-         style="position: relative; height: 1530.98px;"
-         data-lazy-container="true"
-         aria-label="{{ __($blog->transKey('titles.latest_entries')) }}">
+    <div class="vc_row blog-posts-masonry norebro-masonry" data-lazy-container="true">
       @each($blog->bladeView('entry.listItem'), $entries, 'entry')
     </div>
     {{ $entries->links($blog->bladeView('blog.pagination')) }}

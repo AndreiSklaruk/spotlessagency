@@ -13,14 +13,17 @@ class BlogPostsSeeder extends Seeder
     public function run()
     {
         $myArray = include(base_path('database/seeds/blog_entries.php'));
-        $newPosts = [];
         foreach($myArray as $id => $data) {
+            if (!file_exists(base_path("database/seeds/contents/$id.html"))) {
+               dump("skip $id");
+               continue;
+            }
             $author = $data[0];
             $publish_after = $data[1];
-            $content = $data[3];
+            $content = file_get_contents(base_path("database/seeds/contents/$id.html"));
             $post_title = $data[4]; // title
             $post_name = $data[10]; // slug
-            $description = Str::limit(str_replace(["\\n", "\\r"], '',preg_replace('/\[.+?\]/m', '', strip_tags($content))), 170);
+            $description = Str::limit(strip_tags($content), 160, '');
             $summary = $description;
             \Bjuppa\LaravelBlog\Eloquent\BlogEntry::create([
                 'id' => $id,
@@ -31,6 +34,7 @@ class BlogPostsSeeder extends Seeder
                 'title' => $post_title,
                 'slug' => $post_name,
                 'summary' => $summary,
+                'meta_tags' => '{}',
                 'page_title' => $post_title,
                 'description' => $description,
             ]);

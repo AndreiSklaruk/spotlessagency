@@ -3,6 +3,7 @@
  * @var $blog \Bjuppa\LaravelBlog\Contracts\Blog
  * @var $entry \Bjuppa\LaravelBlog\Contracts\BlogEntry
  */
+use \Illuminate\Support\Str;
 ?>
 {{--<article class="blog-entry-short" itemprop="blogPost" itemscope--}}
 {{--         itemtype="http://schema.org/BlogPosting" @includeWhen($entry->getImageUrl(), $blog->bladeView('entry.partials.imageStyle'))>--}}
@@ -27,9 +28,8 @@
 {{--</article>--}}
 
 <div
-    class="vc_col-lg-3 vc_col-md-3 vc_col-sm-6 vc_col-xs-12 grid-item norebro-card-wrapper blog-post-masonry masonry-block aos-init aos-animate"
-    data-aos-once="true" data-aos="fade-up" data-aos-delay="100" data-lazy-item="true"
-    style="position: absolute; left: 294px; top: 0px;">
+    class=" vc_col-lg-3 vc_col-md-3 vc_col-sm-6 vc_col-xs-12 grid-item norebro-card-wrapper blog-post-masonry masonry-block"
+    data-aos="fade-up" data-aos-delay="0" data-aos-once="true" data-lazy-item="true">
     <div class="blog-grid grid-1 aos-init aos-animate" data-aos-once="&quot;true&quot;" data-aos="&quot;fade-up&quot;">
 
         <header>
@@ -49,7 +49,7 @@
             <h3>
                 <a href="{{ $blog->urlToEntry($entry) }}">{{ $entry->getTitle() }}</a>
             </h3>
-            <p>{{ $entry->getSummary() }}</p>
+            <p>{{ Str::limit($entry->summary, 155) }}</p>
         </div>
 
         <footer>
