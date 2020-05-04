@@ -7,7 +7,6 @@ class BlogCategoriesSeeder extends Seeder
     private $categories = [
         [1, 'Без рубрики', '%d0%b1%d0%b5%d0%b7-%d1%80%d1%83%d0%b1%d1%80%d0%b8%d0%ba%d0%b8', 0],
         [9, 'Main', 'main', 0],
-        [11, '3D Rendering', '3d-rendering', 0],
         [16, 'Gallery', 'post-format-gallery', 0],
         [17, 'Spotless Agency', 'spotless-agency', 0],
         [18, 'Virtual Staging Statistic', 'virtual-staging-statistic', 0],

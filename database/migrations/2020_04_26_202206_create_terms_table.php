@@ -16,7 +16,7 @@ class CreateTermsTable extends Migration
         Schema::create('terms', function (Blueprint $table) {
             $table->bigIncrements('id');
             $table->string('name', 200)->index('name');
-            $table->string('slug', 200)->index('slug');
+            $table->string('slug', 200)->unique();
             $table->integer('term_group')->default('0');
             $table->timestamps();
         });

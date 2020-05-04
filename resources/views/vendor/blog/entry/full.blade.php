@@ -77,7 +77,7 @@
                     </form>
                 </div>
             </section>
-            <section id="categories-5" class="widget widget_categories"><h3 class="title widget-title">Categories</h3>
+            <section id="categories-5" class="widget widget_categories"><h3 class="title widget-title">Categoriess</h3>
                 @includeFirst($blog->bladeViews('blog.categoryList'))
             </section>
             <section id="norebro_widget_socialbar_subscribe-3" class="widget widget_norebro_widget_socialbar_subscribe">

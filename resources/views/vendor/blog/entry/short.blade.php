@@ -34,14 +34,13 @@ use \Illuminate\Support\Str;
 
         <header>
             <a href="{{ $blog->urlToEntry($entry) }}">
-                <img src="{{$entry->getImageUrl()}}"
-                     alt="{{ $entry->getTitle() }}">
+                <img src="{{ $entry->getImageUrl() }}" alt="{{ $entry->getTitle() }}">
             </a>
 {{--where?--}}
             <div class="tags">
-                <a class="tag brand-bg-color brand-border-color"
-                   href="https://www.spotlessagency.com/blog/category/real-estate-tools/">
-                    Real Estate Tools </a>
+                <a class="tag brand-bg-color brand-border-color" href="https://www.spotlessagency.com/blog/category/real-estate-tools/">
+                    Real Estate Tools
+                </a>
             </div>
         </header>
 

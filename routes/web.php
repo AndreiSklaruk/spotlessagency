@@ -43,6 +43,8 @@ Route::prefix('blog')->group(function () {
             array_keys(config('blog.blogs', ['main'=>'']))[0],
             'index'
         ]));
+    Route::get('/category/{slug}', 'Blog\CategoryController@show')->name('blog.main.category');
+
     Route::prefix('project')->group(function () {
         Route::get('/virtually-furniture-2/', function () {
             return view('pages.portfolio.virtually-furniture-2.virtually-furniture-2')
