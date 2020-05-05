@@ -37,6 +37,7 @@ class BlogPostsSeeder extends Seeder
                 'meta_tags' => '{}',
                 'page_title' => $post_title,
                 'description' => $description,
+                'meta_tags' => '{}'
             ]);
         }
     }
