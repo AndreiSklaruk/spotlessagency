@@ -33,4 +33,9 @@
     </div>
 @endsection
 
-@section('gallery-description', 'Catalog_renderings_6')
+@section('portfolio-container')
+    @include('pages.portfolio.partial.diff', [
+        'imageUrlBefore' => '/images/portfolio/kitchen/Kitchen_before.jpg',
+        'imageUrlAfter' => '/images/portfolio/kitchen/Kitchen_staged-1.jpg'
+    ])
+@endsection

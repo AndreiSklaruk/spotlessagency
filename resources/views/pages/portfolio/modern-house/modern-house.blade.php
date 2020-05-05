@@ -33,4 +33,4 @@
     </div>
 @endsection
 
-@section('gallery-description', 'Catalog_renderings_6')
+@section('gallery-description', 'Exterior_House_Architect_visualization')

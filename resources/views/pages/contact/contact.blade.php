@@ -41,7 +41,7 @@
          class="vc_row wpb_row vc_row-fluid">
         <div class="wpb_column vc_column_container vc_col-sm-3">
             <div class="vc_column-inner ">
-                <div class="wpb_wrapper">
+                <div class="wpb_wrapper" style="height: 100%;">
                     <div class="norebro-text-sc " id="norebro-custom-5e8b7bc2d5653">
 
                         <div class="page-settings"
@@ -69,18 +69,9 @@
             </div>
         </div>
         <div class="wpb_column vc_column_container vc_col-sm-9">
-            <div class="vc_column-inner ">
+            <div class="vc_column-inner " id="norebro-custom-5e8b7bc2d76f7">
                 <div class="wpb_wrapper">
-                    <div class="norebro-google-maps-sc google-maps"
-                         id="norebro-custom-5e8b7bc2d76f7"
-                         data-google-map="true" data-google-map-zoom="10"
-                         data-google-map-zoom-enable="1"
-                         data-google-map-marker=""
-                         data-google-map-style="default">
-
-                        <div class="google-maps-wrap"></div>
-                        <div class="hidden" data-google-map-markers="true">2711 Centerville Road Wilmington, DE, 19808, United States</div>
-                    </div>
+                    @include('home.partial.map')
                 </div>
             </div>
         </div>
@@ -153,17 +144,63 @@
             position: relative;
         }
 
+        #norebro-custom-5e8b7bc2dc309 h3 {
+            color: #404044;
+            font-size: 28px;
+            font-weight: 500;
+        }
+
+        #norebro-custom-5e8b7bc2dcdf7 li h4 {
+            line-height: 20px;
+        }
+
+        #norebro-custom-5e8b7bc2dcdf7 li .icon {
+            color: #f3b435;
+        }
+
         #norebro-custom-5e8b7bc2deb0e h3 {
             color: #404044;
             font-size: 28px;
             font-weight: 500;
+        }
+
+        #norebro-custom-5e8b7bc2df1ed input:not([type='submit']), #norebro-custom-5e8b7bc2df1ed textarea, #norebro-custom-5e8b7bc2df1ed select {
+            color: #5e646a;
+        }
+
+        #norebro-custom-5e8b7bc2df1ed input::-webkit-input-placeholder, #norebro-custom-5e8b7bc2df1ed textarea::-webkit-input-placeholder {
+            color: #5e646a;
+        }
+
+        #norebro-custom-5e8b7bc2df1ed input::-moz-input-placeholder, #norebro-custom-5e8b7bc2df1ed textarea::-moz-input-placeholder {
+            color: #5e646a;
+        }
+
+        #norebro-custom-5e8b7bc2df1ed input::-ms-input-placeholder, #norebro-custom-5e8b7bc2df1ed textarea::-ms-input-placeholder {
+            color: #5e646a;
+        }
+
+        #norebro-custom-5e8b7bc2df1ed input::-moz-placeholder, #norebro-custom-5e8b7bc2df1ed textarea::-moz-placeholder {
+            color: #5e646a;
+        }
+
+        #norebro-custom-5e8b7bc2df1ed input:focus, #norebro-custom-5e8b7bc2df1ed .focus.active, #norebro-custom-5e8b7bc2df1ed textarea:focus {
+            border-color: #5e646a;
+        }
+
+        #norebro-custom-5e8b7bc2df1ed button.btn:hover {
+            color: #ffffff !important;
+        }
+
+        #norebro-custom-5e8b7bc2df1ed label {
+            padding-top: 10px;
+            padding-right: 10px;
         }
     </style>
 @endsection
 
 @push('scripts')
     @include('partials.recaptchaScript')
-    <script async defer type="text/javascript"
-            src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false&key=AIzaSyB3hj8sxMEBI4Tbqu-tJo5jX32C7aEygH0"></script>
+    @include('partials.googleMaps')
 @endpush
 

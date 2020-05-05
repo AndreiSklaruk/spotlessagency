@@ -43,7 +43,8 @@
                 <div class="wpb_column vc_column_container vc_col-sm-12">
                     <div class="vc_column-inner ">
                         <div class="wpb_wrapper">
-                            <div class="norebro-gallery-sc gallery-wrap" id="norebro-custom-5e9791fe6818d"
+                            @section('portfolio-container')
+                                <div class="norebro-gallery-sc gallery-wrap" id="norebro-custom-5e9791fe6818d"
                                  data-gallery="norebro-custom-5e9791fe68146">
                                 <div class="vc_row" data-lazy-container="true">
                                     <div
@@ -68,6 +69,7 @@
                                     <div class="clear"></div>
                                 </div>
                             </div>
+                            @show
                         </div>
                     </div>
                 </div>

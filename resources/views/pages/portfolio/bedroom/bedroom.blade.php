@@ -33,4 +33,9 @@
     </div>
 @endsection
 
-@section('gallery-description', 'Catalog_renderings_6')// gallery-description в html не найден
+@section('portfolio-container')
+    @include('pages.portfolio.partial.diff', [
+        'imageUrlBefore' => '/images/portfolio/bedroom/Bedroom-before.png',
+        'imageUrlAfter' => '/images/portfolio/bedroom/Spotlessagency_bedroom_staged_01.jpg'
+    ])
+@endsection
