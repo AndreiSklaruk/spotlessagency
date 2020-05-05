@@ -78,7 +78,7 @@ Route::prefix('blog')->group(function () {
         });
         Route::get('/bedroom/', function () {
             return view('pages.portfolio.bedroom.bedroom')
-                ->with('backgroundImageUrl', asset(''))
+                ->with('backgroundImageUrl', asset('images/portfolio/Spotlessagency_bedroom_staged_01-1920x1280-1.jpg'))
                 ->with('fullImageUrl', asset(''));
         });
         Route::get('/house/', function () {
