@@ -18,6 +18,7 @@ class Term extends Model
     }
 
     public static function getList() {
+//        return Term::has('blogEntries')->withCount('blogEntries')->orderBy('name')->get();
         return Term::has('blogEntries')->orderBy('name')->get();
     }
 
