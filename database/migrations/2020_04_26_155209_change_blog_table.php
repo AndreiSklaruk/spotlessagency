@@ -17,7 +17,7 @@ class ChangeBlogTable extends Migration
             $table->dropColumn('meta_tags');
         });
         Schema::table(config('blog-eloquent.entries_table'), function (Blueprint $table) {
-            $table->text('meta_tags');
+            $table->text('meta_tags')->nullable();
         });
     }
 
@@ -32,7 +32,7 @@ class ChangeBlogTable extends Migration
             $table->dropColumn('meta_tags');
         });
         Schema::table(config('blog-eloquent.entries_table'), function (Blueprint $table) {
-            $table->json('meta_tags');
+            $table->json('meta_tags')->nullable();
         });
     }
 }
