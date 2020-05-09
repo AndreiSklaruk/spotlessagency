@@ -2,9 +2,16 @@
 
 	'use strict';
 
+	console.log("ssasd2", wpcf7);
 	if ( typeof wpcf7 === 'undefined' || wpcf7 === null ) {
 		return;
 	}
+
+    $.ajaxSetup({
+        headers: {
+            'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+        }
+    });
 
 	wpcf7 = $.extend( {
 		cached: 0,
@@ -29,12 +36,13 @@
 		} )();
 
 		$( 'div.wpcf7 > form' ).each( function() {
+		    console.log('ssss');
 			var $form = $( this );
 			wpcf7.initForm( $form );
 
-			if ( wpcf7.cached ) {
-				wpcf7.refill( $form );
-			}
+			// if ( wpcf7.cached ) {
+			// 	wpcf7.refill( $form );
+			// }
 		} );
 	} );
 

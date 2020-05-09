@@ -15,6 +15,8 @@ Route::get('/welcome', function () {
     return view('welcome');
 });
 
+Route::post('/send-feedback', 'FeedbackController@sendFeedback');
+
 Route::view('/', 'home.home');
 
 Route::view('/virtual-staging-works', 'pages.portfolio.portfolio');

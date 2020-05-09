@@ -4,7 +4,7 @@
          lang="ru-RU" dir="ltr">
         <div class="screen-reader-response"></div>
         <form
-            action="#wpcf7-f13235-p13189-o7"
+            action="/#wpcf7-f13235-p13189-o7"
             method="post" class="wpcf7-form" novalidate="novalidate">
             <div style="display: none;">
                 <input type="hidden" name="_wpcf7" value="13235">
@@ -64,27 +64,34 @@
                     <p>
                     </p></label></div>
             <div class="input-group">
-                <label class="col-4"><span
-                        class="wpcf7-form-control-wrap text-368"><input
-                            type="text" name="text-368" value=""
+                <label class="col-4">
+                    <span class="wpcf7-form-control-wrap first-name">
+                        <input type="text" name="first-name" value="" size="40"
+                            class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required"
+                            aria-required="true" aria-invalid="false"
+                            placeholder="First Name">
+                    </span>
+                </label>
+                <br>
+                <label class="col-4">
+                    <span class="wpcf7-form-control-wrap last-name">
+                        <input type="text" name="last-name" value=""
                             size="40"
                             class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required"
                             aria-required="true" aria-invalid="false"
-                            placeholder="First Name"></span></label><br>
-                <label class="col-4"><span
-                        class="wpcf7-form-control-wrap text-758"><input
-                            type="text" name="text-758" value=""
-                            size="40"
-                            class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required"
-                            aria-required="true" aria-invalid="false"
-                            placeholder="Last Name"></span></label><br>
-                <label class="col-4"><span
-                        class="wpcf7-form-control-wrap your-email"><input
-                            type="email" name="your-email" value=""
+                            placeholder="Last Name">
+                    </span>
+                </label>
+                <br>
+                <label class="col-4">
+                    <span class="wpcf7-form-control-wrap email">
+                        <input type="email" name="email" value=""
                             size="40"
                             class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email"
                             aria-required="true" aria-invalid="false"
-                            placeholder="Email"></span></label>
+                            placeholder="Email">
+                    </span>
+                </label>
             </div>
             <div class="input-group">
                 <label class="col-12&gt; &lt;span class="

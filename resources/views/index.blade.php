@@ -6,6 +6,7 @@
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <meta name="robots" content="noindex">
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=no">
+        <meta name="csrf-token" content="{{ csrf_token() }}">
         @yield('meta')
 
         <link rel="profile" href="http://gmpg.org/xfn/11">
@@ -526,7 +527,6 @@
 {{--                padding: 0 !important;--}}
 {{--            }--}}
 {{--        </style>--}}
-        <script type="text/javascript" src="{{ asset('/js/vendors.js') }}"></script>
 {{--        <script type="text/javascript" src="/external_js/jquery/jquery.js"></script>--}}
 {{--        <script type="text/javascript" src="/external_js/jquery/jquery-migrate.min.js"></script>--}}
 {{--        NOT_USED?--}}
@@ -539,25 +539,7 @@
             /* <![CDATA[ */
             var wpcf7 = {
                 "apiSettings": {
-                    "root": "https:\/\/www.spotlessagency.com\/wp-json\/contact-form-7\/v1",
-                    "namespace": "contact-form-7\/v1"
-                }, "recaptcha": {"messages": {"empty": "Please verify that you are not a robot."}}, "cached": "1"
-            };
-            var wpcf7 = {
-                "apiSettings": {
-                    "root": "https:\/\/www.spotlessagency.com\/wp-json\/contact-form-7\/v1",
-                    "namespace": "contact-form-7\/v1"
-                }, "recaptcha": {"messages": {"empty": "Please verify that you are not a robot."}}, "cached": "1"
-            };
-            var wpcf7 = {
-                "apiSettings": {
-                    "root": "https:\/\/www.spotlessagency.com\/wp-json\/contact-form-7\/v1",
-                    "namespace": "contact-form-7\/v1"
-                }, "recaptcha": {"messages": {"empty": "Please verify that you are not a robot."}}, "cached": "1"
-            };
-            var wpcf7 = {
-                "apiSettings": {
-                    "root": "https:\/\/www.spotlessagency.com\/wp-json\/contact-form-7\/v1",
+                    "root": "{{url('/send-feedback')}}",
                     "namespace": "contact-form-7\/v1"
                 }, "recaptcha": {"messages": {"empty": "Please verify that you are not a robot."}}, "cached": "1"
             };
@@ -745,6 +727,7 @@
 {{--        <script type="text/javascript" src="/external_js/skip-link-focus-fix.js"></script>--}}
 {{--        <script type="text/javascript" src="/external_js/owl.carousel.min.js"></script>--}}
 {{--        <script type="text/javascript" src="/external_js/scroll-smooth.min.js"></script>--}}
+        <script type="text/javascript" src="{{ asset('/js/vendors.js') }}"></script>
         <script type="text/javascript" src="{{ asset('/js/app.js') }}"></script>
         <script type="text/javascript" src="{{ asset('/js/main.js') }}"></script>
         @stack('scripts')
