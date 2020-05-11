@@ -2,7 +2,6 @@
 
 	'use strict';
 
-	console.log("ssasd2", wpcf7);
 	if ( typeof wpcf7 === 'undefined' || wpcf7 === null ) {
 		return;
 	}
@@ -36,7 +35,6 @@
 		} )();
 
 		$( 'div.wpcf7 > form' ).each( function() {
-		    console.log('ssss');
 			var $form = $( this );
 			wpcf7.initForm( $form );
 
