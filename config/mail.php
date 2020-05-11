@@ -133,4 +133,6 @@ return [
 
     'log_channel' => env('MAIL_LOG_CHANNEL'),
 
+    'feedbackRecipient' => env('MAIL_FEEDBACK', 'hello@example.com')
+
 ];

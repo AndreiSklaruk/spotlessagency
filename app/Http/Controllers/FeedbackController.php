@@ -4,8 +4,10 @@
 namespace App\Http\Controllers;
 
 
+use App\Mail\Feedback;
 use Illuminate\Support\Facades\Validator;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Mail;
 
 class FeedbackController extends Controller
 {
@@ -16,6 +18,7 @@ class FeedbackController extends Controller
             'first-name' => 'required|max:40',
             'last-name' => 'required|max:40',
             'email' => 'required|email|max:40',
+            'g-recaptcha-response' => 'required|recaptcha',
         ]);
         $tag = '#' . $request->get('_wpcf7_unit_tag');
 
@@ -37,14 +40,24 @@ class FeedbackController extends Controller
                 'status' => 'validation_failed'
             ]);
         }
-//        $request->validate([
-//            'first-name' => 'required|max:40',
-//            'last-name' => 'required|max:40',
-//            'email' => 'required|email|max:40',
-//        ]);
 
-        $data = $request->all();
-        dd($data);
-        return 'ok';
+        $data = $request->only([
+            "how-did-you-hear",
+            "subject",
+            "pricing",
+            "first-name",
+            "last-name",
+            "email",
+            "your-message",
+            "g-recaptcha-response"
+        ]);
+
+        Mail::to(config('mail.feedbackRecipient'))->send(new Feedback($data));
+
+        return response()->json([
+            'into' => $tag,
+            "message" => "Thank you for your message. It has been sent.",
+            'status' => 'mail_sent'
+        ]);
     }
 }

@@ -511,3 +511,7 @@
         </div>
     </div>
 @endsection
+
+@push('scripts')
+    @include('partials.recaptchaScript')
+@endpush

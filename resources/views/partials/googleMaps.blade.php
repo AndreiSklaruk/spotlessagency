@@ -46,5 +46,4 @@
         }
     }
 </script>
-<script async type="text/javascript"
-        src="https://maps.googleapis.com/maps/api/js?&key=AIzaSyB3hj8sxMEBI4Tbqu-tJo5jX32C7aEygH0&callback=handleGoogleMapsCb"></script>
+<script async type="text/javascript" src="https://maps.googleapis.com/maps/api/js?&key={{env('GOOGLE_MAPS_KEY')}}&callback=handleGoogleMapsCb"></script>

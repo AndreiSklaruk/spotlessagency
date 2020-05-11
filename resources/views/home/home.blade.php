@@ -1280,7 +1280,7 @@
                     <div class="vc_empty_space" style="height: 15px"><span
                             class="vc_empty_space_inner"></span></div>
 
-                    @include('home.partial.contactForm')
+                    @include('partials.contactForm')
 
                     <div class="vc_empty_space  norebro-phone-space" style="height: 110px">
                         <span class="vc_empty_space_inner"></span></div>
