@@ -6,6 +6,12 @@
 		return;
 	}
 
+    $.ajaxSetup({
+        headers: {
+            'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+        }
+    });
+
 	wpcf7 = $.extend( {
 		cached: 0,
 		inputs: []
@@ -32,9 +38,9 @@
 			var $form = $( this );
 			wpcf7.initForm( $form );
 
-			if ( wpcf7.cached ) {
-				wpcf7.refill( $form );
-			}
+			// if ( wpcf7.cached ) {
+			// 	wpcf7.refill( $form );
+			// }
 		} );
 	} );
 

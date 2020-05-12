@@ -2,6 +2,10 @@
 
 @section('title', 'Choose the most suitable pricing for you.')
 
+@push('styles')
+    <link rel="stylesheet" id="norebro-style-inline-css" href="{{asset('css/libs/popup-maker.css')}}" type="text/css" media="all">
+@endpush
+
 @push('bodyClasses', 'page-id-13260')
 
 @section('mastheadClasses', 'dark-text header-2 no-transition')
@@ -306,22 +310,9 @@
 @endsection
 
 @section('bodyBottom')
-    <div class="norebro-gallery-opened-sc gallery" id="norebro-custom-5e8a20735777f"
-         data-options="{&quot;navClass&quot;:&quot;&quot;}">
-        <div class="expand">
-            <span class="ion-android-expand"></span>
-        </div>
-        <div class="close">
-            <span class="ion-ios-close-empty"></span>
-        </div>
-    </div>
-    <div class="norebro-gallery-opened-sc gallery" id="norebro-custom-5e8a20736a6b8"
-         data-options="{&quot;navClass&quot;:&quot;&quot;}">
-        <div class="expand">
-            <span class="ion-android-expand"></span>
-        </div>
-        <div class="close">
-            <span class="ion-ios-close-empty"></span>
-        </div>
-    </div>
+    @include('partials.popups')
 @endsection
+
+@push('scripts')
+    @include('partials.recaptchaScript')
+@endpush

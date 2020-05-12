@@ -507,20 +507,14 @@
         <div class="nrb-recent-projects wpb_column vc_column_container vc_col-sm-12">
             <div class="vc_column-inner ">
                 <div class="wpb_wrapper">
-                    <div class="vc_empty_space" style="height: 30px"><span
-                            class="vc_empty_space_inner"></span></div>
+                    <div class="vc_empty_space" style="height: 30px">
+                        <span class="vc_empty_space_inner"></span>
+                    </div>
                     <div class="norebro-heading-sc heading text-center"
                          id="norebro-custom-5e75fd3f81a29" data-aos="fade-up">
-
-
-                        <h3 class="title">
-                            Recent Projects </h3>
-
-
+                        <h3 class="title">Recent Projects </h3>
                     </div>
-                    <div data-norebro-portfolio-grid="true"
-                         id="norebro-custom-5e75fd3f8d562"
-                         class="norebro-recent-projects-sc">
+                    <div data-norebro-portfolio-grid="true" id="norebro-custom-5e75fd3f8d562" class="norebro-recent-projects-sc">
 
                         <div class="portfolio-sorting text-left" data-filter="portfolio">
                             <ul class="unstyled">
@@ -539,118 +533,88 @@
                                 </li>
                             </ul>
                         </div>
-
-
-                        <div class="vc_row  with-sorting" data-isotope-grid="true"
-                             data-lazy-container="true">
-
-                            <div
-                                class="portfolio-item-wrap masonry-block grid-item vc_col-lg-4 norebro-project-item norebro-filter-project-a0664e1559e10ca00131e05eff284917"
+                        <div class="vc_row  with-sorting" data-isotope-grid="true" data-lazy-container="true">
+                            <div class="portfolio-item-wrap masonry-block grid-item vc_col-lg-4 norebro-project-item norebro-filter-project-a0664e1559e10ca00131e05eff284917"
                                 data-lazy-item="true">
-                                <div data-aos-once="true" data-aos="fade-up"
-                                     data-aos-delay="0">
+                                <div data-aos-once="true" data-aos="fade-up" data-aos-delay="0">
                                     <div class="portfolio-item grid-1">
                                         <a href="/blog/project/kitchen-2/">
                                             <div class="image-wrap">
-                                                <img
-                                                    src="/images/Kitchen_staged-1920x1258-1.jpg"
-                                                    alt="New Kitchen">
+                                                <img src="/images/Kitchen_staged-1920x1258-1.jpg" alt="New Kitchen">
                                             </div>
                                             <div class="description overlay">
                                                 <div class="content-center">
                                                     <div class="wrap text-center">
-
                                                         <span class="category">Virtual Staging</span>
-
                                                         <h4 class="title">New Kitchen</h4>
                                                         <div class="more brand-color">
-                                                                                        <span
-                                                                                            class="ion-ios-plus-empty"></span>
+                                                            <span class="ion-ios-plus-empty"></span>
                                                         </div>
                                                     </div>
                                                 </div>
                                             </div>
                                         </a>
                                     </div>
-
                                 </div>
                                 <div class="clear"></div>
                             </div>
-                            <div
-                                class="portfolio-item-wrap masonry-block grid-item vc_col-lg-4 norebro-project-item norebro-filter-project-a0664e1559e10ca00131e05eff284917"
+                            <div class="portfolio-item-wrap masonry-block grid-item vc_col-lg-4 norebro-project-item norebro-filter-project-a0664e1559e10ca00131e05eff284917"
                                 data-lazy-item="true">
-                                <div data-aos-once="true" data-aos="fade-up"
-                                     data-aos-delay="100">
+                                <div data-aos-once="true" data-aos="fade-up" data-aos-delay="100">
                                     <div class="portfolio-item grid-1">
                                         <a href="/blog/project/kitchen/">
                                             <div class="image-wrap">
-                                                <img
-                                                    src="/images/Kitchen-1.jpg"
-                                                    alt="Kitchen">
+                                                <img src="/images/Kitchen-1.jpg" alt="Kitchen">
                                             </div>
                                             <div class="description overlay">
                                                 <div class="content-center">
                                                     <div class="wrap text-center">
-
                                                         <span class="category">Virtual Staging</span>
-
                                                         <h4 class="title">Kitchen</h4>
                                                         <div class="more brand-color">
-                                                                                        <span
-                                                                                            class="ion-ios-plus-empty"></span>
+                                                            <span class="ion-ios-plus-empty"></span>
                                                         </div>
                                                     </div>
                                                 </div>
                                             </div>
                                         </a>
                                     </div>
-
                                 </div>
                                 <div class="clear"></div>
                             </div>
-                            <div
-                                class="portfolio-item-wrap masonry-block grid-item vc_col-lg-4 norebro-project-item norebro-filter-project-a0664e1559e10ca00131e05eff284917"
+                            <div class="portfolio-item-wrap masonry-block grid-item vc_col-lg-4 norebro-project-item norebro-filter-project-a0664e1559e10ca00131e05eff284917"
                                 data-lazy-item="true">
                                 <div data-aos-once="true" data-aos="fade-up"
                                      data-aos-delay="250">
                                     <div class="portfolio-item grid-1">
                                         <a href="/blog/project/bedroom/">
                                             <div class="image-wrap">
-                                                <img
-                                                    src="/images/Spotlessagency_bedroom_staged_01-1920x1280-1.jpg"
-                                                    alt="Bedroom">
+                                                <img src="/images/Spotlessagency_bedroom_staged_01-1920x1280-1.jpg" alt="Bedroom">
                                             </div>
                                             <div class="description overlay">
                                                 <div class="content-center">
                                                     <div class="wrap text-center">
-
                                                         <span class="category">Virtual Staging</span>
-
                                                         <h4 class="title">Bedroom</h4>
                                                         <div class="more brand-color">
-                                                                                        <span
-                                                                                            class="ion-ios-plus-empty"></span>
+                                                            <span class="ion-ios-plus-empty"></span>
                                                         </div>
                                                     </div>
                                                 </div>
                                             </div>
                                         </a>
                                     </div>
-
                                 </div>
                                 <div class="clear"></div>
                             </div>
-                            <div
-                                class="portfolio-item-wrap masonry-block grid-item vc_col-lg-4 norebro-project-item norebro-filter-project-a0664e1559e10ca00131e05eff284917"
+                            <div class="portfolio-item-wrap masonry-block grid-item vc_col-lg-4 norebro-project-item norebro-filter-project-a0664e1559e10ca00131e05eff284917"
                                 data-lazy-item="true">
                                 <div data-aos-once="true" data-aos="fade-up"
                                      data-aos-delay="0">
                                     <div class="portfolio-item grid-1">
                                         <a href="/blog/project/living-room-3/">
                                             <div class="image-wrap">
-                                                <img
-                                                    src="/images/Cindy_Living_staged-1920x1283-1.jpg"
-                                                    alt="Our Living Room">
+                                                <img src="/images/Cindy_Living_staged-1920x1283-1.jpg" alt="Our Living Room">
                                             </div>
                                             <div class="description overlay">
                                                 <div class="content-center">
@@ -1316,7 +1280,7 @@
                     <div class="vc_empty_space" style="height: 15px"><span
                             class="vc_empty_space_inner"></span></div>
 
-                    @include('home.partial.contactForm')
+                    @include('partials.contactForm')
 
                     <div class="vc_empty_space  norebro-phone-space" style="height: 110px">
                         <span class="vc_empty_space_inner"></span></div>

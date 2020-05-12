@@ -130,6 +130,7 @@ return [
     */
 
     'custom' => [
+        'recaptcha'=>'Please ensure that you are a human!',
         'attribute-name' => [
             'rule-name' => 'custom-message',
         ],

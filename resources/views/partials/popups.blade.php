@@ -23,7 +23,8 @@
                                value="{&quot;form_id&quot;:15164,&quot;conditions&quot;:[],&quot;settings&quot;:false}"/>
                     </div>
                     <div class="input-group input-group-padding">
-                        <label class="col-4"><span class="wpcf7-form-control-wrap menu-750"><select name="menu-750"
+                        <label class="col-4"><span class="wpcf7-form-control-wrap how-did-you-hear">
+                                <select name="how-did-you-hear"
                                                                                                     class="wpcf7-form-control wpcf7-select wpcf7-validates-as-required"
                                                                                                     aria-required="true"
                                                                                                     aria-invalid="false"><option
@@ -33,36 +34,49 @@
                                         value="Linkedin">Linkedin</option><option value="Online Ads">Online Ads</option><option
                                         value="From a friend/colleague">From a friend/colleague</option><option
                                         value="Other">Other</option></select></span></label><br/>
-                        <label class="col-4"><span class="wpcf7-form-control-wrap menu-342"><select name="menu-342"
-                                                                                                    class="wpcf7-form-control wpcf7-select disabled"
-                                                                                                    aria-invalid="false"><option
-                                        value="Subject">Subject</option><option value="Virtual staging services"
-                                                                                selected="selected">Virtual staging services</option><option
-                                        value="Architectural 3d rendering">Architectural 3d rendering</option><option
-                                        value="Furniture catalog 3d rendering">Furniture catalog 3d rendering</option></select></span></label><br/>
-                        <label class="col-4"><span class="wpcf7-form-control-wrap menu-674"><select name="menu-674"
-                                                                                                    class="wpcf7-form-control wpcf7-select disabled"
-                                                                                                    aria-invalid="false"><option
-                                        value="Pricing">Pricing</option><option value="Light">Light</option><option
-                                        value="Standard">Standard</option><option value="Professional" selected="selected">Professional</option></select></span></label>
+                        <label class="col-4"><span class="wpcf7-form-control-wrap subject">
+                                <select name="subject" class="wpcf7-form-control wpcf7-select disabled" aria-invalid="false">
+                                    <option value="Subject">Subject</option>
+                                    <option selected="selected" value="Virtual staging services" >Virtual staging services</option>
+                                    <option value="Architectural 3d rendering">Architectural 3d rendering</option>
+                                    <option value="Furniture catalog 3d rendering">Furniture catalog 3d rendering</option>
+                                </select>
+                                <input type="hidden" name="subject" value="Virtual staging services"/>
+                            </span>
+                        </label>
+                        <br/>
+                        <label class="col-4">
+                            <span class="wpcf7-form-control-wrap pricing">
+                                <select name="pricing" class="wpcf7-form-control wpcf7-select disabled" aria-invalid="false">
+                                    <option value="Pricing">Pricing</option>
+                                    <option value="Light">Light</option>
+                                    <option value="Standard">Standard</option>
+                                    <option value="Professional" selected="selected">Professional</option>
+                                </select>
+                                <input type="hidden" name="pricing" value="Professional"/>
+                            </span>
+                        </label>
                     </div>
                     <div class="input-group input-group-padding">
-                        <label class="col-4"><span class="wpcf7-form-control-wrap text-368"><input type="text"
-                                                                                                   name="text-368"
+                        <label class="col-4"><span class="wpcf7-form-control-wrap first-name">
+                                <input type="text"
+                                                                                                   name="first-name"
                                                                                                    value="" size="40"
                                                                                                    class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required"
                                                                                                    aria-required="true"
                                                                                                    aria-invalid="false"
                                                                                                    placeholder="First Name"/></span></label><br/>
-                        <label class="col-4"><span class="wpcf7-form-control-wrap text-758"><input type="text"
-                                                                                                   name="text-758"
+                        <label class="col-4"><span class="wpcf7-form-control-wrap last-name">
+                                <input type="text"
+                                                                                                   name="last-name"
                                                                                                    value="" size="40"
                                                                                                    class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required"
                                                                                                    aria-required="true"
                                                                                                    aria-invalid="false"
                                                                                                    placeholder="Last Name"/></span></label><br/>
-                        <label class="col-4"><span class="wpcf7-form-control-wrap your-email"><input type="email"
-                                                                                                     name="your-email"
+                        <label class="col-4"><span class="wpcf7-form-control-wrap email">
+                                <input type="email"
+                                                                                                     name="email"
                                                                                                      value="" size="40"
                                                                                                      class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email"
                                                                                                      aria-required="true"
@@ -70,33 +84,15 @@
                                                                                                      placeholder="Email"/></span></label>
                     </div>
                     <div class="input-group input-group-padding">
-                        <label class="col-12 full-width"> <span class="wpcf7-form-control-wrap your-message"><textarea
+                        <label class="col-12 full-width"> <span class="wpcf7-form-control-wrap your-message">
+                                <textarea
                                     name="your-message" cols="40" rows="10" class="wpcf7-form-control wpcf7-textarea"
                                     aria-invalid="false" placeholder="Message"></textarea></span> </label>
                     </div>
                     <div class="input-group">
                         <div class="wpcf7-form-control-wrap">
-                            <div data-sitekey="6LdjjX0UAAAAAMJ2--uvuuocEyZBNKm219XpDn6o"
+                            <div data-sitekey="{{env('GOOGLE_RECAPTCHA_KEY')}}"
                                  class="wpcf7-form-control g-recaptcha wpcf7-recaptcha capcha"></div>
-                            <noscript>
-                                <div style="width: 302px; height: 422px;">
-                                    <div style="width: 302px; height: 422px; position: relative;">
-                                        <div style="width: 302px; height: 422px; position: absolute;">
-                                            <iframe
-                                                src="https://www.google.com/recaptcha/api/fallback?k=6LdjjX0UAAAAAMJ2--uvuuocEyZBNKm219XpDn6o"
-                                                frameborder="0" scrolling="no"
-                                                style="width: 302px; height:422px; border-style: none;">
-                                            </iframe>
-                                        </div>
-                                        <div
-                                            style="width: 300px; height: 60px; border-style: none; bottom: 12px; left: 25px; margin: 0px; padding: 0px; right: 25px; background: #f9f9f9; border: 1px solid #c1c1c1; border-radius: 3px;">
-				<textarea id="g-recaptcha-response" name="g-recaptcha-response" class="g-recaptcha-response"
-                          style="width: 250px; height: 40px; border: 1px solid #c1c1c1; margin: 10px 25px; padding: 0px; resize: none;">
-				</textarea>
-                                        </div>
-                                    </div>
-                                </div>
-                            </noscript>
                         </div>
                     </div>
                     <p><input type="submit" value="Submit"
@@ -142,7 +138,8 @@
                                value="{&quot;form_id&quot;:15163,&quot;conditions&quot;:[],&quot;settings&quot;:false}"/>
                     </div>
                     <div class="input-group input-group-padding">
-                        <label class="col-4"><span class="wpcf7-form-control-wrap menu-750"><select name="menu-750"
+                        <label class="col-4"><span class="wpcf7-form-control-wrap how-did-you-hear">
+                                <select name="how-did-you-hear"
                                                                                                     class="wpcf7-form-control wpcf7-select wpcf7-validates-as-required"
                                                                                                     aria-required="true"
                                                                                                     aria-invalid="false"><option
@@ -152,37 +149,50 @@
                                         value="Linkedin">Linkedin</option><option value="Online Ads">Online Ads</option><option
                                         value="From a friend/colleague">From a friend/colleague</option><option
                                         value="Other">Other</option></select></span></label><br/>
-                        <label class="col-4"><span class="wpcf7-form-control-wrap menu-342"><select name="menu-342"
-                                                                                                    class="wpcf7-form-control wpcf7-select disabled"
-                                                                                                    aria-invalid="false"><option
-                                        value="Subject">Subject</option><option value="Virtual staging services"
-                                                                                selected="selected">Virtual staging services</option><option
-                                        value="Architectural 3d rendering">Architectural 3d rendering</option><option
-                                        value="Furniture catalog 3d rendering">Furniture catalog 3d rendering</option></select></span></label><br/>
-                        <label class="col-4"><span class="wpcf7-form-control-wrap menu-674"><select name="menu-674"
-                                                                                                    class="wpcf7-form-control wpcf7-select disabled"
-                                                                                                    aria-invalid="false"><option
-                                        value="Pricing">Pricing</option><option value="Light">Light</option><option value="Standard"
-                                                                                                                    selected="selected">Standard</option><option
-                                        value="Professional">Professional</option></select></span></label>
+                        <label class="col-4"><span class="wpcf7-form-control-wrap subject">
+                                <select name="subject" class="wpcf7-form-control wpcf7-select disabled" aria-invalid="false">
+                                    <option
+                                        value="Subject">Subject</option>
+                                    <option value="Virtual staging services" selected="selected">Virtual staging services</option>
+                                    <option
+                                        value="Architectural 3d rendering">Architectural 3d rendering</option>
+                                    <option
+                                        value="Furniture catalog 3d rendering">Furniture catalog 3d rendering</option>
+                                </select>
+                                <input type="hidden" name="subject" value="Virtual staging services"/>
+                            </span>
+                        </label><br/>
+                        <label class="col-4"><span class="wpcf7-form-control-wrap pricing">
+                                <select name="pricing" class="wpcf7-form-control wpcf7-select disabled" aria-invalid="false">
+                                    <option value="Pricing">Pricing</option>
+                                    <option value="Light">Light</option>
+                                    <option value="Standard" selected="selected">Standard</option>
+                                    <option value="Professional">Professional</option>
+                                </select>
+                                <input type="hidden" name="pricing" value="Standard"/>
+                            </span>
+                        </label>
                     </div>
                     <div class="input-group input-group-padding">
-                        <label class="col-4"><span class="wpcf7-form-control-wrap text-368"><input type="text"
-                                                                                                   name="text-368"
+                        <label class="col-4"><span class="wpcf7-form-control-wrap first-name">
+                                <input type="text"
+                                                                                                   name="first-name"
                                                                                                    value="" size="40"
                                                                                                    class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required"
                                                                                                    aria-required="true"
                                                                                                    aria-invalid="false"
                                                                                                    placeholder="First Name"/></span></label><br/>
-                        <label class="col-4"><span class="wpcf7-form-control-wrap text-758"><input type="text"
-                                                                                                   name="text-758"
+                        <label class="col-4"><span class="wpcf7-form-control-wrap last-name">
+                                <input type="text"
+                                                                                                   name="last-name"
                                                                                                    value="" size="40"
                                                                                                    class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required"
                                                                                                    aria-required="true"
                                                                                                    aria-invalid="false"
                                                                                                    placeholder="Last Name"/></span></label><br/>
-                        <label class="col-4"><span class="wpcf7-form-control-wrap your-email"><input type="email"
-                                                                                                     name="your-email"
+                        <label class="col-4"><span class="wpcf7-form-control-wrap email">
+                                <input type="email"
+                                                                                                     name="email"
                                                                                                      value="" size="40"
                                                                                                      class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email"
                                                                                                      aria-required="true"
@@ -190,33 +200,15 @@
                                                                                                      placeholder="Email"/></span></label>
                     </div>
                     <div class="input-group input-group-padding">
-                        <label class="col-12 full-width"> <span class="wpcf7-form-control-wrap your-message"><textarea
+                        <label class="col-12 full-width"> <span class="wpcf7-form-control-wrap your-message">
+                                <textarea
                                     name="your-message" cols="40" rows="10" class="wpcf7-form-control wpcf7-textarea"
                                     aria-invalid="false" placeholder="Message"></textarea></span> </label>
                     </div>
                     <div class="input-group">
                         <div class="wpcf7-form-control-wrap">
-                            <div data-sitekey="6LdjjX0UAAAAAMJ2--uvuuocEyZBNKm219XpDn6o"
+                            <div data-sitekey="{{env('GOOGLE_RECAPTCHA_KEY')}}"
                                  class="wpcf7-form-control g-recaptcha wpcf7-recaptcha capcha"></div>
-                            <noscript>
-                                <div style="width: 302px; height: 422px;">
-                                    <div style="width: 302px; height: 422px; position: relative;">
-                                        <div style="width: 302px; height: 422px; position: absolute;">
-                                            <iframe
-                                                src="https://www.google.com/recaptcha/api/fallback?k=6LdjjX0UAAAAAMJ2--uvuuocEyZBNKm219XpDn6o"
-                                                frameborder="0" scrolling="no"
-                                                style="width: 302px; height:422px; border-style: none;">
-                                            </iframe>
-                                        </div>
-                                        <div
-                                            style="width: 300px; height: 60px; border-style: none; bottom: 12px; left: 25px; margin: 0px; padding: 0px; right: 25px; background: #f9f9f9; border: 1px solid #c1c1c1; border-radius: 3px;">
-				<textarea id="g-recaptcha-response" name="g-recaptcha-response" class="g-recaptcha-response"
-                          style="width: 250px; height: 40px; border: 1px solid #c1c1c1; margin: 10px 25px; padding: 0px; resize: none;">
-				</textarea>
-                                        </div>
-                                    </div>
-                                </div>
-                            </noscript>
                         </div>
                     </div>
                     <p><input type="submit" value="Submit"
@@ -262,52 +254,81 @@
                                value="{&quot;form_id&quot;:15146,&quot;conditions&quot;:[],&quot;settings&quot;:false}"/>
                     </div>
                     <div class="input-group input-group-padding">
-                        <label class="col-4"><span class="wpcf7-form-control-wrap menu-750"><select name="menu-750"
-                                                                                                    class="wpcf7-form-control wpcf7-select wpcf7-validates-as-required"
-                                                                                                    aria-required="true"
-                                                                                                    aria-invalid="false"><option
-                                        value="How did you hear about us?">How did you hear about us?</option><option
-                                        value="Google Search">Google Search</option><option value="Facebook">Facebook</option><option
-                                        value="Instagram">Instagram</option><option value="Twitter">Twitter</option><option
-                                        value="Linkedin">Linkedin</option><option value="Online Ads">Online Ads</option><option
-                                        value="From a friend/colleague">From a friend/colleague</option><option
-                                        value="Other">Other</option></select></span></label><br/>
-                        <label class="col-4"><span class="wpcf7-form-control-wrap menu-342"><select name="menu-342"
-                                                                                                    class="wpcf7-form-control wpcf7-select disabled"
-                                                                                                    aria-invalid="false"><option
-                                        value="Subject">Subject</option><option value="Virtual staging services"
-                                                                                selected="selected">Virtual staging services</option><option
-                                        value="Architectural 3d rendering">Architectural 3d rendering</option><option
-                                        value="Furniture catalog 3d rendering">Furniture catalog 3d rendering</option></select></span></label><br/>
-                        <label class="col-4"><span class="wpcf7-form-control-wrap menu-234"><select name="menu-234"
-                                                                                                    class="wpcf7-form-control wpcf7-select disabled"
-                                                                                                    aria-invalid="false"><option
-                                        value="Pricing">Pricing</option><option value="Light" selected="selected">Light</option><option
-                                        value="Standard">Standard</option><option
-                                        value="Professional">Professional</option></select></span></label>
+                        <label class="col-4">
+                            <span class="wpcf7-form-control-wrap how-did-you-hear">
+                                <select name="how-did-you-hear"
+                                        class="wpcf7-form-control wpcf7-select wpcf7-validates-as-required"
+                                        aria-required="true"
+                                        aria-invalid="false">
+                                    <option value="How did you hear about us?">How did you hear about us?</option>
+                                    <option value="Google Search">Google Search</option>
+                                    <option value="Facebook">Facebook</option>
+                                    <option value="Instagram">Instagram</option>
+                                    <option value="Twitter">Twitter</option>
+                                    <option value="Linkedin">Linkedin</option>
+                                    <option value="Online Ads">Online Ads</option>
+                                    <option value="From a friend/colleague">From a friend/colleague</option>
+                                    <option value="Other">Other</option>
+                                </select>
+                            </span>
+                        </label>
+                        <br/>
+                        <label class="col-4">
+                            <span class="wpcf7-form-control-wrap subject">
+                                <select name="subject" class="wpcf7-form-control wpcf7-select disabled" aria-invalid="false">
+                                    <option value="Subject">Subject</option>
+                                    <option value="Virtual staging services" selected="selected">Virtual staging services</option>
+                                    <option value="Architectural 3d rendering">Architectural 3d rendering</option>
+                                    <option value="Furniture catalog 3d rendering">Furniture catalog 3d rendering</option>
+                                </select>
+                                <input type="hidden" name="subject" value="Virtual staging services"/>
+                            </span>
+                        </label>
+                        <br/>
+                        <label class="col-4">
+                            <span class="wpcf7-form-control-wrap pricing">
+                                <select name="pricing" class="wpcf7-form-control wpcf7-select disabled"aria-invalid="false">
+                                    <option value="Pricing">Pricing</option>
+                                    <option value="Light" selected="selected">Light</option>
+                                    <option value="Standard">Standard</option>
+                                    <option value="Professional">Professional</option>
+                                </select>
+                                <input type="hidden" name="pricing" value="Light"/>
+                            </span>
+                        </label>
                     </div>
                     <div class="input-group input-group-padding">
-                        <label class="col-4"><span class="wpcf7-form-control-wrap text-368"><input type="text"
-                                                                                                   name="text-368"
-                                                                                                   value="" size="40"
-                                                                                                   class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required"
-                                                                                                   aria-required="true"
-                                                                                                   aria-invalid="false"
-                                                                                                   placeholder="First Name"/></span></label><br/>
-                        <label class="col-4"><span class="wpcf7-form-control-wrap text-758"><input type="text"
-                                                                                                   name="text-758"
-                                                                                                   value="" size="40"
-                                                                                                   class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required"
-                                                                                                   aria-required="true"
-                                                                                                   aria-invalid="false"
-                                                                                                   placeholder="Last Name"/></span></label><br/>
-                        <label class="col-4"><span class="wpcf7-form-control-wrap your-email"><input type="email"
-                                                                                                     name="your-email"
-                                                                                                     value="" size="40"
-                                                                                                     class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email"
-                                                                                                     aria-required="true"
-                                                                                                     aria-invalid="false"
-                                                                                                     placeholder="Email"/></span></label>
+                        <label class="col-4">
+                            <span class="wpcf7-form-control-wrap first-name">
+                                <input type="text" name="first-name"
+                                   value="" size="40"
+                                   class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required"
+                                   aria-required="true"
+                                   aria-invalid="false"
+                                   placeholder="First Name"/>
+                            </span>
+                        </label>
+                        <br/>
+                        <label class="col-4">
+                            <span class="wpcf7-form-control-wrap last-name">
+                                <input type="text" name="last-name"
+                                   value="" size="40"
+                                   class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required"
+                                   aria-required="true"
+                                   aria-invalid="false"
+                                   placeholder="Last Name"/>
+                            </span>
+                        </label>
+                        <br/>
+                        <label class="col-4">
+                            <span class="wpcf7-form-control-wrap email">
+                                <input type="email" name="email" value="" size="40"
+                                     class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email"
+                                     aria-required="true"
+                                     aria-invalid="false"
+                                     placeholder="Email"/>
+                            </span>
+                        </label>
                     </div>
                     <div class="input-group input-group-padding">
                         <label class="col-12 full-width"> <span class="wpcf7-form-control-wrap your-message"><textarea
@@ -316,27 +337,8 @@
                     </div>
                     <div class="input-group">
                         <div class="wpcf7-form-control-wrap">
-                            <div data-sitekey="6LdjjX0UAAAAAMJ2--uvuuocEyZBNKm219XpDn6o"
+                            <div data-sitekey="{{env('GOOGLE_RECAPTCHA_KEY')}}"
                                  class="wpcf7-form-control g-recaptcha wpcf7-recaptcha capcha"></div>
-                            <noscript>
-                                <div style="width: 302px; height: 422px;">
-                                    <div style="width: 302px; height: 422px; position: relative;">
-                                        <div style="width: 302px; height: 422px; position: absolute;">
-                                            <iframe
-                                                src="https://www.google.com/recaptcha/api/fallback?k=6LdjjX0UAAAAAMJ2--uvuuocEyZBNKm219XpDn6o"
-                                                frameborder="0" scrolling="no"
-                                                style="width: 302px; height:422px; border-style: none;">
-                                            </iframe>
-                                        </div>
-                                        <div
-                                            style="width: 300px; height: 60px; border-style: none; bottom: 12px; left: 25px; margin: 0px; padding: 0px; right: 25px; background: #f9f9f9; border: 1px solid #c1c1c1; border-radius: 3px;">
-				<textarea id="g-recaptcha-response" name="g-recaptcha-response" class="g-recaptcha-response"
-                          style="width: 250px; height: 40px; border: 1px solid #c1c1c1; margin: 10px 25px; padding: 0px; resize: none;">
-				</textarea>
-                                        </div>
-                                    </div>
-                                </div>
-                            </noscript>
                         </div>
                     </div>
                     <p><input type="submit" value="Submit"
