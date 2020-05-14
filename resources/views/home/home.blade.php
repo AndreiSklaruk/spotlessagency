@@ -71,8 +71,8 @@
                     <div class="wpb_raw_code wpb_content_element wpb_raw_html">
                         <div class="wpb_wrapper">
                             <div class='twentytwenty-container twentytwenty-custom'>
-                                <img src='/images/studio-before.jpg'>
-                                <img src='/images/studio-after.jpg'>
+                                <img src='/images/studio-before-min.jpg'>
+                                <img src='/images/studio-after-min.jpg'>
                             </div>
                         </div>
                     </div>
@@ -267,7 +267,7 @@
                         <figure class="wpb_wrapper vc_figure">
                             <div class="vc_single_image-wrapper   vc_box_border_grey"><img
                                     class="vc_single_image-img lazyload"
-                                    data-src="/images/original_photo_main_page-648x410.jpg"
+                                    data-src="/images/original_photo_main_page-648x410-min.jpg"
                                     width="648" height="410" alt="virtual staging photo"
                                     title="virtual staging photo"/></div>
                         </figure>
@@ -540,7 +540,7 @@
                                     <div class="portfolio-item grid-1">
                                         <a href="/blog/project/kitchen-2/">
                                             <div class="image-wrap">
-                                                <img src="/images/Kitchen_staged-1920x1258-1.jpg" alt="New Kitchen">
+                                                <img src="/images/Kitchen_staged-1920x1258-1-min.jpg" alt="New Kitchen">
                                             </div>
                                             <div class="description overlay">
                                                 <div class="content-center">
@@ -564,7 +564,7 @@
                                     <div class="portfolio-item grid-1">
                                         <a href="/blog/project/kitchen/">
                                             <div class="image-wrap">
-                                                <img src="/images/Kitchen-1.jpg" alt="Kitchen">
+                                                <img src="/images/Kitchen-1-min.jpg" alt="Kitchen">
                                             </div>
                                             <div class="description overlay">
                                                 <div class="content-center">
@@ -589,7 +589,7 @@
                                     <div class="portfolio-item grid-1">
                                         <a href="/blog/project/bedroom/">
                                             <div class="image-wrap">
-                                                <img src="/images/Spotlessagency_bedroom_staged_01-1920x1280-1.jpg" alt="Bedroom">
+                                                <img src="/images/Spotlessagency_bedroom_staged_01-1920x1280-1-min.jpg" alt="Bedroom">
                                             </div>
                                             <div class="description overlay">
                                                 <div class="content-center">
@@ -614,7 +614,7 @@
                                     <div class="portfolio-item grid-1">
                                         <a href="/blog/project/living-room-3/">
                                             <div class="image-wrap">
-                                                <img src="/images/Cindy_Living_staged-1920x1283-1.jpg" alt="Our Living Room">
+                                                <img src="/images/Cindy_Living_staged-1920x1283-1-min.jpg" alt="Our Living Room">
                                             </div>
                                             <div class="description overlay">
                                                 <div class="content-center">
@@ -646,7 +646,7 @@
                                         <a href="/blog/project/living-room-2/">
                                             <div class="image-wrap">
                                                 <img
-                                                    src="/images/Amanda_Living_1_staged_corrected_1-1920x1279-1.jpg"
+                                                    src="/images/Amanda_Living_1_staged_corrected_1-1920x1279-1-min.jpg"
                                                     alt="Living Room">
                                             </div>
                                             <div class="description overlay">
@@ -678,7 +678,7 @@
                                         <a href="/blog/project/living-room/">
                                             <div class="image-wrap">
                                                 <img
-                                                    src="/images/Living_room_staged-412.jpg"
+                                                    src="/images/Living_room_staged-412-min.jpg"
                                                     alt="New Living Room">
                                             </div>
                                             <div class="description overlay">
@@ -806,12 +806,12 @@
 
                                         <div class="first-image">
                                             <img
-                                                src="/images/Compass.png"
+                                                src="/images/Compass-min.png"
                                                 alt="">
                                         </div>
                                         <div class="second-image">
                                             <img
-                                                src="/images/Compass.png"
+                                                src="/images/Compass-min.png"
                                                 alt="">
                                         </div>
 
@@ -830,12 +830,12 @@
 
                                         <div class="first-image">
                                             <img
-                                                src="/images/Sothebys.png"
+                                                src="/images/Sothebys-min.png"
                                                 alt="">
                                         </div>
                                         <div class="second-image">
                                             <img
-                                                src="/images/Sothebys.png"
+                                                src="/images/Sothebys-min.png"
                                                 alt="">
                                         </div>
 
@@ -854,12 +854,12 @@
 
                                         <div class="first-image">
                                             <img
-                                                src="/images/Corcoran.png"
+                                                src="/images/Corcoran-min.png"
                                                 alt="">
                                         </div>
                                         <div class="second-image">
                                             <img
-                                                src="/images/Corcoran.png"
+                                                src="/images/Corcoran-min.png"
                                                 alt="">
                                         </div>
 
@@ -881,12 +881,12 @@
 
                                         <div class="first-image">
                                             <img
-                                                src="/images/CityHabitats.png"
+                                                src="/images/CityHabitats-min.png"
                                                 alt="">
                                         </div>
                                         <div class="second-image">
                                             <img
-                                                src="/images/CityHabitats.png"
+                                                src="/images/CityHabitats-min.png"
                                                 alt="">
                                         </div>
 
@@ -905,12 +905,12 @@
 
                                         <div class="first-image">
                                             <img
-                                                src="/images/NestSeekers.png"
+                                                src="/images/NestSeekers-min.png"
                                                 alt="">
                                         </div>
                                         <div class="second-image">
                                             <img
-                                                src="/images/NestSeekers.png"
+                                                src="/images/NestSeekers-min.png"
                                                 alt="">
                                         </div>
 
@@ -929,12 +929,12 @@
 
                                         <div class="first-image">
                                             <img
-                                                src="/images/BrownHarrisStevens.png"
+                                                src="/images/BrownHarrisStevens-min.png"
                                                 alt="">
                                         </div>
                                         <div class="second-image">
                                             <img
-                                                src="/images/BrownHarrisStevens.png"
+                                                src="/images/BrownHarrisStevens-min.png"
                                                 alt="">
                                         </div>
 
@@ -997,7 +997,7 @@
                             <div class="slider-wrap">
                                 <div class="norebro-testimonial-sc testimonials  top-avatar" id="norebro-custom-5e75fd4007b9a">
                                     <div class="avatar">
-                                        <img src="/images/anton.jpg"
+                                        <img src="/images/anton-min.jpg"
                                              alt="Anthony Barillo">
                                     </div>
 
@@ -1025,28 +1025,17 @@
                                     <a href="https://www.facebook.com/spotlessagency/reviews/"
                                        target="_blank"
                                        class="btn  btn-squared btn-outline">
-
-
-		<span class="text">
-			All reviews		</span>
-
+		                                <span class="text">All reviews</span>
                                         <span class="icon ion-android-arrow-forward"></span>
-
                                     </a>
-
                                 </div>
                             </div>
                             <div class="slider-wrap">
-
                                 <div class="norebro-testimonial-sc testimonials  top-avatar"
                                      id="norebro-custom-5e75fd40099f7">
-
                                     <div class="avatar">
-                                        <img
-                                            src="/images/chilivetis.jpg"
-                                            alt="Heather Chilivetis">
+                                        <img src="/images/chilivetis-min.jpg" alt="Heather Chilivetis">
                                     </div>
-
                                     <blockquote>
                                         Wow! I’m a broker In Houston who just used this
                                         agency for the first time. I will now use them for
@@ -1059,12 +1048,8 @@
                                         me the most spectacular magazine like image. I
                                         couldn’t be happier.
                                     </blockquote>
-
-
                                     <h4 class="title">— Heather Chilivetis</h4>
-                                    <p class="subtitle small">
-                                        Chilivetis Fine Homes LLC </p>
-
+                                    <p class="subtitle small">Chilivetis Fine Homes LLC </p>
                                 </div>
                                 <div class="vc_empty_space  norebro-phone-space"
                                      style="height: 20px"><span
@@ -1139,7 +1124,7 @@
 
                                     <div class="avatar">
                                         <img
-                                            src="/images/Romy.jpg"
+                                            src="/images/Romy-min.jpg"
                                             alt="Romy Rodiek">
                                     </div>
 
@@ -1192,7 +1177,7 @@
 
                                     <div class="avatar">
                                         <img
-                                            src="/images/sandra.jpg"
+                                            src="/images/sandra-min.jpg"
                                             alt="Sandra Mimran Smith">
                                     </div>
 
