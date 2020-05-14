@@ -89,10 +89,10 @@
                                 <a href="{{ $blogHelper->urlToEntry($entry) }}"
                                    class="more">
                                     <img width="150" height="150"
-                                         src="{{ $entry->getImageUrl() }}"
+                                         src="{{ str_replace('.jpg', '-150x150.jpg', $entry->getImageUrl()) }}"
                                          class="attachment-thumbnail size-thumbnail wp-post-image" alt=""
-                                         srcset="{{ $entry->getImageUrl() }} 150w,
-                                                {{ $entry->getImageUrl() }} 200w"
+                                         srcset="{{str_replace('.jpg', '-150x150.jpg', $entry->getImageUrl()) }} 150w,
+                                                {{ str_replace('.jpg', '-200x200.jpg', $entry->getImageUrl()) }} 200w"
                                          sizes="(max-width: 150px) 100vw, 150px">
                                 </a>
                                 <div class="content-wrap">

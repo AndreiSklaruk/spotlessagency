@@ -107,30 +107,6 @@
                 }
             </style>
         </noscript>
-        <!-- Hotjar Tracking Code for http://www.spotlessagency.com/  START -->
-    {{--        <script>--}}
-    {{--            (function (h, o, t, j, a, r) {--}}
-    {{--                h.hj = h.hj || function () {--}}
-    {{--                    (h.hj.q = h.hj.q || []).push(arguments)--}}
-    {{--                };--}}
-    {{--                h._hjSettings = {hjid: 909309, hjsv: 6};--}}
-    {{--                a = o.getElementsByTagName('head')[0];--}}
-    {{--                r = o.createElement('script');--}}
-    {{--                r.async = 1;--}}
-    {{--                r.src = t + h._hjSettings.hjid + j + h._hjSettings.hjsv;--}}
-    {{--                a.appendChild(r);--}}
-    {{--            })(window, document, 'https://static.hotjar.com/c/hotjar-', '.js?sv=');--}}
-    {{--        </script>--}}
-    {{--        <style type="text/css">--}}
-    {{--            iframe#_hjRemoteVarsFrame {--}}
-    {{--                display: none !important;--}}
-    {{--                width: 1px !important;--}}
-    {{--                height: 1px !important;--}}
-    {{--                opacity: 0 !important;--}}
-    {{--                pointer-events: none !important;--}}
-    {{--            }--}}
-    {{--        </style>--}}
-        <!-- Hotjar Tracking Code END -->
 
         @stack('head')
     </head>
@@ -160,27 +136,27 @@
                             <a href="{{url('/')}}" rel="home">
                                 <!-- diff in display none-->
                                 <span class="logo with-mobile" style="display: inline;">
-                                    <img src="/images/logo_grey.png"
-                                         srcset="/images/logo_grey.png 2x"
+                                    <img src="/images/logo_grey-min.png"
+                                         srcset="/images/logo_grey-min.png 2x"
                                          alt="Spotless Agency">
                                 </span>
                                 <span class="fixed-logo">
-                                    <img src="/images/logo_grey.png"
-                                         srcset="/images/logo_grey.png 2x"
+                                    <img src="/images/logo_grey-min.png"
+                                         srcset="/images/logo_grey-min.png 2x"
                                          alt="Spotless Agency">
                                 </span>
                                 <span class="mobile-logo" style="display: none;">
-                                    <img src="/images/logo_grey.png"
+                                    <img src="/images/logo_grey-min.png"
                                          class=" alt=" spotless="" agency="">
                                 </span>
                                 <span class="fixed-mobile-logo">
-                                    <img src="/images/logo_grey.png" class=""
+                                    <img src="/images/logo_grey-min.png" class=""
                                          alt="Spotless Agency">
                                 </span>
                                 <span class="for-onepage">
                                     <span class="dark hidden">
-                                        <img src="/images/logo_grey.png"
-                                             srcset="/images/logo_grey.png 2x"
+                                        <img src="/images/logo_grey-min.png"
+                                             srcset="/images/logo_grey-min.png 2x"
                                              alt="Spotless Agency">
                                     </span>
                                     <span class="light hidden">Spotless Agency</span>
@@ -319,8 +295,8 @@
                     <p class="site-title">
                         <a href="{{url('/')}}" rel="home">
                                                         <span class="first-logo">
-                                <img src="/images/logo_grey.png"
-                                     srcset="/images/logo_grey.png 2x"
+                                <img src="/images/logo_grey-min.png"
+                                     srcset="/images/logo_grey-min.png 2x"
                                      alt="Spotless Agency">
                             </span>
                         </a>
