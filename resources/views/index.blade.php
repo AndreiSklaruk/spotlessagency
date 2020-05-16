@@ -136,27 +136,27 @@
                             <a href="{{url('/')}}" rel="home">
                                 <!-- diff in display none-->
                                 <span class="logo with-mobile" style="display: inline;">
-                                    <img src="/images/logo_grey-min.png"
-                                         srcset="/images/logo_grey-min.png 2x"
+                                    <img src="/images/logo_grey.png"
+                                         srcset="/images/logo_grey.png 2x"
                                          alt="Spotless Agency">
                                 </span>
                                 <span class="fixed-logo">
-                                    <img src="/images/logo_grey-min.png"
-                                         srcset="/images/logo_grey-min.png 2x"
+                                    <img src="/images/logo_grey.png"
+                                         srcset="/images/logo_grey.png 2x"
                                          alt="Spotless Agency">
                                 </span>
                                 <span class="mobile-logo" style="display: none;">
-                                    <img src="/images/logo_grey-min.png"
+                                    <img src="/images/logo_grey.png"
                                          class=" alt=" spotless="" agency="">
                                 </span>
                                 <span class="fixed-mobile-logo">
-                                    <img src="/images/logo_grey-min.png" class=""
+                                    <img src="/images/logo_grey.png" class=""
                                          alt="Spotless Agency">
                                 </span>
                                 <span class="for-onepage">
                                     <span class="dark hidden">
-                                        <img src="/images/logo_grey-min.png"
-                                             srcset="/images/logo_grey-min.png 2x"
+                                        <img src="/images/logo_grey.png"
+                                             srcset="/images/logo_grey.png 2x"
                                              alt="Spotless Agency">
                                     </span>
                                     <span class="light hidden">Spotless Agency</span>
@@ -295,8 +295,8 @@
                     <p class="site-title">
                         <a href="{{url('/')}}" rel="home">
                                                         <span class="first-logo">
-                                <img src="/images/logo_grey-min.png"
-                                     srcset="/images/logo_grey-min.png 2x"
+                                <img src="/images/logo_grey.png"
+                                     srcset="/images/logo_grey.png 2x"
                                      alt="Spotless Agency">
                             </span>
                         </a>
