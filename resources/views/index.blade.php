@@ -37,8 +37,6 @@
 
         @stack('styles')
 
-
-        <link rel="canonical" href="{{ url()->current() }}">
         <link rel="shortlink" href="{{ url()->current() }}">
         <style type="text/css">
             .recentcomments a {
