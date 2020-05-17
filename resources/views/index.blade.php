@@ -4,7 +4,6 @@
         <title>@yield('title')</title>
 
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <meta name="robots" content="noindex">
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=no">
         <meta name="csrf-token" content="{{ csrf_token() }}">
         @yield('meta')
@@ -32,36 +31,15 @@
               href="https://www.spotlessagency.com/comments/feed/">
 
         <link rel="stylesheet" href="{{asset('css/app.css')}}" type="text/css" media="all">
-{{--        !NOT_USED--}}
-{{--        <link rel="stylesheet" id="wp-block-library-css" href="/external_css/wp-block-library/style.min.css" type="text/css" media="all">--}}
-{{--        <link rel="stylesheet" id="contact-form-7-css" href="/external_css/contact-form-7/styles.css" type="text/css" media="all">--}}
-{{--        <link rel="stylesheet" id="cf7cf-style-css" href="/external_css/cf7-conditional-fields/style.css" type="text/css" media="all">--}}
-{{--        !NOT_USED--}}
-{{--        <link rel="stylesheet" id="rs-plugin-settings-css" href="/external_css/revslider/settings.css" type="text/css" media="all">--}}
-{{--        <link rel="stylesheet" id="twentytwenty-style-css" href="/external_css/norebro/twentytwenty.css" type="text/css" media="all">--}}
-{{--        !IN_APP.CSS--}}
-{{--        <link rel="stylesheet" id="parent-style-css" href="/external_css/norebro/style.css" type="text/css" media="all">--}}
-{{--        <link rel="stylesheet" id="norebro-style-css" href="/external_css/norebro-child/style.css" type="text/css" media="all">--}}
         @section('style-inline-css')
             <link rel="stylesheet" id="norebro-style-inline-css" href="{{asset('css/pages/home.css')}}" type="text/css" media="all">
         @show
-{{--        <link rel="stylesheet" id="norebro-grid-css" href="/external_css/norebro/grid.min.css" type="text/css" media="all">--}}
-{{--        !IN_APP.CSS--}}
-{{--        <link rel="stylesheet" id="js_composer_front-css" href="/external_css/js_composer.min.css" type="text/css" media="all">--}}
-{{--        FIND_USAGE--}}
-{{--        <link rel="stylesheet" id="popup-maker-site-inline-css" href="{{asset('css/libs/popup-maker.css')}}" type="text/css" media="all">--}}
+
         @stack('styles')
 
-        <link rel="https://api.w.org/" href="https://www.spotlessagency.com/wp-json/">
-        <link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://www.spotlessagency.com/xmlrpc.php?rsd">
-        <link rel="wlwmanifest" type="application/wlwmanifest+xml"
-              href="https://www.spotlessagency.com/wp-includes/wlwmanifest.xml">
-        <meta name="generator" content="WordPress 5.3.2">
-        <link rel="shortlink" href="https://www.spotlessagency.com/">
-        <link rel="alternate" type="application/json+oembed"
-              href="https://www.spotlessagency.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.spotlessagency.com%2F">
-        <link rel="alternate" type="text/xml+oembed"
-              href="https://www.spotlessagency.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.spotlessagency.com%2F&amp;format=xml">
+
+        <link rel="canonical" href="{{ url()->current() }}">
+        <link rel="shortlink" href="{{ url()->current() }}">
         <style type="text/css">
             .recentcomments a {
                 display: inline !important;
@@ -78,28 +56,28 @@
         <link rel="icon" href="/favicon/cropped-favicon-192x192.png" sizes="192x192">
         <link rel="apple-touch-icon-precomposed" href="/favicon/cropped-favicon-180x180.png">
         <meta name="msapplication-TileImage" content="/favicon/cropped-favicon-270x270.png">
-        <script type="text/javascript">
-            function setREVStartSize(e) {
-                try {
-                    var i = jQuery(window).width(), t = 9999, r = 0, n = 0, l = 0, f = 0, s = 0, h = 0;
-                    if (e.responsiveLevels && (jQuery.each(e.responsiveLevels, function (e, f) {
-                        f > i && (t = r = f, l = e), i > f && f > r && (r = f, n = e)
-                    }), t > r && (l = n)), f = e.gridheight[l] || e.gridheight[0] || e.gridheight, s = e.gridwidth[l] || e.gridwidth[0] || e.gridwidth, h = i / s, h = h > 1 ? 1 : h, f = Math.round(h * f), "fullscreen" == e.sliderLayout) {
-                        var u = (e.c.width(), jQuery(window).height());
-                        if (void 0 != e.fullScreenOffsetContainer) {
-                            var c = e.fullScreenOffsetContainer.split(",");
-                            if (c) jQuery.each(c, function (e, i) {
-                                u = jQuery(i).length > 0 ? u - jQuery(i).outerHeight(!0) : u
-                            }), e.fullScreenOffset.split("%").length > 1 && void 0 != e.fullScreenOffset && e.fullScreenOffset.length > 0 ? u -= jQuery(window).height() * parseInt(e.fullScreenOffset, 0) / 100 : void 0 != e.fullScreenOffset && e.fullScreenOffset.length > 0 && (u -= parseInt(e.fullScreenOffset, 0))
-                        }
-                        f = u
-                    } else void 0 != e.minHeight && f < e.minHeight && (f = e.minHeight);
-                    e.c.closest(".rev_slider_wrapper").css({height: f})
-                } catch (d) {
-                    console.log("Failure at Presize of Slider:" + d)
-                }
-            };
-        </script>
+{{--        <script type="text/javascript">--}}
+{{--            function setREVStartSize(e) {--}}
+{{--                try {--}}
+{{--                    var i = jQuery(window).width(), t = 9999, r = 0, n = 0, l = 0, f = 0, s = 0, h = 0;--}}
+{{--                    if (e.responsiveLevels && (jQuery.each(e.responsiveLevels, function (e, f) {--}}
+{{--                        f > i && (t = r = f, l = e), i > f && f > r && (r = f, n = e)--}}
+{{--                    }), t > r && (l = n)), f = e.gridheight[l] || e.gridheight[0] || e.gridheight, s = e.gridwidth[l] || e.gridwidth[0] || e.gridwidth, h = i / s, h = h > 1 ? 1 : h, f = Math.round(h * f), "fullscreen" == e.sliderLayout) {--}}
+{{--                        var u = (e.c.width(), jQuery(window).height());--}}
+{{--                        if (void 0 != e.fullScreenOffsetContainer) {--}}
+{{--                            var c = e.fullScreenOffsetContainer.split(",");--}}
+{{--                            if (c) jQuery.each(c, function (e, i) {--}}
+{{--                                u = jQuery(i).length > 0 ? u - jQuery(i).outerHeight(!0) : u--}}
+{{--                            }), e.fullScreenOffset.split("%").length > 1 && void 0 != e.fullScreenOffset && e.fullScreenOffset.length > 0 ? u -= jQuery(window).height() * parseInt(e.fullScreenOffset, 0) / 100 : void 0 != e.fullScreenOffset && e.fullScreenOffset.length > 0 && (u -= parseInt(e.fullScreenOffset, 0))--}}
+{{--                        }--}}
+{{--                        f = u--}}
+{{--                    } else void 0 != e.minHeight && f < e.minHeight && (f = e.minHeight);--}}
+{{--                    e.c.closest(".rev_slider_wrapper").css({height: f})--}}
+{{--                } catch (d) {--}}
+{{--                    console.log("Failure at Presize of Slider:" + d)--}}
+{{--                }--}}
+{{--            };--}}
+{{--        </script>--}}
         <noscript>
             <style type="text/css">
                 .wpb_animate_when_almost_visible {
@@ -396,11 +374,6 @@
 
                 @yield('base-content')
 
-                <div style="text-align:center;position:absolute;bottom:200%;">
-{{--                    WHAT?--}}
-{{--                    <a style="color:#333;text-transform:uppercase;text-decoration:none;"--}}
-{{--                       href="https://www.spotlessagency.com/wp-archive/blackjack-ballroom-baccarat.html">Baccart Black</a>--}}
-                </div>
             </div><!-- #content -->
 
             <footer id="colophon" class="site-footer sticky visible" style="width: 1903px; left: 0px;">

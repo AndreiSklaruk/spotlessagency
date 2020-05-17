@@ -2,6 +2,18 @@
 
 @section('title', 'Premium 3D rendering services provided by Spotless Agency')
 
+@section('meta')
+    <meta property="og:title" content="3D Renderings">
+    <meta property="og:description" content="">
+    <meta property="og:url" content="{{url('/3d-renderings/')}}">
+    <meta name="twitter:card" content="summary">
+    <meta property="twitter:title" content="3D Renderings">
+    <meta property="twitter:description" content="">
+    <meta name="author" content="Andrey Zlobin">
+    <meta name="description"
+          content="Spotless Agency offers high-quality 3D rendering solutions for every model to be as close to reality as possible and feature the smallest details of the object">
+@endsection
+
 @push('bodyClasses', 'page-id-14300 page-parent')
 
 @section('mastheadClasses', 'dark-text header-2 no-transition')

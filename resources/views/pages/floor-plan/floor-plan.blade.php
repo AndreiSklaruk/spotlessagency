@@ -2,6 +2,18 @@
 
 @section('title', 'Spotless Agency introduces Floor Plan Visualization')
 
+@section('meta')
+    <meta property="og:title" content="Floor Plan Visualization">
+    <meta property="og:description" content="">
+    <meta property="og:url" content="{{url('/flor-plan-visualization/')}}">
+    <meta name="twitter:card" content="summary">
+    <meta property="twitter:title" content="Floor Plan Visualization">
+    <meta property="twitter:description" content="">
+    <meta name="author" content="Andrey Zlobin">
+    <meta name="description"
+          content="Have a walk around your future property at the stage of design to implement all you desires on time with floor visualization from Spotless Agency.">
+@endsection
+
 @push('bodyClasses', 'page-id-13278')
 
 @section('mastheadClasses', 'dark-text header-2 header-fixed showed')

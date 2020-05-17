@@ -27,11 +27,8 @@
             var position = {lat: 39.755018, lng: -75.626847};
             var posData = mapElement.dataset.googleMapPosition;
             if ( posData !== undefined ) {
-                var p = posData;
-                position = JSON.parse(p);
-                console.log(p, position);
+                position = JSON.parse(posData);
             }
-            console.log(mapElement.dataset, position);
 
             var map = new google.maps.Map( mapElement, {
                 scrollwheel: false,

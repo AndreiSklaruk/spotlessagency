@@ -2,6 +2,19 @@
 
 @section('title', 'Virtual Staging | Sell Properties Faster With Spotless Agency')
 
+@section('meta')
+    <meta content="Interior Studio" property="og:title"/>
+    <meta content="" property="og:description"/>
+    <meta content="{{url('/')}}" property="og:url"/>
+    <meta content="summary" name="twitter:card">
+    <meta content="Interior Studio" property="twitter:title"/>
+    <meta content="" property="twitter:description"/>
+    <meta content="Andrey Zlobin" name="author"/>
+    <meta name="description"
+          content="Attract attention, make your listing outstanding and demonstrate the full potential of your property, by using virtual staging services we offer in Spotless Agency.">
+
+@endsection
+
 @push('bodyClasses', 'home page-id-13189')
 
 @section('mastheadClasses', 'light-text header-1 no-transition')

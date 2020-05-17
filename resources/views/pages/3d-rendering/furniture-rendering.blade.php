@@ -2,6 +2,18 @@
 
 @section('title', 'Spotless Agency offers realistic furniture rendering')
 
+@section('meta')
+    <meta property="og:title" content="Furniture Renderings">
+    <meta property="og:description" content="">
+    <meta property="og:url" content="{{url('/3d-renderings/furniture-renderings/')}}">
+    <meta name="twitter:card" content="summary">
+    <meta property="twitter:title" content="Furniture Renderings">
+    <meta property="twitter:description" content="">
+    <meta name="author" content="Andrey Zlobin">
+    <meta name="description"
+          content="With furniture rendering from Spotless Agency you will get accurate and detailed 3D models of furniture to promote your creation into masses.">
+@endsection
+
 @push('bodyClasses', 'page-id-13270 page-child parent-pageid-14300')
 
 @section('mastheadClasses', 'dark-text header-2 no-transition')

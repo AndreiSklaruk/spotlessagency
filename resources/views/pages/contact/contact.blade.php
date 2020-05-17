@@ -2,6 +2,18 @@
 
 @section('title', 'Best Virtual Home Staging Company In NYC')
 
+@section('meta')
+    <meta property="og:title" content="Contact Us">
+    <meta property="og:description" content="">
+    <meta property="og:url" content="{{url('/contact/')}}">
+    <meta name="twitter:card" content="summary">
+    <meta property="twitter:title" content="Contact Us">
+    <meta property="twitter:description" content="">
+    <meta name="author" content="Andrey Zlobin">
+    <meta name="description"
+          content="For more information, please contact us and we will be happy to answer your questions.">
+@endsection
+
 @push('bodyClasses', 'page-id-13148')
 
 @section('mastheadClasses', 'dark-text header-2 no-transition')

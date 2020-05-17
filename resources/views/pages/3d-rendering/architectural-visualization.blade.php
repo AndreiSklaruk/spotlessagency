@@ -2,6 +2,18 @@
 
 @section('title', 'Best architectural visualization solutions from Spotless Agency')
 
+@section('meta')
+    <meta property="og:title" content="Architectural Visualization">
+    <meta property="og:description" content="">
+    <meta property="og:url" content="{{url('/3d-renderings/architectural-visualization/')}}">
+    <meta name="twitter:card" content="summary">
+    <meta property="twitter:title" content="Architectural Visualization">
+    <meta property="twitter:description" content="">
+    <meta name="author" content="Andrey Zlobin">
+    <meta name="description"
+          content="Spotless provides closely observed architectural visualization to bring every last detail and benefit of your idea">
+@endsection
+
 @push('bodyClasses', 'page-id-13276 page-child parent-pageid-14300')
 
 @section('mastheadClasses', 'dark-text header-2 header-fixed showed')
