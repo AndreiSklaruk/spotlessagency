@@ -5,7 +5,7 @@
 @section('meta')
     <meta property="og:title" content="Floor Plan Visualization">
     <meta property="og:description" content="">
-    <meta property="og:url" content="{{url('/flor-plan-visualization/')}}">
+    <meta property="og:url" content="{{url('/floor-plan-visualization/')}}">
     <meta name="twitter:card" content="summary">
     <meta property="twitter:title" content="Floor Plan Visualization">
     <meta property="twitter:description" content="">
@@ -91,7 +91,7 @@
                                 data-gallery-item="0" data-lazy-item="true">
                                 <div class="wrap">
                                     <img class="gimg"
-                                         src="./images/floor-plan/1-1.jpg"
+                                         src="{{ asset('images/floor-plan/1-1.jpg') }}"
                                          alt="">
                                     <div class="overlay">
                                         <div class="content-center text-center">
@@ -176,7 +176,7 @@
                                 data-gallery-item="0" data-lazy-item="true">
                                 <div class="wrap">
                                     <img class="gimg"
-                                         src="./images/floor-plan/01.jpg"
+                                         src="{{ asset('images/floor-plan/01.jpg') }}"
                                          alt="">
                                     <div class="overlay">
                                         <div class="content-center text-center">
@@ -200,7 +200,7 @@
                                 data-gallery-item="1" data-lazy-item="true">
                                 <div class="wrap">
                                     <img class="gimg"
-                                         src="./images/floor-plan/02.jpg"
+                                         src="{{ asset('images/floor-plan/02.jpg') }}"
                                          alt="">
                                     <div class="overlay">
                                         <div class="content-center text-center">
@@ -224,7 +224,7 @@
                                 data-gallery-item="2" data-lazy-item="true">
                                 <div class="wrap">
                                     <img class="gimg"
-                                         src="./images/floor-plan/03.jpg"
+                                         src="{{ asset('images/floor-plan/03.jpg') }}"
                                          alt="">
                                     <div class="overlay">
                                         <div class="content-center text-center">
@@ -248,7 +248,7 @@
                                 data-gallery-item="3" data-lazy-item="true">
                                 <div class="wrap">
                                     <img class="gimg"
-                                         src="./images/floor-plan/04.jpg"
+                                         src="{{ asset('images/floor-plan/04.jpg') }}"
                                          alt="">
                                     <div class="overlay">
                                         <div class="content-center text-center">

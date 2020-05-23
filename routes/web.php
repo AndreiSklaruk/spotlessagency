@@ -21,7 +21,7 @@ Route::view('/', 'home.home');
 
 Route::view('/virtual-staging-works', 'pages.portfolio.portfolio');
 
-Route::view('/flor-plan-visualization', 'pages.floor-plan.floor-plan');
+Route::view('/floor-plan-visualization', 'pages.floor-plan.floor-plan');
 
 Route::view('/pricing', 'pages.pricing.pricing');
 

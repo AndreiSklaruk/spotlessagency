@@ -54,28 +54,28 @@
         <link rel="icon" href="/favicon/cropped-favicon-192x192.png" sizes="192x192">
         <link rel="apple-touch-icon-precomposed" href="/favicon/cropped-favicon-180x180.png">
         <meta name="msapplication-TileImage" content="/favicon/cropped-favicon-270x270.png">
-{{--        <script type="text/javascript">--}}
-{{--            function setREVStartSize(e) {--}}
-{{--                try {--}}
-{{--                    var i = jQuery(window).width(), t = 9999, r = 0, n = 0, l = 0, f = 0, s = 0, h = 0;--}}
-{{--                    if (e.responsiveLevels && (jQuery.each(e.responsiveLevels, function (e, f) {--}}
-{{--                        f > i && (t = r = f, l = e), i > f && f > r && (r = f, n = e)--}}
-{{--                    }), t > r && (l = n)), f = e.gridheight[l] || e.gridheight[0] || e.gridheight, s = e.gridwidth[l] || e.gridwidth[0] || e.gridwidth, h = i / s, h = h > 1 ? 1 : h, f = Math.round(h * f), "fullscreen" == e.sliderLayout) {--}}
-{{--                        var u = (e.c.width(), jQuery(window).height());--}}
-{{--                        if (void 0 != e.fullScreenOffsetContainer) {--}}
-{{--                            var c = e.fullScreenOffsetContainer.split(",");--}}
-{{--                            if (c) jQuery.each(c, function (e, i) {--}}
-{{--                                u = jQuery(i).length > 0 ? u - jQuery(i).outerHeight(!0) : u--}}
-{{--                            }), e.fullScreenOffset.split("%").length > 1 && void 0 != e.fullScreenOffset && e.fullScreenOffset.length > 0 ? u -= jQuery(window).height() * parseInt(e.fullScreenOffset, 0) / 100 : void 0 != e.fullScreenOffset && e.fullScreenOffset.length > 0 && (u -= parseInt(e.fullScreenOffset, 0))--}}
-{{--                        }--}}
-{{--                        f = u--}}
-{{--                    } else void 0 != e.minHeight && f < e.minHeight && (f = e.minHeight);--}}
-{{--                    e.c.closest(".rev_slider_wrapper").css({height: f})--}}
-{{--                } catch (d) {--}}
-{{--                    console.log("Failure at Presize of Slider:" + d)--}}
-{{--                }--}}
-{{--            };--}}
-{{--        </script>--}}
+        <script type="text/javascript">
+            function setREVStartSize(e) {
+                try {
+                    var i = jQuery(window).width(), t = 9999, r = 0, n = 0, l = 0, f = 0, s = 0, h = 0;
+                    if (e.responsiveLevels && (jQuery.each(e.responsiveLevels, function (e, f) {
+                        f > i && (t = r = f, l = e), i > f && f > r && (r = f, n = e)
+                    }), t > r && (l = n)), f = e.gridheight[l] || e.gridheight[0] || e.gridheight, s = e.gridwidth[l] || e.gridwidth[0] || e.gridwidth, h = i / s, h = h > 1 ? 1 : h, f = Math.round(h * f), "fullscreen" == e.sliderLayout) {
+                        var u = (e.c.width(), jQuery(window).height());
+                        if (void 0 != e.fullScreenOffsetContainer) {
+                            var c = e.fullScreenOffsetContainer.split(",");
+                            if (c) jQuery.each(c, function (e, i) {
+                                u = jQuery(i).length > 0 ? u - jQuery(i).outerHeight(!0) : u
+                            }), e.fullScreenOffset.split("%").length > 1 && void 0 != e.fullScreenOffset && e.fullScreenOffset.length > 0 ? u -= jQuery(window).height() * parseInt(e.fullScreenOffset, 0) / 100 : void 0 != e.fullScreenOffset && e.fullScreenOffset.length > 0 && (u -= parseInt(e.fullScreenOffset, 0))
+                        }
+                        f = u
+                    } else void 0 != e.minHeight && f < e.minHeight && (f = e.minHeight);
+                    e.c.closest(".rev_slider_wrapper").css({height: f})
+                } catch (d) {
+                    console.log("Failure at Presize of Slider:" + d)
+                }
+            };
+        </script>
         <noscript>
             <style type="text/css">
                 .wpb_animate_when_almost_visible {
@@ -164,7 +164,7 @@
                                             <ul class="menu-depth-1 sub-menu sub-nav-group" style="left: 0px;">
                                                 <li id="nav-menu-item-14394-5e75fd3eb3e59"
                                                     class="mega-menu-item sub-nav-item menu-item-depth-1 "><a
-                                                        href="/flor-plan-visualization/"
+                                                        href="/floor-plan-visualization/"
                                                         class="menu-link sub-menu-link"><span>Floor Plan Visualization</span></a>
                                                 </li>
                                                 <li id="nav-menu-item-14393-5e75fd3eb4052"
@@ -294,7 +294,7 @@
                                     <ul class="menu-depth-1 sub-menu sub-nav-group">
                                         <li id="nav-menu-item-14394-5e75fd3ec5239"
                                             class="mega-menu-item sub-nav-item menu-item-depth-1 "><a
-                                                href="/flor-plan-visualization/"
+                                                href="/floor-plan-visualization/"
                                                 class="menu-link sub-menu-link"><span>Floor Plan Visualization</span></a></li>
                                         <li id="nav-menu-item-14393-5e75fd3ec5858"
                                             class="mega-menu-item sub-nav-item menu-item-depth-1 has-submenu "><a
