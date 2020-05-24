@@ -148,24 +148,38 @@
                             <div id="mega-menu-wrap" role="navigation">
                                 <ul id="primary-menu" class="menu">
                                     <li id="nav-menu-item-13198-5e75fd3eb39f0"
-                                        class="mega-menu-item nav-item menu-item-depth-0 current-menu-item"><a
-                                            href="{{url('/')}}" class="menu-link main-menu-link item-title"
-                                            id="accessible-megamenu-1584787256649-1"><span>Home</span></a></li>
+                                        class="mega-menu-item nav-item menu-item-depth-0
+                                            @if(request()->is('/'))
+                                                current-menu-item
+                                            @endif
+                                            ">
+                                        <a href="{{url('/')}}" class="menu-link main-menu-link item-title"
+                                            id="accessible-megamenu-1584787256649-1">
+                                            <span>Home</span>
+                                        </a>
+                                    </li>
                                     <li id="nav-menu-item-13269-5e75fd3eb3be9"
-                                        class="mega-menu-item nav-item menu-item-depth-0 has-submenu"><a
-                                            href="#"
-                                            class="menu-link main-menu-link item-title"
+                                        class="mega-menu-item nav-item menu-item-depth-0 has-submenu
+                                            @if(request()->is('floor*') || request()->is('3d-renderings*'))
+                                                current-menu-item
+                                            @endif
+                                            ">
+                                        <a href="#" class="menu-link main-menu-link item-title"
                                             id="accessible-megamenu-1584787256652-2" aria-haspopup="true"
                                             aria-owns="accessible-megamenu-1584787256652-3"
-                                            aria-controls="accessible-megamenu-1584787256652-3" aria-expanded="true"><span>What do we do</span></a>
+                                            aria-controls="accessible-megamenu-1584787256652-3" aria-expanded="true">
+                                            <span>What do we do</span>
+                                        </a>
                                         <div class="sub-nav" id="accessible-megamenu-1584787256652-3" role="group"
                                              aria-expanded="true" aria-hidden="false"
                                              aria-labelledby="accessible-megamenu-1584787256652-2" style="max-width: 1903px;">
                                             <ul class="menu-depth-1 sub-menu sub-nav-group" style="left: 0px;">
                                                 <li id="nav-menu-item-14394-5e75fd3eb3e59"
-                                                    class="mega-menu-item sub-nav-item menu-item-depth-1 "><a
-                                                        href="/floor-plan-visualization/"
-                                                        class="menu-link sub-menu-link"><span>Floor Plan Visualization</span></a>
+                                                    class="mega-menu-item sub-nav-item menu-item-depth-1 ">
+                                                    <a href="/floor-plan-visualization/"
+                                                        class="menu-link sub-menu-link">
+                                                        <span>Floor Plan Visualization</span>
+                                                    </a>
                                                 </li>
                                                 <li id="nav-menu-item-14393-5e75fd3eb4052"
                                                     class="mega-menu-item sub-nav-item menu-item-depth-1 has-submenu "><a
@@ -190,30 +204,60 @@
                                         </div>
                                     </li>
                                     <li id="nav-menu-item-13861-5e75fd3eb4932"
-                                        class="mega-menu-item nav-item menu-item-depth-0"><a
-                                            href="/pricing/"
-                                            class="menu-link main-menu-link item-title"
-                                            id="accessible-megamenu-1584787256654-4"><span>Pricing</span></a></li>
+                                        class="mega-menu-item nav-item menu-item-depth-0
+                                            @if(request()->is('pricing'))
+                                                current-menu-item
+                                            @endif
+                                            ">
+                                        <a href="/pricing/" class="menu-link main-menu-link item-title"
+                                            id="accessible-megamenu-1584787256654-4">
+                                            <span>Pricing</span>
+                                        </a>
+                                    </li>
                                     <li id="nav-menu-item-13195-5e75fd3eb4c35"
-                                        class="mega-menu-item nav-item menu-item-depth-0"><a
-                                            href="/virtual-staging-works/"
-                                            class="menu-link main-menu-link item-title"
-                                            id="accessible-megamenu-1584787256654-5"><span>Portfolio</span></a></li>
+                                        class="mega-menu-item nav-item menu-item-depth-0
+                                            @if(request()->is('virtual-staging-works'))
+                                                current-menu-item
+                                            @endif
+                                            ">
+                                        <a href="/virtual-staging-works/" class="menu-link main-menu-link item-title"
+                                            id="accessible-megamenu-1584787256654-5">
+                                            <span>Portfolio</span>
+                                        </a>
+                                    </li>
                                     <li id="nav-menu-item-13194-5e75fd3eb4f53"
-                                        class="mega-menu-item nav-item menu-item-depth-0"><a
-                                            href="/blog/"
-                                            class="menu-link main-menu-link item-title"
-                                            id="accessible-megamenu-1584787256655-6"><span>Blog</span></a></li>
+                                        class="mega-menu-item nav-item menu-item-depth-0
+                                            @if(request()->is('blog'))
+                                            current-menu-item
+                                            @endif
+                                            ">
+                                        <a href="/blog/" class="menu-link main-menu-link item-title"
+                                            id="accessible-megamenu-1584787256655-6">
+                                            <span>Blog</span>
+                                        </a>
+                                    </li>
                                     <li id="nav-menu-item-13259-5e75fd3eb525b"
-                                        class="mega-menu-item nav-item menu-item-depth-0"><a
-                                            href="/about/"
-                                            class="menu-link main-menu-link item-title"
-                                            id="accessible-megamenu-1584787256656-7"><span>About</span></a></li>
+                                        class="mega-menu-item nav-item menu-item-depth-0
+                                            @if(request()->is('about'))
+                                                current-menu-item
+                                            @endif
+                                            ">
+                                        <a href="/about/" class="menu-link main-menu-link item-title"
+                                            id="accessible-megamenu-1584787256656-7">
+                                            <span>About</span>
+                                        </a>
+                                    </li>
                                     <li id="nav-menu-item-13196-5e75fd3eb5567"
-                                        class="mega-menu-item nav-item menu-item-depth-0"><a
-                                            href="/contact/"
-                                            class="menu-link main-menu-link item-title"
-                                            id="accessible-megamenu-1584787256657-8"><span>Contact</span></a></li>
+                                        class="mega-menu-item nav-item menu-item-depth-0
+                                            @if(request()->is('contact'))
+                                                current-menu-item
+                                            @endif
+                                            ">
+                                        <a href="/contact/" class="menu-link main-menu-link item-title"
+                                            id="accessible-megamenu-1584787256657-8">
+                                            <span>Contact</span>
+                                        </a>
+                                    </li>
                                 </ul>
                             </div>
 
@@ -282,13 +326,26 @@
                     <div id="fullscreen-mega-menu-wrap" role="navigation">
                         <ul id="secondary-menu" class="menu">
                             <li id="nav-menu-item-13198-5e75fd3ec451f"
-                                class="mega-menu-item nav-item menu-item-depth-0 current-menu-item"><a
-                                    href="{{url('/')}}" class="menu-link main-menu-link item-title sub-nav"
+                                class="mega-menu-item nav-item menu-item-depth-0
+                                    @if(request()->is('/'))
+                                        current-menu-item
+                                    @endif
+                                    ">
+                                <a href="{{url('/')}}" class="menu-link main-menu-link item-title sub-nav"
                                     id="accessible-megamenu-1584787256659-10" role="group" aria-expanded="false"
-                                    aria-hidden="true"><span>Home</span></a></li>
+                                    aria-hidden="true">
+                                    <span>Home</span>
+                                </a>
+                            </li>
                             <li id="nav-menu-item-13269-5e75fd3ec4bf3"
-                                class="mega-menu-item nav-item menu-item-depth-0 has-submenu"><a
-                                    href="#" class="menu-link main-menu-link item-title"><span>What do we do</span></a>
+                                class="mega-menu-item nav-item menu-item-depth-0 has-submenu
+                                    @if(request()->is('floor*') || request()->is('3d-renderings*'))
+                                        current-menu-item
+                                    @endif
+                                    ">
+                                <a href="#" class="menu-link main-menu-link item-title">
+                                    <span>What do we do</span>
+                                </a>
                                 <div class="sub-nav" id="accessible-megamenu-1584787256661-12" role="group"
                                      aria-expanded="false" aria-hidden="true">
                                     <ul class="menu-depth-1 sub-menu sub-nav-group">
@@ -318,50 +375,90 @@
                                     </ul>
                                 </div>
                             </li>
-                            <li id="nav-menu-item-13861-5e75fd3ec6b9a" class="mega-menu-item nav-item menu-item-depth-0"><a
-                                    href="/pricing/"
-                                    class="menu-link main-menu-link item-title sub-nav"
+                            <li id="nav-menu-item-13861-5e75fd3ec6b9a"
+                                class="mega-menu-item nav-item menu-item-depth-0
+                                    @if(request()->is('pricing'))
+                                        current-menu-item
+                                    @endif
+                                    ">
+                                <a href="/pricing/" class="menu-link main-menu-link item-title sub-nav"
                                     id="accessible-megamenu-1584787256663-14" role="group" aria-expanded="false"
-                                    aria-hidden="true"><span>Pricing</span></a></li>
-                            <li id="nav-menu-item-13195-5e75fd3ec7245" class="mega-menu-item nav-item menu-item-depth-0"><a
-                                    href="/virtual-staging-works/"
-                                    class="menu-link main-menu-link item-title sub-nav"
+                                    aria-hidden="true">
+                                    <span>Pricing</span>
+                                </a>
+                            </li>
+                            <li id="nav-menu-item-13195-5e75fd3ec7245"
+                                class="mega-menu-item nav-item menu-item-depth-0
+                                    @if(request()->is('virtual-staging-works'))
+                                        current-menu-item
+                                    @endif
+                                    ">
+                                <a href="/virtual-staging-works/" class="menu-link main-menu-link item-title sub-nav"
                                     id="accessible-megamenu-1584787256664-16" role="group" aria-expanded="false"
-                                    aria-hidden="true"><span>Portfolio</span></a></li>
-                            <li id="nav-menu-item-13194-5e75fd3ec7904" class="mega-menu-item nav-item menu-item-depth-0"><a
-                                    href="/blog/"
-                                    class="menu-link main-menu-link item-title sub-nav"
+                                    aria-hidden="true">
+                                    <span>Portfolio</span>
+                                </a>
+                            </li>
+                            <li id="nav-menu-item-13194-5e75fd3ec7904"
+                                class="mega-menu-item nav-item menu-item-depth-0
+                                    @if(request()->is('blog'))
+                                        current-menu-item
+                                    @endif
+                                    ">
+                                <a href="/blog/" class="menu-link main-menu-link item-title sub-nav"
                                     id="accessible-megamenu-1584787256665-18" role="group" aria-expanded="false"
-                                    aria-hidden="true"><span>Blog</span></a></li>
-                            <li id="nav-menu-item-13259-5e75fd3ec7fe4" class="mega-menu-item nav-item menu-item-depth-0"><a
-                                    href="/about/"
-                                    class="menu-link main-menu-link item-title sub-nav"
+                                    aria-hidden="true">
+                                    <span>Blog</span>
+                                </a>
+                            </li>
+                            <li id="nav-menu-item-13259-5e75fd3ec7fe4"
+                                class="mega-menu-item nav-item menu-item-depth-0
+                                    @if(request()->is('about'))
+                                        current-menu-item
+                                    @endif
+                                    ">
+                                <a href="/about/" class="menu-link main-menu-link item-title sub-nav"
                                     id="accessible-megamenu-1584787256666-20" role="group" aria-expanded="false"
-                                    aria-hidden="true"><span>About</span></a></li>
-                            <li id="nav-menu-item-13196-5e75fd3ec8571" class="mega-menu-item nav-item menu-item-depth-0"><a
-                                    href="/contact/"
-                                    class="menu-link main-menu-link item-title sub-nav"
+                                    aria-hidden="true">
+                                    <span>About</span>
+                                </a>
+                            </li>
+                            <li id="nav-menu-item-13196-5e75fd3ec8571"
+                                class="mega-menu-item nav-item menu-item-depth-0
+                                    @if(request()->is('contact'))
+                                        current-menu-item
+                                    @endif
+                                    ">
+                                <a href="/contact/" class="menu-link main-menu-link item-title sub-nav"
                                     id="accessible-megamenu-1584787256667-22" role="group" aria-expanded="false"
-                                    aria-hidden="true"><span>Contact</span></a></li>
+                                    aria-hidden="true">
+                                    <span>Contact</span>
+                                </a>
+                            </li>
                         </ul>
                     </div>
                 </div>
 
 
                 <div class="copyright">
-                <span class="content">
-                    Spotless Creative Group, LLC | 610 West Broadway, Suite 201 Jackson, WY | +1.480.999.59.06 | Copyright © 2020
-                    Spotless Creative Group, LLC. All rights reserved		</span>
-
+                    <span class="content">
+                        Spotless Creative Group, LLC | 610 West Broadway, Suite 201 Jackson, WY | +1.480.999.59.06 | Copyright © 2020
+                        Spotless Creative Group, LLC. All rights reserved
+                    </span>
                     <div class="socialbar small outline">
-                        <a href="https://www.facebook.com/Spotless-Virtual-Staging-Agency-1587129731551478/?ref=settings"
-                           class="facebook"><span class="icon fa fa-facebook"></span></a> <a
-                            href="http://instagram.com/spotlessagency" class="instagram"><span
-                                class="icon fa fa-instagram"></span></a> <a href="https://twitter.com/Spotless_agency"
-                                                                            class="twitter"><span
-                                class="icon fa fa-twitter"></span></a> <a
-                            href="https://www.linkedin.com/company/spotlessagency/" class="linkedin"><span
-                                class="icon fa fa-linkedin"></span></a></div>
+                        <a href="https://www.facebook.com/Spotless-Virtual-Staging-Agency-1587129731551478/?ref=settings" class="facebook">
+                            <span class="icon fa fa-facebook"></span>
+                        </a>
+                        <a href="http://instagram.com/spotlessagency" class="instagram">
+                            <span class="icon fa fa-instagram"></span>
+                        </a>
+                        <a href="https://twitter.com/Spotless_agency" class="twitter">
+                            <span class="icon fa fa-twitter"></span>
+                        </a>
+                        <a href="https://www.linkedin.com/company/spotlessagency/" class="linkedin">
+                            <span class="icon fa fa-linkedin"></span>
+                        </a>
+                    </div>
                 </div>
                 <div class="close" id="fullscreen-menu-close">
                     <span class="ion-ios-close-empty"></span>

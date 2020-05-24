@@ -17,21 +17,21 @@ Route::get('/welcome', function () {
 
 Route::post('/send-feedback', 'FeedbackController@sendFeedback');
 
-Route::view('/', 'home.home');
+Route::view('/', 'home.home')->name('menu.home');
 
-Route::view('/virtual-staging-works', 'pages.portfolio.portfolio');
+Route::view('/virtual-staging-works', 'pages.portfolio.portfolio')->name('menu.portfolio');
 
-Route::view('/floor-plan-visualization', 'pages.floor-plan.floor-plan');
+Route::view('/floor-plan-visualization', 'pages.floor-plan.floor-plan')->name('menu.floor-plan');
 
-Route::view('/pricing', 'pages.pricing.pricing');
+Route::view('/pricing', 'pages.pricing.pricing')->name('menu.pricing');
 
-Route::view('/about', 'pages.about.about');
+Route::view('/about', 'pages.about.about')->name('menu.about');
 
-Route::view('/contact', 'pages.contact.contact');
+Route::view('/contact', 'pages.contact.contact')->name('menu.contact');
 
 Route::prefix('3d-renderings')->group(function () {
 
-    Route::view('/', 'pages.3d-rendering.3d-rendering');
+    Route::view('/', 'pages.3d-rendering.3d-rendering')->name('menu.3d-rendering');
 
     Route::view('/architectural-visualization', 'pages.3d-rendering.architectural-visualization');
 
