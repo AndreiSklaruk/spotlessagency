@@ -18,7 +18,7 @@ class FeedbackController extends Controller
             'first-name' => 'required|max:40',
             'last-name' => 'required|max:40',
             'email' => 'required|email|max:40',
-            'g-recaptcha-response' => 'required|recaptcha',
+            'g-recaptcha-response' => 'recaptcha',
         ]);
         $tag = '#' . $request->get('_wpcf7_unit_tag');
 

@@ -40,15 +40,15 @@
         }
     };
 
-    document.addEventListener('wpcf7submit', function (event) {
-        switch (event.detail.status) {
-            case 'spam':
-            case 'mail_sent':
-            case 'mail_failed':
-                for (var i = 0; i < recaptchaWidgets.length; i++) {
-                    grecaptcha.reset(recaptchaWidgets[i]);
-                }
-        }
-    }, false);
+    // document.addEventListener('wpcf7submit', function (event) {
+    //     switch (event.detail.status) {
+    //         case 'spam':
+    //         case 'mail_sent':
+    //         case 'mail_failed':
+    //             for (var i = 0; i < recaptchaWidgets.length; i++) {
+    //                 grecaptcha.reset(recaptchaWidgets[i]);
+    //             }
+    //     }
+    // }, false);
 </script>
-<script type='text/javascript' async src='https://www.google.com/recaptcha/api.js?onload=recaptchaCallback&#038;render=explicit&#038;ver=2.0'></script>
+{{--<script type='text/javascript' async src='https://www.google.com/recaptcha/api.js?onload=recaptchaCallback&#038;render=explicit&#038;ver=2.0'></script>--}}
