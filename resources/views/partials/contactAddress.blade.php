@@ -12,7 +12,7 @@
                     <span class="icon linea-basic-geolocalize-01"></span>
                 </div>
                 <div class="col col-title">
-                    <h4 class="title">2711 Centerville Road,<br> Wilmington DE, 19808</h4>
+                    <h4 class="title">610 West Broadway, Suite 201,<br> Jackson WY, 83001</h4>
                 </div>
             </div>
         </li>
