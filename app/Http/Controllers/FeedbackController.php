@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 
 
 use App\Mail\Feedback;
+use App\Mail\FeedbackData;
 use Illuminate\Support\Facades\Validator;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Mail;
@@ -48,11 +49,10 @@ class FeedbackController extends Controller
             "first-name",
             "last-name",
             "email",
-            "your-message",
-            "g-recaptcha-response"
+            "your-message"
         ]);
 
-        Mail::to(config('mail.feedbackRecipient'))->send(new Feedback($data));
+        Mail::to(config('mail.feedbackRecipient'))->send(new Feedback(FeedbackData::from($data)));
 
         return response()->json([
             'into' => $tag,

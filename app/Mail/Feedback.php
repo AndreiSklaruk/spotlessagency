@@ -16,9 +16,9 @@ class Feedback extends Mailable
     /**
      * Create a new message instance.
      *
-     * @return void
+     * @param IFeedbackData $data
      */
-    public function __construct($data)
+    public function __construct(IFeedbackData $data)
     {
         $this->data = $data;
     }
@@ -30,7 +30,11 @@ class Feedback extends Mailable
      */
     public function build()
     {
-        return $this->markdown('emails.feedback')
+        $email = $this->data->getEmail();
+        return $this->from($email)
+            ->replyTo($email)
+            ->subject("Feedback from $email")
+            ->markdown('emails.feedback')
             ->with('data', $this->data);
     }
 }
