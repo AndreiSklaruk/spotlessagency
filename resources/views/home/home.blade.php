@@ -1261,6 +1261,7 @@
 
 
                         <h3 class="title" style="font-size: 38px; "  >
+                            <br>
                             <br>If you have a project or just need<br> some help, reach out<br>
                             to us using contact page</h3>
                         <div class="vc_empty_space" style="height: 50px"><span class="vc_empty_space_inner"></span></div>
@@ -1302,14 +1303,25 @@
         </div>
 
 
+{{--        <div class="wpb_single_image wpb_content_element vc_align_center">--}}
 
-{{--        <div class="wpb_column vc_column_container vc_col-sm-4">--}}
-{{--            <div class="vc_column-inner ">--}}
-{{--                <div class="wpb_wrapper">--}}
-{{--                    @include('home.partial.map', ['style' => 'flat_pale'])--}}
-{{--                </div>--}}
-{{--            </div>--}}
+{{--            <figure class="wpb_wrapper vc_figure">--}}
+{{--                <div class="vc_single_image-wrapper   vc_box_border_grey"><img--}}
+{{--                        class="vc_single_image-img lazyload"--}}
+{{--                        data-src="/images/Google_map_main_page.jpg"--}}
+{{--                        width="648" height="410" alt="virtual staging photo"--}}
+{{--                        title="virtual staging photo"/></div>--}}
+{{--            </figure>--}}
 {{--        </div>--}}
+
+
+        <div class="wpb_column vc_column_container vc_col-sm-4">
+            <div class="vc_column-inner ">
+                <div class="wpb_wrapper">
+                    <img src="/images/Google_map_main_page.jpg" alt="Map" style="padding-top: 30px; margin-bottom: 30px">
+                </div>
+            </div>
+        </div>
     </div>
     <div class="vc_row-full-width vc_clearfix"></div>
 @endsection
