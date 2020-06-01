@@ -1318,7 +1318,7 @@
         <div class="wpb_column vc_column_container vc_col-sm-4">
             <div class="vc_column-inner ">
                 <div class="wpb_wrapper">
-                    <img src="/images/Google_map_main_page.jpg" alt="Map" style="padding-top: 30px; margin-bottom: 30px">
+                    <img src="/images/Jackson_WY.jpg" alt="Map" style="padding-top: 30px; margin-bottom: 30px">
                 </div>
             </div>
         </div>
