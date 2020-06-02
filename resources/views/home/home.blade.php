@@ -61,7 +61,7 @@
                          id="norebro-custom-5e75fd3f5ad72">
 
                         <a href="/pricing/" target="_blank"
-                           class="btn  btn-squared btn-outline btn-large">
+                           class="btn  btn-squared btn-outline btn-large call-to-action-btn">
 
 
 		<span class="text">
@@ -1243,18 +1243,8 @@
             </div>
         </div>
     </div>
-    <div class="vc_row-full-width vc_clearfix"></div>
-    <div data-vc-full-width="true" data-vc-full-width-init="false"
-         class="vc_row wpb_row vc_row-fluid vc_custom_1523349794128 vc_row-has-fill">
-        <div class="wpb_column vc_column_container vc_col-sm-12">
-            <div class="vc_column-inner ">
-                <div class="wpb_wrapper">
-                    <div class="vc_empty_space  norebro-phone-space" style="height: 90px">
-                        <span class="vc_empty_space_inner"></span></div>
-                </div>
-            </div>
-        </div>
-    </div>
+
+
     <div class="vc_row-full-width vc_clearfix"></div>
     <div id="orderProject" data-vc-full-width="true" data-vc-full-width-init="false"
          data-vc-stretch-content="true"
@@ -1270,25 +1260,65 @@
                         </p>
 
 
-                        <h3 class="title subtitle-top">
-                            Try our Virtual Staging NOW </h3>
+                        <h3 class="title" style="font-size: 38px; "  >
+                            <br>
+                            <br>If you have a project or just need<br> some help, reach out<br>
+                            to us using contact page</h3>
+                        <div class="vc_empty_space" style="height: 50px"><span class="vc_empty_space_inner"></span></div>
+                        <p  style="font-size: 18px;">Our responsive customers support team is always ready to assist you</p>
+                        <p  style="font-size: 18px;">Ask questions, suggest ideas - let's make new plans and progress together!</p>
+                        <p  style="font-size: 18px;">We're always open for cooperation.</p>
+                        <div class="vc_empty_space" style="height: 50px"><span class="vc_empty_space_inner"></span></div>
+
 
 
                     </div>
-                    <div class="vc_empty_space" style="height: 15px"><span
-                            class="vc_empty_space_inner"></span></div>
 
-                    @include('partials.contactForm')
+
+                    <div class="norebro-button-sc btn-wrap text-center left  "
+                         id="norebro-custom-5e75fd3fe3785">
+
+                        <a href="/contact/" target="_blank"
+                           class="btn  btn-squared btn-outline btn-large>
+
+
+  <span class="text">
+   Contact us  </span>
+
+                            <span class="icon ion-android-arrow-forward"></span>
+
+                        </a>
+
+                    </div>
+
+                    <div class="vc_empty_space" style="height: 15px"><span
+                                class="vc_empty_space_inner"></span></div>
+
+
 
                     <div class="vc_empty_space  norebro-phone-space" style="height: 110px">
                         <span class="vc_empty_space_inner"></span></div>
                 </div>
             </div>
         </div>
+
+
+{{--        <div class="wpb_single_image wpb_content_element vc_align_center">--}}
+
+{{--            <figure class="wpb_wrapper vc_figure">--}}
+{{--                <div class="vc_single_image-wrapper   vc_box_border_grey"><img--}}
+{{--                        class="vc_single_image-img lazyload"--}}
+{{--                        data-src="/images/Google_map_main_page.jpg"--}}
+{{--                        width="648" height="410" alt="virtual staging photo"--}}
+{{--                        title="virtual staging photo"/></div>--}}
+{{--            </figure>--}}
+{{--        </div>--}}
+
+
         <div class="wpb_column vc_column_container vc_col-sm-4">
             <div class="vc_column-inner ">
                 <div class="wpb_wrapper">
-                    @include('home.partial.map', ['style' => 'flat_pale'])
+                    <img src="/images/Jackson_WY.jpg" alt="Map" style="padding-top: 30px; margin-bottom: 30px">
                 </div>
             </div>
         </div>
