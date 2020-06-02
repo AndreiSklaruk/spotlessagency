@@ -61,7 +61,7 @@
                          id="norebro-custom-5e75fd3f5ad72">
 
                         <a href="/pricing/" target="_blank"
-                           class="btn  btn-squared btn-outline btn-large call-to-action-btn">
+                           class="btn  btn-squared btn-outline btn-large">
 
 
 		<span class="text">
