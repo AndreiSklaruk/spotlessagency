@@ -1329,5 +1329,5 @@
 @push('scripts')
     @include('partials.recaptchaScript')
 
-    @include('partials.googleMaps')
+{{--    @include('partials.googleMaps')--}}
 @endpush
