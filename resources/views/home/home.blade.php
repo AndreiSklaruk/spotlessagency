@@ -990,7 +990,7 @@
     <div class="vc_row-full-width vc_clearfix"></div>
     <div data-vc-full-width="true" data-vc-full-width-init="false"
          class="vc_row wpb_row vc_row-fluid">
-        <div class="wpb_column vc_column_container vc_col-sm-12">
+        <div class="wpb_column vc_column_container vc_col-sm-12 owl__block">
             <div class="vc_column-inner ">
                 <div class="wpb_wrapper">
                     <div class="vc_empty_space  norebro-phone-space" style="height: 30px">
@@ -1005,43 +1005,28 @@
                     <div class="norebro-slider-sc slider-wrap">
                         <div class="slider norebro-slider  full"
                              id="norebro-custom-5e75fd4005d48"
-                             data-norebro-slider='{"loop":true,"dots":true,"nav":true,"autoplay":true,"autoplayHoverPause":true,"navContainerClass":"slider-nav","itemsDesktop":"1","itemsTablet":"1","itemsMobile":"1","slideBy":"1","autoplayTimeout":"5"}'>
+                             data-norebro-slider='{"loop":true,"dots":true,"nav":false,"autoplay":false,"autoplayHoverPause":true,"navContainerClass":"slider-nav","itemsDesktop":"1","itemsTablet":"1","itemsMobile":"1","slideBy":"1","autoplayTimeout":"5"}'>
 
                             <div class="slider-wrap">
                                 <div class="norebro-testimonial-sc testimonials  top-avatar" id="norebro-custom-5e75fd4007b9a">
-                                    <div class="avatar">
-                                        <img src="/images/anton-min.jpg"
-                                             alt="Anthony Barillo">
-                                    </div>
+                                    <img class="slider-wrap__img" src="https://fakeimg.pl/648x410/ff0000/" alt="Anthony Barillo">
 
-                                    <blockquote>
+                                    <p class="owl__block">
+                                        <span class="owl__block--title">Reviews</span>
+                                        <span class="owl__block--subtitle">Leonard Stainberg</span>
+                                        <span class="owl__block--description">COMPASS</span>
+
                                         Spotless Agency is 100% the best virtual stager in
                                         the business. Their attention to detail is
                                         unparalleled and their images look so realistic. I
                                         have used many other virtual staging companies in
                                         the past and absolutely no one compares to spotless.
                                         I will be using them on all of my future listings.
-                                    </blockquote>
-
-
-                                    <h4 class="title">— Anthony Barillo</h4>
-                                    <p class="subtitle small">
-                                        Douglas Elliman </p>
-
+                                    </p>
                                 </div>
                                 <div class="vc_empty_space  norebro-phone-space"
                                      style="height: 20px"><span
                                         class="vc_empty_space_inner"></span></div>
-                                <div class="norebro-button-sc btn-wrap text-center"
-                                     id="norebro-custom-5e75fd4008bcb">
-
-                                    <a href="https://www.facebook.com/spotlessagency/reviews/"
-                                       target="_blank"
-                                       class="btn  btn-squared btn-outline">
-		                                <span class="text">All reviews</span>
-                                        <span class="icon ion-android-arrow-forward"></span>
-                                    </a>
-                                </div>
                             </div>
                             <div class="slider-wrap">
                                 <div class="norebro-testimonial-sc testimonials  top-avatar"
