@@ -82,6 +82,7 @@ return [
     ],
     'javascripts' => [
         'js/kontour.js',
+        'js/admin/app.js',
     ],
 
     /*

@@ -37,6 +37,10 @@ Route::prefix('3d-renderings')->group(function () {
 
     Route::view('/furniture-renderings', 'pages.3d-rendering.furniture-rendering');
 });
+Route::name('blog-admin.')->group(function () {
+    Route::get('/blogs/{blog}/entries/{entry}/edit', 'BlogAdmin\BlogEntryController@edit')->name('entries.edit');
+});
+
 
 Route::prefix('blog')->group(function () {
     Route::get('/', 'Blog\CustomBlogHomePage@show')
