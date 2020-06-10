@@ -1059,7 +1059,7 @@ jQuery(function ($) {
         navClass: ['owl-prev ' + options.navClass, 'owl-next ' + options.navClass],
         dots: false,
         loop: false,
-        autoplay: true,
+        autoplay: false,
         navSpeed: 600
       }).on('changed.owl.carousel', function (event) {
         popup[0].currentItem = event.item.index;
