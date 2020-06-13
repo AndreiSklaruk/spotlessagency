@@ -44,7 +44,7 @@
                 <div class="textwidget custom-html-widget">
                     <div class="sidebar-logo-wrap">
                         <img style="width: 100px" class="sidebar-logo" alt="spotlessagency logotype"
-                             src="\images\svg\logoinsk.svg">
+                             src="{{asset('images/svg/logoinsk.svg')}}">
                     </div>
                 </div>
             </section>

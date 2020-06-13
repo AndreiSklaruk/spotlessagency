@@ -1279,7 +1279,7 @@
                          id="norebro-custom-5e75fd3fe3785">
 
                         <a href="/contact/" target="_blank"
-                           class="btn  btn-squared btn-outline btn-large>
+                           class="btn  btn-squared btn-outline btn-large">
 
 
   <span class="text">
