@@ -82,6 +82,7 @@ return [
     ],
     'javascripts' => [
         'js/kontour.js',
+        'https://cdn.ckeditor.com/4.14.0/standard/ckeditor.js',
         'js/admin/app.js',
     ],
 
