@@ -5,13 +5,13 @@
 @section('meta')
     <meta property="og:title" content="Virtual furniture">
     <meta property="og:description" content="">
-    <meta property="og:url" content="{{url('/blog/project/virtual-furniture/')}}">
+    <meta property="og:url" content="{{url('/blog/project/virtual-furniture')}}/">
     <meta name="twitter:card" content="summary">
     <meta property="twitter:title" content="Virtual furniture">
     <meta property="twitter:description" content="">
     <meta name="author" content="Andrey Zlobin">
     <meta name="description" content="Detailed view of the image Virtual furniture by Spotless Agency">
-    <link rel="canonical" href="{{url('/blog/project/virtual-furniture/')}}">
+    <link rel="canonical" href="{{url('/blog/project/virtual-furniture')}}/">
 @endsection
 
 @section('portfolio-content')

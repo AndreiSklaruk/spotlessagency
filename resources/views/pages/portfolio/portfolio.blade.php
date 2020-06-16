@@ -5,12 +5,13 @@
 @section('meta')
     <meta property="og:title" content="Portfolio">
     <meta property="og:description" content="">
-    <meta property="og:url" content="{{url('/virtual-staging-works/')}}">
+    <meta property="og:url" content="{{url('/virtual-staging-works')}}/">
     <meta name="twitter:card" content="summary">
     <meta property="twitter:title" content="Portfolio">
     <meta property="twitter:description" content="">
     <meta name="author" content="Andrey Zlobin">
     <meta name="description" content="For a more detailed introduction to the quality of our work, please visit our Portfolio.">
+    <link rel="canonical" href="{{ url('/virtual-staging-works') }}/">
 @endsection
 
 @push('bodyClasses', 'page-id-13278')

@@ -5,14 +5,14 @@
 @section('meta')
     <meta property="og:title" content="Pricing">
     <meta property="og:description" content="[vc_column width=&quot;1/3&quot; el_c">
-    <meta property="og:url" content="{{url('/pricing/')}}">
+    <meta property="og:url" content="{{url('/pricing')}}/">
     <meta name="twitter:card" content="summary">
     <meta property="twitter:title" content="Pricing">
     <meta property="twitter:description" content="[vc_column width=&quot;1/3&quot; el_c">
     <meta name="author" content="Andrey Zlobin">
     <meta name="description"
           content="Choose the most comfortable pricing for you. Check out all the details of the prices.">
-
+    <link rel="canonical" href="{{ url('/pricing') }}/">
 @endsection
 
 @push('styles')
