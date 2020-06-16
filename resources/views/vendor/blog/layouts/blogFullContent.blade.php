@@ -8,7 +8,6 @@
 {{--@extends($blog->bladeView('layouts.html'))--}}
 
 @includeFirst($blog->bladeViews('custom.all-pages'))
-@dd($metaTags)
 
 @section('meta', Bjuppa\MetaTagBag\MetaTagBag::make(config('blog.default_meta_tags'))->merge($metaTags ?? [])->merge(['charset' => 'utf-8']))
 
