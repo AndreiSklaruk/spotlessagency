@@ -14,7 +14,7 @@
 @endsection
 
 @push('head')
-  <link rel="canonical" href="{{ $blog->urlToEntry($entry) }}" />
+  <link rel="canonical" href="{{ $blog->urlToEntry($entry) }}/" />
   @includeFirst($blog->bladeViews('feed.metaLink'))
 @endpush
 

@@ -5,13 +5,15 @@
 @section('meta')
     <meta property="og:title" content="Virtual Home Staging Company In NYC - About Spotless Agency">
     <meta property="og:description" content="JTNDZGl2JT">
-    <meta property="og:url" content="{{url('/about/')}}">
+    <meta property="og:url" content="{{ url('/about') }}/">
     <meta name="twitter:card" content="summary">
     <meta property="twitter:title" content="Virtual Home Staging Company In NYC - About Spotless Agency">
     <meta property="twitter:description" content="JTNDZGl2JT">
     <meta name="author" content="Andrey Zlobin">
     <meta name="description"
           content="Learn more why SpotlessAgency is considered the best Virtual Home Staging company In NYC.">
+    <link rel="canonical" href="{{ url('/about') }}/">
+
 @endsection
 
 @push('bodyClasses', 'page-id-13169')

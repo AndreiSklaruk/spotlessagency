@@ -37,7 +37,7 @@
 
         @stack('styles')
 
-        <link rel="shortlink" href="{{ url()->current() }}">
+        <link rel="shortlink" href="{{ url()->current() }}/">
         <style type="text/css">
             .recentcomments a {
                 display: inline !important;

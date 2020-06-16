@@ -5,13 +5,13 @@
 @section('meta')
     <meta property="og:title" content="Office">
     <meta property="og:description" content="">
-    <meta property="og:url" content="{{url('/blog/project/office/')}}">
+    <meta property="og:url" content="{{url('/blog/project/office')}}/">
     <meta name="twitter:card" content="summary">
     <meta property="twitter:title" content="Office">
     <meta property="twitter:description" content="">
     <meta name="author" content="Andrey Zlobin">
     <meta name="description" content="Detailed view of the image Office by Spotless Agency">
-    <link rel="canonical" href="{{url('/blog/project/office/')}}">
+    <link rel="canonical" href="{{url('/blog/project/office')}}/">
 @endsection
 
 @section('portfolio-content')
