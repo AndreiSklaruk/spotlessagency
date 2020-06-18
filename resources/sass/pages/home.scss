@@ -275,18 +275,16 @@ input.classic:-ms-input-placeholder, .contact-form.classic input:-ms-input-place
 }
 
 #norebro-custom-5e75fd3f5ad72 .btn {
-    border-color: #f3b435;
-    color: #f3b435;
-    color: #f3b435;
-    font-weight: 500;
-    text-transform: uppercase;
-}
-
-#norebro-custom-5e75fd3f5ad72 .btn:hover {
     color: #fff;
     background-color: #f3b435;
     border-color: #f3b435;
-    color: #ffffff;
+}
+
+#norebro-custom-5e75fd3f5ad72 .btn:hover {
+    border-color: #f3b435;
+    color: #f3b435;
+    background-color: #fff;
+    font-weight: 500;
 }
 
 #norebro-custom-5e75fd3f5d82e {
@@ -705,16 +703,86 @@ input.classic:-ms-input-placeholder, .contact-form.classic input:-ms-input-place
 
 .slider-wrap .owl__block--title {
     display: block;
-    font-size: 30px;
+    font-size: 39px;
+    line-height: 42px;
+    margin-bottom: 24px;
 }
 
-.slider-wrap .owl__block--title {
+.slider-wrap .owl__block {
+    padding: 32px 40px 0 40px;
+    text-align: left;
+}
+
+#norebro-custom-5e75fd4005d48 .slider-wrap .slider-wrap__img {
+    width: 648px;
+    height: 410px;
+}
+
+.slider-wrap .owl__block--slider {
+    display: flex;
+    align-items: end;
+}
+
+.slider-wrap .owl__block--subtitle {
+    font-size: 26px;
+    margin-bottom: 1px;
     display: block;
-    font-size: 20px;
+    letter-spacing: 0.2px;
 }
 
 .slider-wrap .owl__block--description {
     display: block;
     text-transform: capitalize;
     font-size: 20px;
+    margin-bottom: 40px;
+    letter-spacing: 1px;
 }
+
+.slider-wrap .owl__block--full-description {
+    display: block;
+    text-transform: capitalize;
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+
+#norebro-custom-5e75fd4005d48 > .owl-dots {
+    margin-top: 0;
+}
+
+.owl__slider--title {
+    position: relative;
+    display: block;
+    color: #404044;
+    font-size: 32px;
+    padding: 38px 0 45px;
+    text-align: left;
+}
+
+.slider-wrap .owl__slider--number {
+    color: rgba(0,0,0,.04);
+    font: 700 100px Poppins,sans-serif;
+    position: absolute;
+    line-height: 1;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.owl__slider {
+    display: flex;
+    flex-direction: column;
+    height: 410px;
+    justify-content: center;
+    padding-right: 40px;
+    padding-left: 40px;
+}
+
+.owl__slider--full-description {
+    display: block;
+    text-align: left;
+}
+
+.pricing_main_img {
+    margin-bottom: 90px;
+}
+
