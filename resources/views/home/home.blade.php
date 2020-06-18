@@ -297,7 +297,7 @@
                         <div class="slider norebro-slider full"
                              id="norebro-custom-5e75fd4005d48"
                              data-norebro-slider='{"loop":true,"dots":true,
-                             "nav":false,"autoplay":true,
+                             "nav":false,"autoplay":false,
                              "autoplayHoverPause":false,
                              "navContainerClass":"slider-nav","itemsDesktop":"1","itemsTablet":"1","itemsMobile":"1","slideBy":"1","autoplayTimeout":"3"}'>
                             <div class="slider-wrap">
@@ -1107,7 +1107,7 @@
                         <div class="slider norebro-slider  full"
                              id="norebro-custom-5e75fd4005d48"
                              data-norebro-slider='{"loop":true,"dots":true,
-                             "nav":false,"autoplay":true,
+                             "nav":false,"autoplay":false,
                              "autoplayHoverPause":false,
                              "navContainerClass":"slider-nav","itemsDesktop":"1","itemsTablet":"1","itemsMobile":"1","slideBy":"1","autoplayTimeout":"3"}'>
 
