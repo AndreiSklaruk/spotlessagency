@@ -11,10 +11,10 @@ use App\Term;
         <li class="post-item clearfix ">
             <a href="{{ $blog->urlToEntry($entry) }}" class="more">
                 <img width="150" height="150"
-                     src="{{$entry->getImageUrl()}}"
+                     src="{{ preg_replace('/(-scaled)?.jpg/', '-150x150.jpg', $entry->getImageUrl()) }}"
                      class="attachment-thumbnail size-thumbnail wp-post-image" alt=""
-                     srcset="{{$entry->getImageUrl()}} 150w,
-                      {{$entry->getImageUrl()}} 200w"
+                     srcset="{{ preg_replace('/(-scaled)?.jpg/', '-150x150.jpg', $entry->getImageUrl()) }} 150w,
+                             {{ preg_replace('/(-scaled)?.jpg/', '-200x200.jpg', $entry->getImageUrl()) }} 200w"
                      sizes="(max-width: 150px) 100vw, 150px">
             </a>
             <div class="content-wrap">
