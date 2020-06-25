@@ -698,7 +698,7 @@ input.classic:-ms-input-placeholder, .contact-form.classic input:-ms-input-place
 //     display: none;
 // }
 
-// .slider .owl-next {
+// .slider .owl-next {f
 //     display: none;
 // }
 
@@ -811,6 +811,32 @@ input.classic:-ms-input-placeholder, .contact-form.classic input:-ms-input-place
     }
 }
 
+.owl__second, .owl__first{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: -15px;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 12px;
+
+    .owl-prev, .owl-next{
+        background-color: #f3b435;
+        color: #fff;
+        font-size: 35px;
+        padding: 10px 20px;
+        margin: 0 5px;
+        border: 1px solid #f3b435;
+        cursor: pointer;
+
+        &:hover {
+            background-color: #ffffff;
+            color: #f3b435; 
+        }
+    }
+}
+
+
 @media (max-width: 1080px) {
     // first slider
     #norebro-custom-5e75fd4007b9a .slider-wrap .slider-wrap__img {
@@ -903,7 +929,7 @@ input.classic:-ms-input-placeholder, .contact-form.classic input:-ms-input-place
     }
 
     .owl__block--first .owl-height {
-        height: 615px !important;
+        height: 720px !important;
     }
 
     .staging__tablet {
@@ -912,7 +938,7 @@ input.classic:-ms-input-placeholder, .contact-form.classic input:-ms-input-place
 }
 
 
-@media (max-width: 768px) { 
+@media (max-width: 468px) { 
     #norebro-custom-5e75fd4005d48 .slider-wrap .slider-wrap__img,
     #our-clients .client,
     .owl__block--first .owl__slider,
@@ -923,4 +949,19 @@ input.classic:-ms-input-placeholder, .contact-form.classic input:-ms-input-place
     .slider-wrap--second .owl-stage-outer {
         height: 865px !important;
     }
+
+    .owl__block--first .owl-height {
+        height: 670px !important;
+    }
 }   
+
+
+@media (max-width: 375px) { 
+    .slider-wrap--second .owl__block {
+        width: 100%;
+    }
+
+    .slider-wrap--second .owl-stage-outer {
+        height: 740px !important;
+    }
+}
