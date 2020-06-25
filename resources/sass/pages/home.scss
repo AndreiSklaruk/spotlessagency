@@ -270,7 +270,7 @@ input.classic:-ms-input-placeholder, .contact-form.classic input:-ms-input-place
 
 #norebro-custom-5e75fd3f5a2f5 p.subtitle {
     color: #373c40;
-    font-size: 18px;
+    font-size: 18px; 
     font-weight: 100;
 }
 
@@ -694,29 +694,34 @@ input.classic:-ms-input-placeholder, .contact-form.classic input:-ms-input-place
     padding: 0;
 }
 
-.slider .owl-prev {
-    display: none;
-}
+// .slider .owl-prev {
+//     display: none;
+// }
 
-.slider .owl-next {
-    display: none;
-}
+// .slider .owl-next {
+//     display: none;
+// }
 
 .slider-wrap .owl__block--title {
     display: block;
-    font-size: 39px;
-    line-height: 42px;
+    font-size: 32px;
+    font-family: Poppins,sans-serif;
+    font-weight: 400;
+    color: #404044;
+    line-height: 35px;
     margin-bottom: 24px;
 }
 
 .slider-wrap .owl__block {
-    padding: 32px 40px 0 40px;
+    padding: 28px 40px 0px;
     text-align: left;
+    font-family: Poppins,sans-serif;
 }
 
 #norebro-custom-5e75fd4005d48 .slider-wrap .slider-wrap__img {
+    box-sizing: content-box;
     width: 648px;
-    height: 410px;
+    height: 410px; 
 }
 
 .slider-wrap .owl__block--slider {
@@ -728,22 +733,28 @@ input.classic:-ms-input-placeholder, .contact-form.classic input:-ms-input-place
     font-size: 26px;
     margin-bottom: 1px;
     display: block;
-    letter-spacing: 0.2px;
+    font-size: 16px;
+    line-height: 25px;
+    color: #5E646A;
 }
 
 .slider-wrap .owl__block--description {
     display: block;
     text-transform: capitalize;
-    font-size: 20px;
+    font-size: 16px;
+    line-height: 25px;
     margin-bottom: 40px;
-    letter-spacing: 1px;
+    color: #5E646A;
 }
 
 .slider-wrap .owl__block--full-description {
     display: block;
     text-transform: capitalize;
-    font-size: 20px;
+    font-size: 16px;
     margin-bottom: 40px;
+    color: #5E646A;
+    font-weight: 400;
+    line-height: 25px;
 }
 
 #norebro-custom-5e75fd4005d48 > .owl-dots {
@@ -755,7 +766,7 @@ input.classic:-ms-input-placeholder, .contact-form.classic input:-ms-input-place
     display: block;
     color: #404044;
     font-size: 32px;
-    padding: 38px 0 45px;
+    padding: 32px 0 45px;
     text-align: left;
 }
 
@@ -764,7 +775,7 @@ input.classic:-ms-input-placeholder, .contact-form.classic input:-ms-input-place
     font: 700 100px Poppins,sans-serif;
     position: absolute;
     line-height: 1;
-    top: 0;
+    top: -4px;
     left: 0;
     z-index: -1;
 }
@@ -772,24 +783,75 @@ input.classic:-ms-input-placeholder, .contact-form.classic input:-ms-input-place
 .owl__slider {
     display: flex;
     flex-direction: column;
-    height: 410px;
     justify-content: center;
     padding-right: 40px;
     padding-left: 40px;
 }
 
 .owl__slider--full-description {
+    width: 80%;
     display: block;
     text-align: left;
 }
 
 .pricing_main_img {
-    margin-bottom: 90px;
+    margin-bottom: 115px;
+}
+
+#pricing-table .pricing-table .btn {
+    color: #fff;
+    background-color: #f3b435;
+    border-color: #f3b435;
+
+    &:hover {
+        border-color: #f3b435;
+        color: #f3b435;
+        background-color: #fff;
+        font-weight: 500;
+    }
 }
 
 @media (max-width: 1080px) {
-    .slider .owl-stage-outer {
-        height: 580px !important;
+    // first slider
+    #norebro-custom-5e75fd4007b9a .slider-wrap .slider-wrap__img {
+        width: 65%;
+        height: 50%;
+    }
+
+    .owl__block--first .owl__slider{
+        padding: 28px 0px 0;
+        width: 67%;
+    }
+
+    .owl__block--first .vc_empty_space {
+        height: 40px !important;
+    }
+
+    .owl__block--first .owl-height {
+        height: 700px !important;
+    }
+
+    // second slider
+    .slider-wrap--second .owl-stage-outer {
+        height: 744px !important;
+    }
+
+    .slider-wrap--second + .vc_empty_space{
+        height: 20px !important;
+    }
+
+    .slider-wrap--second #norebro-custom-5e75fd4005d48 .owl-dots{
+        margin: 20px 0px;
+    }
+
+    #norebro-custom-5e75fd4005d48 .slider-wrap .slider-wrap__img {
+        width: 65%;
+        height: 50%;
+    }
+
+    .slider-wrap--second .owl__block {
+        padding: 28px 0px 0;
+        width: 67%;
     }
 
     .slider-wrap .owl__block--slider {
@@ -798,3 +860,67 @@ input.classic:-ms-input-placeholder, .contact-form.classic input:-ms-input-place
         align-items: center;
     }
 }
+
+@media (max-width: 768px) {
+    #pricing-table.vc_row.vc_row-flex {
+        display: flex;
+    }
+
+    #pricing-table .pricing-table {
+        width: 65%;
+        display: block;
+        margin: 0 auto;
+    }
+
+    #norebro-custom-5e8a28437fb15::before {
+        position: absolute;
+        content: 'Best Seller';
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        top: -50px;
+        right: 0;
+        width: 100px;
+        height: 100px;
+        color: #ffffff;
+        border-radius: 50%;
+        background: #f3b435;
+        z-index: 100;
+    }
+
+    .best-seller::before {
+        display: none;
+    }
+
+    #our-clients {
+        .vc_inner { 
+            display: flex;
+        }
+
+        .client {
+            width: 50%;
+        }
+    }
+
+    .owl__block--first .owl-height {
+        height: 615px !important;
+    }
+
+    .staging__tablet {
+        display: none;
+    }
+}
+
+
+@media (max-width: 768px) { 
+    #norebro-custom-5e75fd4005d48 .slider-wrap .slider-wrap__img,
+    #our-clients .client,
+    .owl__block--first .owl__slider,
+    #pricing-table .pricing-table {
+        width: 100%; 
+    }
+
+    .slider-wrap--second .owl-stage-outer {
+        height: 865px !important;
+    }
+}   
