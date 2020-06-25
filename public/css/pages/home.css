@@ -1117,6 +1117,38 @@ span.brand-bg-color-hover:hover,
   font-weight: 500;
 }
 
+.owl__second,
+.owl__first {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: -15px;
+  font-family: "Poppins", sans-serif;
+  margin-top: 12px;
+}
+
+.owl__second .owl-prev,
+.owl__second .owl-next,
+.owl__first .owl-prev,
+.owl__first .owl-next {
+  background-color: #f3b435;
+  color: #fff;
+  font-size: 35px;
+  padding: 10px 20px;
+  margin: 0 5px;
+  border: 1px solid #f3b435;
+  cursor: pointer;
+}
+
+.owl__second .owl-prev:hover,
+.owl__second .owl-next:hover,
+.owl__first .owl-prev:hover,
+.owl__first .owl-next:hover {
+  background-color: #ffffff;
+  color: #f3b435;
+}
+
 @media (max-width: 1080px) {
   #norebro-custom-5e75fd4007b9a .slider-wrap .slider-wrap__img {
     width: 65%;
@@ -1205,7 +1237,7 @@ span.brand-bg-color-hover:hover,
   }
 
   .owl__block--first .owl-height {
-    height: 615px !important;
+    height: 720px !important;
   }
 
   .staging__tablet {
@@ -1213,7 +1245,7 @@ span.brand-bg-color-hover:hover,
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 468px) {
   #norebro-custom-5e75fd4005d48 .slider-wrap .slider-wrap__img,
   #our-clients .client,
   .owl__block--first .owl__slider,
@@ -1223,6 +1255,20 @@ span.brand-bg-color-hover:hover,
 
   .slider-wrap--second .owl-stage-outer {
     height: 865px !important;
+  }
+
+  .owl__block--first .owl-height {
+    height: 670px !important;
+  }
+}
+
+@media (max-width: 375px) {
+  .slider-wrap--second .owl__block {
+    width: 100%;
+  }
+
+  .slider-wrap--second .owl-stage-outer {
+    height: 740px !important;
   }
 }
 

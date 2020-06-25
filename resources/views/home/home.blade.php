@@ -275,7 +275,7 @@
                         <div class="slider norebro-slider full" id="norebro-custom-5e75fd4005d48"
                             data-norebro-slider='{
                              "loop":true,
-                             "dots":true,
+                             "dots":false,
                              "nav":true,
                              "autoplay":true,
                              "autoplayHoverPause":false,
@@ -284,7 +284,8 @@
                              "itemsTablet":"1",
                              "itemsMobile":"1",
                              "slideBy":"1",
-                             "autoplayTimeout":"3"}'>
+                             "navContainer": ".owl__first",
+                             "autoplayTimeout":"5"}'>
                             <div class="slider-wrap">
                                 <div class="norebro-testimonial-sc testimonials top-avatar owl__block--slider"
                                     id="norebro-custom-5e75fd4007b9a">
@@ -368,6 +369,7 @@
                                 </div>
                             </div>
                         </div>
+                        <div class="owl__first"></div>
                     </div>
                     <div class="vc_empty_space  norebro-phone-space" style="height: 90px">
                         <span class="vc_empty_space_inner"></span>
@@ -1024,7 +1026,7 @@
                         <div class="slider norebro-slider  full" id="norebro-custom-5e75fd4005d48"
                             data-norebro-slider='{
                              "loop":true,
-                             "dots":true,
+                             "dots":false,
                              "nav":true,
                              "autoplay":true,
                              "autoplayHoverPause":false,
@@ -1033,14 +1035,14 @@
                              "itemsTablet":"1",
                              "itemsMobile":"1",
                              "slideBy":"1",
-                             "autoplayTimeout":"3"}'>
+                             "navContainer": ".owl__second",
+                             "autoplayTimeout":"5"}'>
 
                             <div class="slider-wrap">
                                 <div class="norebro-testimonial-sc testimonials top-avatar owl__block--slider"
                                     id="norebro-custom-5e75fd4007b9a">
                                     <img class="slider-wrap__img" src="{{asset
                                          ('images/reviews/review-img-1.jpg')}}" alt="Leonard Stainberg">
-
                                     <p class="owl__block">
                                         <span class="owl__block--title">Reviews from our incredible clients</span>
                                         <span class="owl__block--subtitle">Leonard Stainberg</span>
@@ -1100,6 +1102,7 @@
                                 </div>
                             </div>
                         </div>
+                        <div class="owl__second"></div>
                     </div>
                     <div class="vc_empty_space  norebro-phone-space" style="height: 90px">
                         <span class="vc_empty_space_inner"></span></div>
@@ -1107,7 +1110,7 @@
             </div>
         </div>
     </div>
-    {{-- pizda --}}
+    {{-- owl__second --}}
 
     <div class="vc_row-full-width vc_clearfix"></div>
     <div id="orderProject" data-vc-full-width="true" data-vc-full-width-init="false" data-vc-stretch-content="true"
