@@ -853,6 +853,22 @@ input.classic:-ms-input-placeholder, .contact-form.classic input:-ms-input-place
     }
 }
 
+.new-tab-links {
+    display: flex;
+
+    .social {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+#page-scroll-top {
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+}
+
 @media (max-width: 1080px) {
     // first slider
     #norebro-custom-5e75fd4007b9a .slider-wrap .slider-wrap__img {
