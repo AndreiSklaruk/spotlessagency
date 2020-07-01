@@ -1164,6 +1164,22 @@ span.brand-bg-color-hover:hover,
   justify-content: space-around;
 }
 
+.new-tab-links {
+  display: flex;
+}
+
+.new-tab-links .social {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#page-scroll-top {
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+}
+
 @media (max-width: 1080px) {
   #norebro-custom-5e75fd4007b9a .slider-wrap .slider-wrap__img {
     width: 65%;
