@@ -306,12 +306,12 @@ input.classic:-ms-input-placeholder, .contact-form.classic input:-ms-input-place
 
 #norebro-custom-5e75fd3f61b27 p.subtitle {
     color: #5e646a;
-    font-size: 16px;
+    font-size: 18px;
 }
 
 #norebro-custom-5e75fd3f6258f p.subtitle {
     color: #5e646a;
-    font-size: 16px;
+    font-size: 18px;
 }
 
 #norebro-custom-5e75fd3f63b2b h2 {
@@ -704,12 +704,13 @@ input.classic:-ms-input-placeholder, .contact-form.classic input:-ms-input-place
 
 .slider-wrap .owl__block--title {
     display: block;
-    font-size: 32px;
+    font-size: 30px;
     font-family: Poppins,sans-serif;
-    font-weight: 400;
+    font-weight: 500;
     color: #404044;
     line-height: 35px;
     margin-bottom: 24px;
+
 }
 
 .slider-wrap .owl__block {
@@ -733,7 +734,7 @@ input.classic:-ms-input-placeholder, .contact-form.classic input:-ms-input-place
     font-size: 26px;
     margin-bottom: 1px;
     display: block;
-    font-size: 16px;
+    font-size: 18px;
     line-height: 25px;
     color: #5E646A;
 }
@@ -741,7 +742,7 @@ input.classic:-ms-input-placeholder, .contact-form.classic input:-ms-input-place
 .slider-wrap .owl__block--description {
     display: block;
     text-transform: capitalize;
-    font-size: 16px;
+    font-size: 18px;
     line-height: 25px;
     margin-bottom: 40px;
     color: #5E646A;
@@ -750,7 +751,7 @@ input.classic:-ms-input-placeholder, .contact-form.classic input:-ms-input-place
 .slider-wrap .owl__block--full-description {
     display: block;
     text-transform: capitalize;
-    font-size: 16px;
+    font-size: 18px;
     margin-bottom: 40px;
     color: #5E646A;
     font-weight: 400;
@@ -765,9 +766,12 @@ input.classic:-ms-input-placeholder, .contact-form.classic input:-ms-input-place
     position: relative;
     display: block;
     color: #404044;
-    font-size: 32px;
+    font-size: 30px;
     padding: 32px 0 45px;
     text-align: left;
+    font-family: Poppins,sans-serif, medium; 
+    font-weight: 500;
+    
 }
 
 .slider-wrap .owl__slider--number {
@@ -792,6 +796,7 @@ input.classic:-ms-input-placeholder, .contact-form.classic input:-ms-input-place
     width: 80%;
     display: block;
     text-align: left;
+    font-size: 18px;
 }
 
 .pricing_main_img {
@@ -836,6 +841,17 @@ input.classic:-ms-input-placeholder, .contact-form.classic input:-ms-input-place
     }
 }
 
+#masthead .header-wrap.page-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    .right {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+}
 
 @media (max-width: 1080px) {
     // first slider
@@ -934,6 +950,21 @@ input.classic:-ms-input-placeholder, .contact-form.classic input:-ms-input-place
 
     .staging__tablet {
         display: none;
+    }
+
+    header#masthead.site-header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    header#masthead.site-header .header-wrap {
+        width: 100%;
+    }
+
+    header#masthead.site-header .site-branding {
+        width: 100%;
+        max-width: 100%;
     }
 }
 
