@@ -471,7 +471,7 @@
 
             </div><!-- #content -->
 
-            <footer id="colophon" class="site-footer sticky visible" style="width: 1903px; left: 0px;">
+            <footer id="colophon" class="footer site-footer sticky visible" style="width: 1903px; left: 0px;">
                 @yield('footer-content')
 
                 <div class="site-info">
