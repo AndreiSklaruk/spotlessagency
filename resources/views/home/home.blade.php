@@ -24,7 +24,7 @@
     @section('content')
     <div data-vc-full-width="true" data-vc-full-width-init="false" data-vc-stretch-content="true"
         class="vc_row wpb_row vc_row-fluid norebro-content-wrap-left header-title-row padding-reset-left padding-reset-right">
-        <div class="vc-bg-lines dark">
+        {{-- <div class="vc-bg-lines dark">
             <div></div>
             <div></div>
             <div></div>
@@ -32,7 +32,7 @@
             <div></div>
             <div></div>
             <div></div>
-        </div>
+        </div> --}}
         <div class="wpb_column vc_column_container vc_col-sm-6 vc_col-has-fill">
             <div class="vc_column-inner vc_custom_1523354222386">
                 <div class="wpb_wrapper">
@@ -138,7 +138,7 @@
                     <div class="norebro-heading-sc heading text-center" id="norebro-custom-5e75fd3f6036a">
 
 
-                        <h2 class="title">
+                        <h2 class="title" style="font-size: 36px">
                             Spotless Agency is a leading virtual staging
                             company </h2>
 
@@ -174,7 +174,7 @@
                     <div class="norebro-heading-sc heading text-center" id="norebro-custom-5e75fd3f61b27">
 
 
-                        <h4 class="title">
+                        <h4 class="title" style="font-size: 30px">
                             Digital home staging </h4>
 
 
@@ -205,7 +205,7 @@
                     <div class="norebro-heading-sc heading text-center" id="norebro-custom-5e75fd3f6258f">
 
 
-                        <h4 class="title">
+                        <h4 class="title" style="font-size: 30px">
                             Virtual home staging </h4>
 
 
@@ -252,7 +252,7 @@
                         data-aos="fade-up">
 
 
-                        <h2 class="title">
+                        <h2 class="title" style="font-size: 36px">
                             How Virtual Staging works in Spotless agency </h2>
 
 
@@ -1017,7 +1017,7 @@
                         <span class="vc_empty_space_inner"></span></div>
                     <div class="norebro-heading-sc heading text-center" id="norebro-custom-5e75fd4005911"
                         data-aos="fade-up">
-                        <h3 class="title">Testimonials </h3>
+                        <h3 class="title" style="font-size: 36px">Testimonials </h3>
                         <p class="subtitle"></p>
                     </div>
                     <div class="vc_empty_space  norebro-phone-space" style="height: 30px">
@@ -1125,7 +1125,7 @@
                         </p>
 
 
-                        <h3 class="title" style="font-size: 38px; ">
+                        <h3 class="title" style="font-size: 36px; ">
                             <br>
                             <br>If you have a project or just need<br> some
                             help, reach out<br>
