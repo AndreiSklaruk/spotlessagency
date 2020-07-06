@@ -29,8 +29,9 @@ class Term extends Model
     }
 
     public static function getRelatedBlogEntryTo($id) {
-        return Term::whereHas('blogEntries', function (Builder $query) use ($id) {
-            $query->where('id', '=', $id);
-        })->first()->blogEntries()->where('id', '<>', $id)->limit(3)->get();
+//        return Term::whereHas('blogEntries', function (Builder $query) use ($id) {
+//            $query->where('id', '=', $id);
+//        })->first()->blogEntries()->where('id', '<>', $id)->limit(3)->get();
+        return []; //todo fix new entry category
     }
 }
