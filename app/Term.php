@@ -27,7 +27,7 @@ class Term extends Model
 //        return Term::whereHas('blogEntries', function (Builder $query) use ($id) {
 //            $query->where('id', '=', $id);
 //        })->get();
-        return new Collection();
+        return new Collection([new Term(['name' => 'none'])]);
     }
 
     public static function getRelatedBlogEntryTo($id) {
