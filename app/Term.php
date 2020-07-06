@@ -10,6 +10,7 @@ use Illuminate\Support\Collection;
 class Term extends Model
 {
     use HandlesRoutes;
+    protected $fillable = [ 'name' ];
     /**
      * The blog entries that belong to the category.
      */
