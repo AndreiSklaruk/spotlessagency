@@ -5,6 +5,7 @@ namespace App;
 use Bjuppa\LaravelBlog\Support\HandlesRoutes;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Model;
+use Illuminate\Support\Collection;
 
 class Term extends Model
 {
@@ -23,9 +24,10 @@ class Term extends Model
     }
 
     public static function getBlogEntryCategories($id) {
-        return Term::whereHas('blogEntries', function (Builder $query) use ($id) {
-            $query->where('id', '=', $id);
-        })->get();
+//        return Term::whereHas('blogEntries', function (Builder $query) use ($id) {
+//            $query->where('id', '=', $id);
+//        })->get();
+        return new Collection();
     }
 
     public static function getRelatedBlogEntryTo($id) {
