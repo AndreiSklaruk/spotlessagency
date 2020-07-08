@@ -12,6 +12,7 @@ const mix = require('laravel-mix');
  */
 mix.js('resources/js/app.js', 'public/js');
 mix.js('resources/js/main.js', 'public/js');
+mix.js('resources/js/admin/app.js', 'public/js/admin');
 mix.combine([
     'resources/js/libs/jquery/jquery.js',
     'resources/js/libs/jquery/jquery-migrate.min.js',
