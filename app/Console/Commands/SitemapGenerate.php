@@ -38,7 +38,7 @@ class SitemapGenerate extends Command
      */
     public function handle()
     {
-        SitemapGenerator::create('https://spotlessagency.com')
+        SitemapGenerator::create('https://www.spotlessagency.com')
             ->writeToFile(public_path('sitemap.xml'));
     }
 }
