@@ -20,7 +20,7 @@ use App\Term;
                 </header>
                 <div class="content">
                     <h3 class="title text-left">
-                        <a rel="external" href="{{ $blog->urlToEntry($relatedEntry) }}">{{ $relatedEntry->getTitle() }}</a>
+                        <a rel="external" href="{{ $blog->urlToEntry($relatedEntry) }}/">{{ $relatedEntry->getTitle() }}</a>
                     </h3>
                 </div>
                 <footer>

@@ -5,5 +5,5 @@
  */
 ?>
 <footer>
-<a href="{{ $blog->urlToEntry($entry) }}">{{ __($blog->transKey('feed.read_more')) }} {{ $blog->urlToEntry($entry) }}</a>
+<a href="{{ $blog->urlToEntry($entry) }}/">{{ __($blog->transKey('feed.read_more')) }} {{ $blog->urlToEntry($entry) }}</a>
 </footer>

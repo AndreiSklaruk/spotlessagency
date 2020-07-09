@@ -25,7 +25,7 @@ use \Illuminate\Support\Str;
 
         <div class="content">
             <h3>
-                <a href="{{ $blog->urlToEntry($entry) }}">{{ $entry->getTitle() }}</a>
+                <a href="{{ $blog->urlToEntry($entry) }}/">{{ $entry->getTitle() }}</a>
             </h3>
             <p>{{ Str::limit($entry->summary, 155) }}</p>
         </div>
