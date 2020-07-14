@@ -82,6 +82,9 @@ return [
     ],
     'javascripts' => [
         'js/kontour.js',
+//        'vendor/laravel-filemanager/js/stand-alone-button.js',
+        '//cdn.ckeditor.com/4.14.1/full-all/ckeditor.js',
+        'js/admin/app.js',
     ],
 
     /*

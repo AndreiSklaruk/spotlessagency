@@ -4,7 +4,7 @@
     data-lazy-item="true">
     <div class="blog-grid grid-3" data-aos="fade-up" data-aos-once="true">
         <header data-norebro-bg-image="{{ $entry->getImageUrl() }}">
-            <a href="{{ $blog->urlToEntry($entry) }}"></a>
+            <a href="{{ $blog->urlToEntry($entry) }}/"></a>
         </header>
         <div class="overlay brand-bg-color"></div>
 
@@ -19,7 +19,7 @@
             </div>
 
             <h3>
-                <a href="{{ $entry->getImageUrl() }}">{{ $entry->getTitle() }}</a>
+                <a href="{{ $blog->urlToEntry($entry) }}/">{{ $entry->getTitle() }}</a>
             </h3>
             <p>{{ Str::limit($entry->summary, 155) }}</p>
             <footer>

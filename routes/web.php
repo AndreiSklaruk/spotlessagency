@@ -29,6 +29,12 @@ Route::view('/about', 'pages.about.about')->name('menu.about');
 
 Route::view('/contact', 'pages.contact.contact')->name('menu.contact');
 
+Route::post('/upload', 'FileController@upload')->name('file.upload');
+
+Route::group(['prefix' => 'laravel-filemanager', 'middleware' => ['web', 'auth']], function () {
+    \UniSharp\LaravelFilemanager\Lfm::routes();
+});
+
 Route::prefix('3d-renderings')->group(function () {
 
     Route::view('/', 'pages.3d-rendering.3d-rendering')->name('menu.3d-rendering');

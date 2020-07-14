@@ -30,7 +30,7 @@
                 <div class="page-container">
                     <div class="wrap-container">
                         <div class="tags">
-                            <a class="tag" href="{{ url('blog/category/' . $category->slug) }}" rel="category tag">{{ $category->name }}</a>
+                            <a class="tag" href="{{ url('blog/category/' . $category->slug) }}/" rel="category tag">{{ $category->name }}</a>
 {{--                            <a class="tag" href="https://www.spotlessagency.com/blog/category/tips-for-realtors/" rel="category tag"> Tips For Realtors</a>--}}
                         </div>
                         <h1 class="page-title">{{ $category->name }}</h1>

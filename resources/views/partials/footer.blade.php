@@ -86,7 +86,7 @@
                     <ul class="recent-posts-list">
                         @foreach($blogHelper->latestEntries(2) as $entry)
                             <li class="post-item clearfix active ">
-                                <a href="{{ $blogHelper->urlToEntry($entry) }}"
+                                <a href="{{ $blogHelper->urlToEntry($entry) }}/"
                                    class="more">
                                     <img width="150" height="150"
                                          src="{{ str_replace('.jpg', '-150x150.jpg', $entry->getImageUrl()) }}"
@@ -97,7 +97,7 @@
                                 </a>
                                 <div class="content-wrap">
                                     <h4 class="text-left font-main">
-                                        <a href="{{ $blogHelper->urlToEntry($entry) }}">{{ $entry->getTitle() }}</a>
+                                        <a href="{{ $blogHelper->urlToEntry($entry) }}/">{{ $entry->getTitle() }}</a>
                                     </h4>
                                     <span class="date">{{ $entry->getPublished()->format('d.m.Y') }}</span>
 
@@ -105,7 +105,7 @@
 
                                     <div class="subtitle">
                                     <span class="comments">
-                                        <a href="{{ $blogHelper->urlToEntry($entry) }}">No comments</a>
+                                        <a href="{{ $blogHelper->urlToEntry($entry) }}/">No comments</a>
                                     </span>
                                     </div>
                                 </div>
