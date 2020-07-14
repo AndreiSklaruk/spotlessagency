@@ -868,6 +868,12 @@ input.classic:-ms-input-placeholder, .contact-form.classic input:-ms-input-place
     justify-content: center;
 }
 
+.title_pricing {
+    display: block;
+    margin: 15px 0 50px;
+    text-align: center;
+}
+
 @media (max-width: 1080px) {
     // first slider
     #norebro-custom-5e75fd4007b9a .slider-wrap .slider-wrap__img {
@@ -1021,10 +1027,11 @@ input.classic:-ms-input-placeholder, .contact-form.classic input:-ms-input-place
     .owl__block--first .owl__slider,
     #pricing-table .pricing-table {
         width: 100%; 
+        height: 30%;
     }
 
     .slider-wrap--second .owl-stage-outer {
-        height: 865px !important;
+        height: 865px !important; 
     }
 
     .owl__block--first .owl-height {
