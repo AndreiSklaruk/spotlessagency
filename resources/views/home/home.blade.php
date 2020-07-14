@@ -12,6 +12,7 @@
     <meta content="Andrey Zlobin" name="author" />
     <meta name="description"
         content="Attract attention, make your listing outstanding and demonstrate the full potential of your property, by using virtual staging services we offer in Spotless Agency.">
+    <link rel="canonical" href="{{ url('/') }}/">
 
 @endsection
 
