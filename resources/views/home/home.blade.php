@@ -643,6 +643,13 @@
     <div class="pricing_main_img">
         <img src="{{ asset('images/bad_in_flat.jpeg') }}" alt="">
     </div>
+
+<div
+ style="margin-top: 10px">
+</div>
+<h2 class="title_pricing">Pricing:</h2>
+
+
     <div class="vc_row wpb_row vc_row-fluid vc_row-o-equal-height vc_row-flex" id="pricing-table">
         <div class="pricing-table-light wpb_column vc_column_container vc_col-sm-4">
             <div class="vc_column-inner ">
