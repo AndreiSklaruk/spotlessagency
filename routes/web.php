@@ -35,6 +35,12 @@ Route::group(['prefix' => 'laravel-filemanager', 'middleware' => ['web', 'auth']
     \UniSharp\LaravelFilemanager\Lfm::routes();
 });
 
+Route::prefix('admin')
+    ->name('blog-admin.')
+    ->group(function () {
+        Route::post('/blog-entries', 'Admin\BlogEntryController@store')->name('entries.store');
+    });
+
 Route::prefix('3d-renderings')->group(function () {
 
     Route::view('/', 'pages.3d-rendering.3d-rendering')->name('menu.3d-rendering');
