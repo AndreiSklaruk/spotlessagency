@@ -137,9 +137,12 @@
                     <div class="norebro-heading-sc heading text-center" id="norebro-custom-5e75fd3f6036a">
 
 
-                        <h2 class="title" style="font-size: 36px">
+                        <h2 class="title" style="font-size: 30px">
                             Spotless Agency is a leading virtual staging
-                            company </h2>
+                            company. </h2>
+
+
+
 
 
                         <p class="subtitle">
@@ -172,9 +175,17 @@
                 <div class="wpb_wrapper">
                     <div class="norebro-heading-sc heading text-center" id="norebro-custom-5e75fd3f61b27">
 
+                        <div imag>
+                            <img src="{{asset
+                                ('images/Before_1-min.jpg')}}">
+                        </div>
+
+                        <div class="vc_empty_space" style="height: 60px"><span class="vc_empty_space_inner"></span></div>
 
                         <h4 class="title" style="font-size: 30px">
                             Digital home staging </h4>
+
+
 
 
                         <p class="subtitle">
@@ -203,9 +214,16 @@
                 <div class="wpb_wrapper">
                     <div class="norebro-heading-sc heading text-center" id="norebro-custom-5e75fd3f6258f">
 
+                        <div imag>
+                            <img src="{{asset
+                                ('images/After_1-min.jpg')}}">
+                        </div>
+
+                        <div class="vc_empty_space" style="height: 60px"><span class="vc_empty_space_inner"></span></div>
 
                         <h4 class="title" style="font-size: 30px">
                             Virtual home staging </h4>
+
 
 
                         <p class="subtitle">
@@ -289,7 +307,7 @@
                                 <div class="norebro-testimonial-sc testimonials top-avatar owl__block--slider"
                                     id="norebro-custom-5e75fd4007b9a">
                                     <img class="slider-wrap__img" src="{{asset
-                                         ('images/original_photo_main_page-648x410-min.jpg')}}"
+                                         ('images/step_1.jpg')}}"
                                         alt="Leonard Stainberg">
 
                                     <p class="owl__slider">
@@ -311,7 +329,7 @@
                                 <div class="norebro-testimonial-sc testimonials top-avatar owl__block--slider"
                                     id="norebro-custom-5e75fd4007b9a">
                                     <img class="slider-wrap__img" src="{{asset
-                                         ('images/virtual_staging_main_page-648x410.jpg')}}" alt="Anthony Barillo">
+                                         ('images/step_2.jpg')}}" alt="Anthony Barillo">
 
                                     <p class="owl__slider">
                                         <span class="owl__slider--title">
@@ -332,7 +350,7 @@
                                 <div class="norebro-testimonial-sc testimonials top-avatar owl__block--slider"
                                     id="norebro-custom-5e75fd4007b9a">
                                     <img class="slider-wrap__img" src="{{asset
-                                         ('images/floor_plan_main_page-648x410.jpg')}}" alt="Anthony Barillo">
+                                         ('images/step_3.jpg')}}" alt="Anthony Barillo">
                                     <p class="owl__slider">
                                         <span class="owl__slider--title">
                                             <span class="owl__slider--number">03.</span>
@@ -352,7 +370,7 @@
                                 <div class="norebro-testimonial-sc testimonials top-avatar owl__block--slider"
                                     id="norebro-custom-5e75fd4007b9a">
                                     <img class="slider-wrap__img" src="{{asset
-                                         ('images/form.png')}}" alt="Anthony Barillo">
+                                         ('images/step_4.jpg')}}" alt="Anthony Barillo">
                                     <p class="owl__slider">
                                         <span class="owl__slider--title">
                                             <span class="owl__slider--number">04.</span>
@@ -641,8 +659,16 @@
     </div>
     <div class="vc_row-full-width vc_clearfix"></div>
     {{-- PRICING --}}
+
+
     <div class="pricing_main_img">
-        <img src="{{ asset('images/bad_in_flat.jpeg') }}" alt="">
+        <img src="{{ asset('images/main_page_full_screen_image-min.jpg') }}" alt="">
+
+       {{-- tru-la-la --}}
+
+
+
+
     </div>
 
 <div
@@ -652,10 +678,12 @@
 
 
     <div class="vc_row wpb_row vc_row-fluid vc_row-o-equal-height vc_row-flex" id="pricing-table">
+
         <div class="pricing-table-light wpb_column vc_column_container vc_col-sm-4">
             <div class="vc_column-inner ">
                 <div class="wpb_wrapper">
                     <div class="norebro-pricing-table-sc pricing-table" id="norebro-custom-5e8a28437fb15">
+
 
                         <h3 class="title">Light</h3>
 
@@ -1053,7 +1081,7 @@
                                         <span class="owl__block--title">Reviews from our incredible clients</span>
                                         <span class="owl__block--subtitle">Leonard Stainberg</span>
                                         <span class="owl__block--description">COMPASS</span>
-                                        <span class="owl__block--full-description">We love the Spotless Group. The one
+                                        <span class="owl__block--full-description">We love the Spotless Agency. The one
                                             thing most consumers lack when it comes to imagining space is a vivid
                                             imagination. Virtual staging has been extraordinarily helpful in helping
                                             visualize a better future. Spotless is. It only great at what they do, but
@@ -1074,7 +1102,7 @@
                                         <span class="owl__block--title">Reviews from our incredible clients</span>
                                         <span class="owl__block--subtitle">Ariel Sassoon</span>
                                         <span class="owl__block--description">Douglas Elliman</span>
-                                        <span class="owl__block--full-description">Working with Spotless is a
+                                        <span class="owl__block--full-description">Working with Spotless Agency is a
                                             one-of-a-kind experience. The attention to detail and quality of the work is
                                             truly unequaled by the many competing services. Their work elevates the
                                             marketing and presentations of our listings, in a market where visual
@@ -1096,7 +1124,7 @@
                                         <span class="owl__block--title">Reviews from our incredible clients</span>
                                         <span class="owl__block--subtitle">Eugene Litvak</span>
                                         <span class="owl__block--description">COMPASS</span>
-                                        <span class="owl__block--full-description">Spotless never disappoints. They are
+                                        <span class="owl__block--full-description">Spotless Agency never disappoints. They are
                                             quick to respond and always willing to help create collateral that exceeds
                                             our vision. We can always count on them to provide kind, thoughtful, and
                                             professional service each and every time, and each project is just as
@@ -1191,6 +1219,7 @@
         #norebro-custom-5e8a28437fb15 h3 {
             font-size: 30px;
         }
+
 
         #norebro-custom-5e8a28437fb15 p.pricing-subtitle {
             color: #f3b435;
