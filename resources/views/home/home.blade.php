@@ -1,27 +1,26 @@
 @extends('appWithFooter')
 
-<blade
-    section|(%26%2339%3Btitle%26%2339%3B%2C%20%26%2339%3BVirtual%20Staging%20%7C%20Sell%20Properties%20Faster%20With%20Spotless%20Agency%26%2339%3B) />
+@section('title', 'Virtual Staging | Sell Properties Faster With Spotless Agency')
 
 @section('meta')
-<meta content="Interior Studio" property="og:title" />
-<meta content="" property="og:description" />
-<meta content="{{ url('/') }}" property="og:url" />
-<meta content="summary" name="twitter:card">
-<meta content="Interior Studio" property="twitter:title" />
-<meta content="" property="twitter:description" />
-<meta content="Andrey Zlobin" name="author" />
-<meta name="description"
-    content="Attract attention, make your listing outstanding and demonstrate the full potential of your property, by using virtual staging services we offer in Spotless Agency.">
+    <meta content="Interior Studio" property="og:title" />
+    <meta content="" property="og:description" />
+    <meta content="{{ url('/') }}/" property="og:url" />
+    <meta content="summary" name="twitter:card">
+    <meta content="Interior Studio" property="twitter:title" />
+    <meta content="" property="twitter:description" />
+    <meta content="Andrey Zlobin" name="author" />
+    <meta name="description"
+        content="Attract attention, make your listing outstanding and demonstrate the full potential of your property, by using virtual staging services we offer in Spotless Agency.">
+    <link rel="canonical" href="{{ url('/') }}/">
 
 @endsection
 
 @push('bodyClasses', 'home page-id-13189')
 
-    <blade
-        section|(%26%2339%3BmastheadClasses%26%2339%3B%2C%20%26%2339%3Blight-text%20header-1%20no-transition%26%2339%3B) />
+@section('mastheadClasses', 'light-text header-1 no-transition')
 
-    @section('content')
+@section('content')
     <div data-vc-full-width="true" data-vc-full-width-init="false" data-vc-stretch-content="true"
         class="vc_row wpb_row vc_row-fluid norebro-content-wrap-left header-title-row padding-reset-left padding-reset-right">
         {{-- <div class="vc-bg-lines dark">
@@ -141,9 +140,9 @@
                         <h2 class="title" style="font-size: 30px">
                             Spotless Agency is a leading virtual staging
                             company. </h2>
-                        
 
-                            
+
+
 
 
                         <p class="subtitle">
@@ -186,7 +185,7 @@
                         <h4 class="title" style="font-size: 30px">
                             Digital home staging </h4>
 
-                            
+
 
 
                         <p class="subtitle">
@@ -224,7 +223,7 @@
 
                         <h4 class="title" style="font-size: 30px">
                             Virtual home staging </h4>
-                            
+
 
 
                         <p class="subtitle">
@@ -664,12 +663,12 @@
 
     <div class="pricing_main_img">
         <img src="{{ asset('images/main_page_full_screen_image-min.jpg') }}" alt="">
-       
+
        {{-- tru-la-la --}}
-        
-    
-    
-        
+
+
+
+
     </div>
 
 <div
@@ -679,12 +678,12 @@
 
 
     <div class="vc_row wpb_row vc_row-fluid vc_row-o-equal-height vc_row-flex" id="pricing-table">
-        
+
         <div class="pricing-table-light wpb_column vc_column_container vc_col-sm-4">
             <div class="vc_column-inner ">
                 <div class="wpb_wrapper">
                     <div class="norebro-pricing-table-sc pricing-table" id="norebro-custom-5e8a28437fb15">
-                        
+
 
                         <h3 class="title">Light</h3>
 
@@ -1220,7 +1219,7 @@
         #norebro-custom-5e8a28437fb15 h3 {
             font-size: 30px;
         }
-        
+
 
         #norebro-custom-5e8a28437fb15 p.pricing-subtitle {
             color: #f3b435;
