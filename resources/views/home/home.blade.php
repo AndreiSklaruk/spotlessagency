@@ -675,7 +675,7 @@
 <div
  style="margin-top: 10px">
 </div>
-<h2 class="title_pricing" style="margin: 100 250 250 50">Pricing:</h2>
+<h2 class="title_pricing">Pricing:</h2>
 
 
     <div class="vc_row wpb_row vc_row-fluid vc_row-o-equal-height vc_row-flex" id="pricing-table">
