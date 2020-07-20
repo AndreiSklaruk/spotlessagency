@@ -25,14 +25,9 @@ class Term extends Model
     }
 
     public static function getBlogEntryCategories($id) {
-        $c = Term::whereHas('blogEntries', function (Builder $query) use ($id) {
+        return Term::whereHas('blogEntries', function (Builder $query) use ($id) {
             $query->where('id', '=', $id);
         })->get();
-        if ($c->count() == 0) {
-            dd($id, $c);
-        }
-
-        return $c;
     }
 
     public static function getRelatedBlogEntryTo($id) {
