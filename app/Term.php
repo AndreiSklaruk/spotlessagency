@@ -25,26 +25,21 @@ class Term extends Model
     }
 
     public static function getBlogEntryCategories($id) {
-        $category = Term::whereHas('blogEntries', function (Builder $query) use ($id) {
+        return Term::whereHas('blogEntries', function (Builder $query) use ($id) {
             $query->where('id', '=', $id);
         })->get();
-
-        if ($category->count() > 0) {
-            return $category;
-        }
-
-        return new Collection([new Term(['name' => 'Without feature'])]); //todo rector
     }
 
     public static function getRelatedBlogEntryTo($id) {
-        $category = Term::whereHas('blogEntries', function (Builder $query) use ($id) {
-            $query->where('id', '=', $id);
-        })->first();
+        $categories = self::getBlogEntryCategories($id);
 
-        if ($category) {
-            return $category
-                ->blogEntries()->where('id', '<>', $id)->limit(3)->get();
+        if ($categories->count() > 0) {
+            return $categories
+                ->first()
+                ->blogEntries()
+                ->where('id', '<>', $id)->limit(3)->get();
         }
-        return []; //todo fix new entry category
+
+        return [];
     }
 }
