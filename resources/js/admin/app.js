@@ -50,6 +50,17 @@ if (content) {
         // Reduce the list of block elements listed in the Format dropdown to the most commonly used.
         format_tags: 'p;h1;h2;h3;pre',
 
+        // set font names
+        font_names: 'Arial;Poppins, sans-serif;Times New Roman;Verdana',
+
+        // CKEditor color palette available before version 4.6.2.
+        colorButton_colors:
+            '000,f3b435,800000,8B4513,2F4F4F,008080,000080,4B0082,696969,' +
+            'B22222,A52A2A,DAA520,006400,40E0D0,0000CD,800080,808080,' +
+            'F00,FF8C00,FFD700,008000,0FF,00F,EE82EE,A9A9A9,' +
+            'FFA07A,FFA500,FFFF00,00FF00,AFEEEE,ADD8E6,DDA0DD,D3D3D3,' +
+            'FFF0F5,FAEBD7,FFFFE0,F0FFF0,F0FFFF,F0F8FF,E6E6FA,FFF',
+
         // Simplify the Image and Link dialog windows. The "Advanced" tab is not needed in most cases.
         removeDialogTabs: 'image:advanced;link:advanced',
 

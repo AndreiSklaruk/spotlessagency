@@ -79,6 +79,7 @@ return [
 
     'stylesheets' => [
         'css/kontour.css',
+        '//fonts.googleapis.com/css?family=Poppins%3A300%2C400%2C500%2C600%2C700&ver=1.0.0',
     ],
     'javascripts' => [
         'js/kontour.js',
